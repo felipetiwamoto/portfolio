@@ -1,0 +1,7 @@
+<div class="education01" *ngIf="education">
+	<span class="education01__university">{{ education.university }}</span>
+	<div class="education01__top">
+		<span class="education01__course">{{ education.course }}</span>
+		<span class="education01__period" *ngIf="education.period">{{ education.period }}</span>
+	</div>
+</div>

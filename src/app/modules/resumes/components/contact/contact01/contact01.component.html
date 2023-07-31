@@ -1,0 +1,5 @@
+<div class="contact01" *ngIf="contact">
+	<span class="contact01__icon {{ contact.icon }}" *ngIf="contact.icon"></span>
+	<span class="contact01__label" *ngIf="contact.label">{{ contact.label }}</span>
+	<span class="contact01__text" *ngIf="contact.text">{{ contact.text }}</span>
+</div>
