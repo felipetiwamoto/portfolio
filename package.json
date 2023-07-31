@@ -6,7 +6,7 @@
 		"start:prod": "ng serve --configuration prod",
 		"start:dev": "ng serve --configuration dev",
 		"start:local": "ng serve --configuration local",
-		"build": "ng build --output-path docs --base-href /portfolio/",
+		"build": "ng build --configuration prod --output-path docs --base-href /portfolio/",
 		"watch": "ng build --watch --configuration dev",
 		"test": "ng test",
 		"prepare": "husky install"
