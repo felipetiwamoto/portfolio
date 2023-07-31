@@ -168,11 +168,9 @@ export class Resume01Component {
 		{university: 'Udemy', course: 'SOLID', period: '5h'},
 		{university: 'Udemy', course: 'Design de Interface', period: '77h'},
 	]
-
 	get getSkillsTypes() {
 		return Array.from(new Set(this.skills.map((item) => item.type)))
 	}
-
 	getSkillsByType(type: string | undefined) {
 		return this.skills.filter((item) => item.type === type)
 	}
