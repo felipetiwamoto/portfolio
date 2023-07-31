@@ -90,7 +90,7 @@
 							"browserTarget": "portfolio:build:dev"
 						},
 						"local": {
-							"browserTarget": "portfolio:build:developmenlocal"
+							"browserTarget": "portfolio:build:local"
 						}
 					},
 					"defaultConfiguration": "local"
