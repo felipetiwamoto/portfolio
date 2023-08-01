@@ -5,7 +5,11 @@
 .resume01 {
 	--resume01ContentLeftRight: 200px;
 	--resume01TopLeftRight: 200px;
-	--personPhotoSize: 150px;
+	--personPhotoSize: 70px;
+
+	@include md {
+		--personPhotoSize: 150px;
+	}
 
 	padding: 10px 10px;
 	@include flex(center, center);
@@ -60,7 +64,6 @@
 		}
 	}
 	&__person_photo {
-		--personPhotoSize: 90px;
 		width: var(--personPhotoSize);
 		height: var(--personPhotoSize);
 		border-radius: 50%;
@@ -77,10 +80,11 @@
 		object-fit: cover;
 	}
 	&__person_info {
-		margin-left: 30px;
-		width: calc(100% - (var(--personPhotoSize) + 30px));
+		margin-left: 15px;
+		width: calc(100% - (var(--personPhotoSize) + 15px));
 
 		@include sm {
+			margin-left: 30px;
 			width: calc(100% - (var(--personPhotoSize) + 30px));
 		}
 	}
@@ -218,7 +222,7 @@
 	}
 	&__skill_item {
 		margin-top: 10px;
-		@include column(50%, 5px);
+		@include column(33.33333%, 5px);
 
 		@include min(440px) {
 			@include column(25%, 5px);
@@ -235,7 +239,7 @@
 	}
 	&__language_item {
 		margin-top: 10px;
-		@include column(50%, 5px);
+		@include column(33.33333%, 5px);
 
 		@include min(440px) {
 			@include column(25%, 5px);
