@@ -4,16 +4,22 @@
 
 .resume01 {
 	--resume01ContentLeftRight: 200px;
+	--resume01TopLeftRight: 200px;
+	--personPhotoSize: 150px;
 
-	padding: 50px 10px;
+	padding: 10px 10px;
 	@include flex(center, center);
 	background-color: var(--greye);
 	// background-color: var(--primary);
 	// background-image: linear-gradient(to bottom, var(--primary), var(--grey7));
 	// background-image: linear-gradient(to top, var(--primary), var(--grey7));
 
+	@include md {
+		padding: 50px 10px;
+	}
+
 	&__main {
-		width: 25cm;
+		width: min(100%, 25cm);
 		min-height: 33.7cm;
 		background-color: var(--greyf);
 		// border-radius:30px;
@@ -21,25 +27,49 @@
 	}
 	&__container {
 		width: min(100% - 20px, 768px);
-		margin-block: 90px;
+		margin-block: 30px;
 		margin-inline: auto;
 		position: relative;
+
+		@include md {
+			margin-block: 90px;
+		}
 	}
 	&__top {
-		@include flex(center, space-between);
+		@include flex(center, space-between, column);
+
+		@include md {
+			@include flex(center, space-between);
+		}
 	}
 	&__top_left {
+		width: 100%;
+
+		@include md {
+			width: calc(100% - (var(--resume01TopLeftRight) + 15px));
+		}
 	}
 	&__person {
-		@include flex(center, space-between);
+		@include flex(center);
+		width: max-content;
+		margin-inline: auto;
+
+		@include md {
+			@include flex(center);
+			margin-inline: initial;
+		}
 	}
 	&__person_photo {
-		--personPhotoSize: 150px;
+		--personPhotoSize: 90px;
 		width: var(--personPhotoSize);
 		height: var(--personPhotoSize);
 		border-radius: 50%;
 		background-color: var(--greyd);
 		overflow: hidden;
+
+		@include sm {
+			--personPhotoSize: 150px;
+		}
 	}
 	&__person_image {
 		width: 100%;
@@ -48,31 +78,87 @@
 	}
 	&__person_info {
 		margin-left: 30px;
+		width: calc(100% - (var(--personPhotoSize) + 30px));
+
+		@include sm {
+			width: calc(100% - (var(--personPhotoSize) + 30px));
+		}
 	}
 	&__person_name {
 		display: block;
 		@include title(clamp(20px, 5vw, 48px), 700);
 		color: var(--primary);
+		white-space: nowrap;
+
+		@include md {
+			white-space: normal;
+		}
+
+		br {
+			display: none;
+
+			@include md {
+				display: block;
+			}
+		}
 	}
 	&__person_job {
 		display: block;
-		@include title(clamp(14px, 5vw, 18px), 300);
+		@include title(clamp(14px, 3vw, 18px), 300);
 		color: var(--grey7);
 	}
 	&__top_right {
+		width: 310px;
+		margin-top: 30px;
+
+		@include md {
+			margin-top: 0px;
+			margin-left: 15px;
+			width: var(--resume01TopLeftRight);
+		}
 	}
 	&__contact {
+		@include row(-2.5px);
+		justify-content: space-between;
+
+		@include md {
+			display: initial;
+			margin-inline: 0px;
+		}
 	}
 	&__contact_item {
-		& + & {
-			margin-top: 10px;
+		@include column(initial, 2.5px);
+		white-space: nowrap;
+
+		&:nth-of-type(even) {
+			text-align: right;
+		}
+
+		@include md {
+			padding-inline: 0px;
+
+			&:nth-of-type(even) {
+				text-align: left;
+			}
+
+			& + & {
+				margin-top: 10px;
+			}
 		}
 	}
 	&__content {
-		@include flex(flex-start, space-between);
+		@include flex(flex-start, space-between, column);
+
+		@include md {
+			@include flex(flex-start, space-between);
+		}
 	}
 	&__content_left {
-		width: calc(100% - (var(--resume01ContentLeftRight) + 15px));
+		width: 100%;
+
+		@include md {
+			width: calc(100% - (var(--resume01ContentLeftRight) + 15px));
+		}
 	}
 	&__panel {
 		margin-top: 30px;
@@ -100,8 +186,12 @@
 		}
 	}
 	&__content_right {
-		margin-left: 30px;
-		width: var(--resume01ContentLeftRight);
+		width: 100%;
+
+		@include md {
+			margin-left: 30px;
+			width: var(--resume01ContentLeftRight);
+		}
 	}
 	&__title {
 	}
@@ -129,6 +219,14 @@
 	&__skill_item {
 		margin-top: 10px;
 		@include column(50%, 5px);
+
+		@include min(440px) {
+			@include column(25%, 5px);
+		}
+
+		@include md {
+			@include column(50%, 5px);
+		}
 	}
 	&__language {
 	}
@@ -138,5 +236,31 @@
 	&__language_item {
 		margin-top: 10px;
 		@include column(50%, 5px);
+
+		@include min(440px) {
+			@include column(25%, 5px);
+		}
+
+		@include md {
+			@include column(50%, 5px);
+		}
+	}
+	&__education {
+		@include row(-15px);
+	}
+	&__education_item {
+		@include column(100%, 15px);
+
+		@include min(440px) {
+			@include column(50%, 15px);
+		}
+
+		@include sm {
+			@include column(33.33333333%, 15px);
+		}
+
+		@include md {
+			@include column(100%, 15px);
+		}
 	}
 }

@@ -18,7 +18,11 @@
 	&__text {
 		width: calc(100% - 25px);
 		margin-top: 3px;
-		@include title(12px, 300);
+		@include title(11px, 300);
 		color: var(--grey7);
+
+		@include md {
+			@include title(12px, 300);
+		}
 	}
 }

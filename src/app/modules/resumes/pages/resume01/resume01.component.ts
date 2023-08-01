@@ -24,7 +24,11 @@ export class Resume01Component {
 		{icon: 'ft_map_pin', text: 'Brasil - Curitiba/PR'},
 		{icon: 'ft_mail', text: 'felipe.t.iwamoto@gmail.com'},
 		{icon: 'ft_phone', text: '(11) 9.8455-6053'},
-		{icon: 'ft_globe', text: 'https://felipetiwamoto.github.io/portfolio/'},
+		{
+			icon: 'ft_globe',
+			text: 'felipetiwamoto.github.io/portfolio/',
+			href: 'https://felipetiwamoto.github.io/portfolio/',
+		},
 	]
 	public skills: Skill[] = [
 		{type: 'Frontend', label: 'HTML', level: 8},
