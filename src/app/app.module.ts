@@ -1,4 +1,4 @@
-import {NgModule} from '@angular/core'
+import {CUSTOM_ELEMENTS_SCHEMA, NgModule} from '@angular/core'
 import {BrowserModule} from '@angular/platform-browser'
 
 import {AppRoutingModule} from './app-routing.module'
@@ -12,5 +12,6 @@ import {ProjectsModule} from './modules/projects/projects.module'
 	imports: [BrowserModule, AppRoutingModule, ResumesModule, LandingPagesModule, ProjectsModule],
 	providers: [],
 	bootstrap: [AppComponent],
+	schemas: [CUSTOM_ELEMENTS_SCHEMA],
 })
 export class AppModule {}
