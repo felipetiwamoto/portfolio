@@ -1,0 +1,29 @@
+@import './../../../resumes.component.scss';
+@import './../../../../../../theme.scss';
+@import './../../../../../../mixin.scss';
+
+.skill01 {
+	&__label {
+		display: block;
+		@include title(12px, 300);
+		color: var(--grey7);
+		margin-bottom: 3px;
+	}
+	&__bullet {
+		@include flex();
+	}
+	&__bullet_item {
+		width: 6px;
+		height: 6px;
+		border-radius: 50px;
+		background-color: var(--greyd);
+
+		& + & {
+			margin-left: 2.5px;
+		}
+
+		&.active {
+			background-color: var(--primary);
+		}
+	}
+}

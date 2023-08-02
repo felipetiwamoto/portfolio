@@ -1,0 +1,9 @@
+<div class="skill01" *ngIf="skill">
+	<span class="skill01__label">{{ skill.label }}</span>
+	<ul class="skill01__bullet">
+		<li
+			class="skill01__bullet_item {{ isBulletItemActive(i + 1) }}"
+			*ngFor="let item of levels || []; index as i"
+		></li>
+	</ul>
+</div>

@@ -1,0 +1,28 @@
+@import './../../../resumes.component.scss';
+@import './../../../../../../theme.scss';
+@import './../../../../../../mixin.scss';
+
+.contact01 {
+	@include flex(flex-start);
+
+	&__icon {
+		width: 20px;
+		height: 20px;
+		margin-right: 5px;
+		font-size: 14px;
+		@include flex(center, flex-start);
+		color: var(--primary);
+	}
+	&__label {
+	}
+	&__text {
+		width: calc(100% - 25px);
+		margin-top: 3px;
+		@include title(11px, 300);
+		color: var(--grey7);
+
+		@include md {
+			@include title(12px, 300);
+		}
+	}
+}

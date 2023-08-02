@@ -1,0 +1,7 @@
+<div class="contact01" *ngIf="contact">
+	<span class="contact01__icon {{ contact.icon }}" *ngIf="contact.icon"></span>
+	<a class="contact01__text" *ngIf="contact.text && contact.href" [href]="contact.href" target="_blank">{{
+		contact.text
+	}}</a>
+	<span class="contact01__text" *ngIf="contact.text && !contact.href">{{ contact.text }}</span>
+</div>
