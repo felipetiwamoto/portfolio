@@ -1,1 +1,30 @@
-<p>our-services works!</p>
+<div class="our_services">
+	<div class="our_services__container container">
+		<div class="our_services__content">
+			<div class="our_services__left">
+				<div class="information">
+					<span class="information__title"> </span>
+					<span class="information__main">
+						I will show you<br />
+						what our team do
+					</span>
+					<span class="information__text">
+						Lorem Ipsum is simply dummy = of the printing and<br />
+						typesetting industry. Lorem Ipsum has been the industry's<br />
+						standard dummy text ever since the 1500s, when an<br />
+						unknown printer took a galley of type and scrambled it<br />
+						to make a type specimen book.
+					</span>
+					<button class="information__button">Learn More</button>
+				</div>
+			</div>
+			<div class="our_services__right">
+				<div class="our_services__row">
+					<div class="our_services__column" *ngFor="let item of services || []; index as i">
+						<lp01-service [service]="item"></lp01-service>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

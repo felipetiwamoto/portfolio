@@ -1,1 +1,25 @@
-<p>faq works!</p>
+<div class="faq">
+	<div class="faq__container container">
+		<div class="faq__content">
+			<div class="information">
+				<span class="information__title">FAQs</span>
+				<span class="information__main">
+					Check your<br />
+					general Question
+				</span>
+			</div>
+			<div class="tab">
+				<div class="tab__header">
+					<span class="tab__header_item" *ngFor="let item of getQuestionsCategories || []; index as i">
+						{{ item }}
+					</span>
+				</div>
+				<div class="tab__content">
+					<div class="tab__content_item" *ngFor="let item of questions || []; index as i">
+						<lp01-question [question]="item"></lp01-question>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

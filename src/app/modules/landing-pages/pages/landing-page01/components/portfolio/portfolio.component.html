@@ -1,1 +1,21 @@
-<p>portfolio works!</p>
+<div class="portfolio">
+	<div class="portfolio__container container">
+		<div class="portfolio__content">
+			<div class="information">
+				<span class="information__title">PORTFOLIO</span>
+				<span class="information__main"> Our Best Works </span>
+				<span class="information__text">
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do<br />
+					eiusmod tempor incididunt ut labore et dolore.
+				</span>
+			</div>
+			<div class="portfolio__project">
+				<div class="portfolio__project_slider">
+					<div class="portfolio__project_item" *ngFor="let item of projects || []; index as i">
+						<lp01-project [project]="item"></lp01-project>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

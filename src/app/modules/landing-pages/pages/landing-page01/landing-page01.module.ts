@@ -20,31 +20,11 @@ import {Tab01Component} from './components/tab/tab01/tab01.component'
 import {QuestionComponent} from './components/question/question.component'
 import {Question01Component} from './components/question/question01/question01.component'
 import {FooterComponent} from './components/footer/footer.component'
+import {LandingPage01Component} from './landing-page01.component'
 
 @NgModule({
 	declarations: [
-		NavbarComponent,
-		HeaderComponent,
-		OurServicesComponent,
-		InformationComponent,
-		ServiceComponent,
-		Service01Component,
-		AboutUsComponent,
-		NewsletterComponent,
-		OurTeamComponent,
-		Person01Component,
-		MilestoneComponent,
-		PortfolioComponent,
-		ProjectComponent,
-		Project01Component,
-		FaqComponent,
-		TabComponent,
-		Tab01Component,
-		QuestionComponent,
-		Question01Component,
-		FooterComponent,
-	],
-	exports: [
+		LandingPage01Component,
 		NavbarComponent,
 		HeaderComponent,
 		OurServicesComponent,
