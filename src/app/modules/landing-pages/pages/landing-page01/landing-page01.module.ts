@@ -21,6 +21,7 @@ import {QuestionComponent} from './components/question/question.component'
 import {Question01Component} from './components/question/question01/question01.component'
 import {FooterComponent} from './components/footer/footer.component'
 import {LandingPage01Component} from './landing-page01.component'
+import {PersonComponent} from './components/person/person.component'
 
 @NgModule({
 	declarations: [
@@ -45,6 +46,7 @@ import {LandingPage01Component} from './landing-page01.component'
 		QuestionComponent,
 		Question01Component,
 		FooterComponent,
+		PersonComponent,
 	],
 	imports: [CommonModule],
 	schemas: [CUSTOM_ELEMENTS_SCHEMA],

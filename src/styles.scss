@@ -13,3 +13,9 @@
 	list-style: none;
 	box-sizing: border-box;
 }
+
+html {
+	max-width: 100%;
+	min-height: 100dvh;
+	scroll-behavior: smooth;
+}
