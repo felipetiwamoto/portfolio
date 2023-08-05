@@ -7,5 +7,34 @@ import {Person} from '../../interfaces/person.interface'
 	styleUrls: ['./our-team.component.scss'],
 })
 export class OurTeamComponent {
-	public persons: Person[] = []
+	public persons: Person[] = [
+		{
+			image: '',
+			name: 'Tiger Chen',
+			job: 'Brand Director',
+			text: 'My Responsibility is adapt and maximase your brand strategy for increasing your business.',
+			email: 'tigerchen@company.com',
+		},
+		{
+			image: '',
+			name: 'Andrew Collighman',
+			job: 'Brand Marketing',
+			text: `I'will take care your brand to engage user and make sure your user have a suitable experience with your brand`,
+			email: 'andrewcoll@company.com',
+		},
+		{
+			image: '',
+			name: 'Li Noor',
+			job: 'Logo Designer',
+			text: 'Your Brand should be recognized easier by your customer, I’ll help you to design meaningful brand.',
+			email: 'linoor@company.com',
+		},
+		{
+			image: '',
+			name: 'Achmad Yusuf',
+			job: 'Senior Graphic Designer',
+			text: 'My Responsibility is manage my team to deliver better and meaningful artwork for you.',
+			email: 'achyusuf@company.com',
+		},
+	]
 }

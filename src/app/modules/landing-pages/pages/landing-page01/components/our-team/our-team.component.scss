@@ -1,1 +1,17 @@
 @import './../../landing-page01.component.scss';
+
+.our_team {
+	.information {
+		text-align: center;
+	}
+	&__container {
+	}
+	&__content {
+	}
+	&__row {
+		@include row(-8px);
+	}
+	&__column {
+		@include column(25%, 8px);
+	}
+}

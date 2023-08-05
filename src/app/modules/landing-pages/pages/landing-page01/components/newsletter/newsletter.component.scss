@@ -1,1 +1,28 @@
 @import './../../landing-page01.component.scss';
+
+.newsletter {
+	--newsletterRightWidth: 500px;
+	margin-block: 150px;
+	min-height: 430px;
+	background-color: var(--baseRed);
+	@include flex(center);
+
+	.information {
+		&__main,
+		&__text {
+			color: var(--greyf);
+		}
+	}
+	&__container {
+	}
+	&__content {
+		@include flex(center, space-between);
+	}
+	&__left {
+		margin-left: 30px;
+		width: calc(100% - (var(--newsletterRightWidth) + 30px));
+	}
+	&__right {
+		width: var(--newsletterRightWidth);
+	}
+}

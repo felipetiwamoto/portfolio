@@ -1,1 +1,35 @@
 @import './../../landing-page01.component.scss';
+
+.header {
+	position: relative;
+	margin-top: 73px;
+	min-height: 687px;
+
+	&__container {
+	}
+	&__content {
+		@include flex(center, space-between);
+	}
+	&__left {
+		height: 687px;
+
+		&:before {
+			content: '';
+			display: block;
+			width: 608px;
+			height: 100%;
+			position: absolute;
+			left: -156px;
+			top: 0px;
+			background-color: var(--baseRedLight);
+		}
+	}
+	&__right {
+		margin-left: auto;
+		width: max-content;
+		translate: -75px -14px;
+	}
+	&__button {
+		width: 162px;
+	}
+}

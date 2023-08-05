@@ -1,1 +1,32 @@
 @import './../../landing-page01.component.scss';
+
+.service {
+	padding: 40px 20px;
+	min-height: 328px;
+	transition: 1s;
+
+	&:hover {
+		transition: 1s;
+		box-shadow: 0px 25px 55px adjust-color($color: $grey7, $alpha: -0.85);
+	}
+	&__icon {
+		margin-bottom: 24px;
+		width: 56px;
+		height: 56px;
+		border-radius: 50px;
+		@include flex(center, center);
+		color: var(--baseRed);
+		background-color: var(--baseRedLight);
+	}
+	&__title {
+		display: block;
+		margin-bottom: 16px;
+		@include title(24px, 700);
+		color: var(--grey3);
+	}
+	&__text {
+		display: block;
+		@include text(16px, 400);
+		color: var(--grey6);
+	}
+}

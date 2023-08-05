@@ -1,1 +1,9 @@
-<p>person works!</p>
+<div class="person" *ngIf="person">
+	<div class="person__photo">
+		<img src="#" alt="#" class="person__image" />
+	</div>
+	<span class="person__name">{{ person.name }}</span>
+	<span class="person__job">{{ person.job }}</span>
+	<span class="person__text">{{ person.text }}</span>
+	<span class="person__email">{{ person.email }}</span>
+</div>

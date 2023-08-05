@@ -60,7 +60,7 @@
 }
 
 @mixin title($size: 14px, $weight: initial, $spacing: initial, $height: initial) {
-	font-family: 'Roboto', system-ui, sans-serif;
+	font-family: var(--fontTitle), 'Roboto', system-ui, sans-serif;
 	font-size: $size;
 	font-weight: $weight;
 	letter-spacing: $spacing;
@@ -68,7 +68,7 @@
 }
 
 @mixin text($size: 14px, $weight: initial, $spacing: initial, $height: initial) {
-	font-family: 'Open Sans', system-ui, sans-serif;
+	font-family: var(--fontText), 'Open Sans', system-ui, sans-serif;
 	font-size: $size;
 	font-weight: $weight;
 	letter-spacing: $spacing;

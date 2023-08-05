@@ -1,1 +1,34 @@
 @import './../../landing-page01.component.scss';
+
+.portfolio {
+	--portfolioProjectItemWidth: 296px;
+	--portfolioProjectItemGap: 33px;
+
+	@keyframes infiniteSlider {
+		from {
+			translate: -500% 0px;
+		}
+		to {
+			translate: 100% 0px;
+		}
+	}
+	&__container {
+	}
+	&__content {
+	}
+	&__project {
+		position: relative;
+	}
+	&__project_slider {
+		animation: infiniteSlider 15s alternate infinite linear;
+		// width: calc((var(--portfolioProjectItemWidth) * 8) + (var(--portfolioProjectItemGap) * 4));
+		@include flex();
+	}
+	&__project_item {
+		width: 296px;
+
+		& + & {
+			margin-left: 33px;
+		}
+	}
+}

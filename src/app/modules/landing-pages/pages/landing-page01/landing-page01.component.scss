@@ -1,2 +1,13 @@
 @import './theme.scss';
+@import './../../../../../theme.scss';
+@import './../../../../../mixin.scss';
 @import './components/container/container.component.scss';
+@import './components/button/button.component.scss';
+@import './components/information/information.component.scss';
+
+.landing_page01 {
+	&__main {
+		overflow: hidden;
+		position: relative;
+	}
+}

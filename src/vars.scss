@@ -1,6 +1,8 @@
 @import './theme.scss';
 
 :root {
+	--fontTitle: 'Roboto', sans-serif;
+	--fontText: 'Open Sans', sans-serif;
 	--black: #{$black};
 	--grey0: #{$grey0};
 	--grey1: #{$grey1};
