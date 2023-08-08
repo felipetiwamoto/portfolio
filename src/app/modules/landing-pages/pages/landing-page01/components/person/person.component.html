@@ -1,6 +1,6 @@
 <div class="person" *ngIf="person">
 	<div class="person__photo">
-		<img src="#" alt="#" class="person__image" />
+		<img [src]="person.image" [alt]="person.name" class="person__image" />
 	</div>
 	<span class="person__name">{{ person.name }}</span>
 	<span class="person__job">{{ person.job }}</span>

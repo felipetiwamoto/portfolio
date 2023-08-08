@@ -31,6 +31,8 @@
 		margin-bottom: 24px;
 	}
 	&__list_icon {
+		width: 20px;
+		margin-right: 10px;
 	}
 	&__list_item {
 		@include title(16px, 400);

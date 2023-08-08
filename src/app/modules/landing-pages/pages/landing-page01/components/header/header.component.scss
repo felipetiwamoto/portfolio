@@ -42,11 +42,14 @@
 			content: '';
 			display: block;
 			width: 608px;
+			// width: clamp(150px, 48vw, 608px);
 			height: 100%;
 			position: absolute;
 			left: -156px;
 			top: 0px;
+			background-size: cover;
 			background-color: var(--baseRedLight);
+			background-image: url('./../../../../../../../assets/images/landing-pages/landing-page01/landing_page01_header01.jpg');
 		}
 	}
 	&__right {
