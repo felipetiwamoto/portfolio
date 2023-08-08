@@ -24,7 +24,7 @@
 		width: calc(100% - (var(--milestoneRightWidth) + 30px));
 	}
 	&__right {
-		translate: 0px -17px;
+		translate: 0px 20px;
 		width: var(--milestoneRightWidth);
 	}
 }

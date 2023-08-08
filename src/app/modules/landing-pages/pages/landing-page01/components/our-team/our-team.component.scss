@@ -20,6 +20,7 @@
 		@include row(-8px);
 	}
 	&__column {
+		margin-top: 50px;
 		@include column(25%, 8px);
 	}
 }
