@@ -7,6 +7,7 @@ import {Question} from '../../interfaces/question.interface'
 	styleUrls: ['./faq.component.scss'],
 })
 export class FaqComponent {
+	public selectedCategories: string[] = ['General']
 	public questions?: Question[] = [
 		{
 			category: ['General', 'Payments'],
@@ -51,5 +52,22 @@ export class FaqComponent {
 		for (let q of this.questions || []) for (let c of q.category || []) categories.push(c)
 		const uniques = Array.from(new Set(categories))
 		return uniques
+	}
+
+	isSelected(category: any) {
+		return this.selectedCategories.includes(category)
+	}
+
+	toggler(category: any) {
+		this.selectedCategories = []
+		const alreadySelected = this.selectedCategories.find((c) => c === category)
+		this.selectedCategories = alreadySelected
+			? this.selectedCategories.filter((c) => c !== category)
+			: [...this.selectedCategories, category]
+	}
+
+	existsOnSelectedCategories(question: Question) {
+		for (let c of question.category || []) if (this.selectedCategories.includes(c)) return true
+		return false
 	}
 }

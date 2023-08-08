@@ -1,8 +1,16 @@
 @import './../../landing-page01.component.scss';
 
 .our_team {
+	margin-bottom: 50px;
+
 	.information {
 		text-align: center;
+	}
+	.ornament__item {
+		&:nth-of-type(1) {
+			top: 38px;
+			right: -114px;
+		}
 	}
 	&__container {
 	}

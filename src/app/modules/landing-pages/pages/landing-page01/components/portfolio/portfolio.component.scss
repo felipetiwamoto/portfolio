@@ -6,10 +6,10 @@
 
 	@keyframes infiniteSlider {
 		from {
-			translate: -500% 0px;
+			translate: -100% 0px;
 		}
 		to {
-			translate: 100% 0px;
+			translate: 20% 0px;
 		}
 	}
 	&__container {
@@ -20,9 +20,13 @@
 		position: relative;
 	}
 	&__project_slider {
-		animation: infiniteSlider 15s alternate infinite linear;
-		// width: calc((var(--portfolioProjectItemWidth) * 8) + (var(--portfolioProjectItemGap) * 4));
+		width: max-content;
+		animation: infiniteSlider 60s alternate infinite linear;
 		@include flex();
+
+		&:hover {
+			animation-play-state: paused;
+		}
 	}
 	&__project_item {
 		width: 296px;

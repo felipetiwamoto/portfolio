@@ -1,1 +1,57 @@
 @import './../../landing-page01.component.scss';
+
+.faq {
+	margin-block: 150px;
+
+	.ornament__item {
+		&:nth-of-type(1) {
+			bottom: -132px;
+			left: -222px;
+		}
+		&:nth-of-type(2) {
+			top: -24px;
+			right: -191px;
+		}
+		&:nth-of-type(3) {
+			top: 205px;
+			left: -207px;
+		}
+		&:nth-of-type(4) {
+			bottom: -226px;
+			right: -235px;
+			z-index: 1;
+		}
+	}
+	&__container {
+	}
+	&__content {
+	}
+	&__tab {
+		margin-top: 70px;
+	}
+	&__tab_header {
+		translate: 0px -94px;
+		@include flex(baseline, flex-end);
+	}
+	&__tab_header_item {
+		display: block;
+		@include title(16px);
+		color: var(--grey6);
+		cursor: pointer;
+
+		&.active {
+			@include title(16px, 700);
+			color: var(--blue);
+		}
+		& + & {
+			margin-left: 40px;
+		}
+	}
+	&__tab_content {
+		@include row(-8px);
+	}
+	&__tab_content_item {
+		@include column(50%, 8px);
+		margin-bottom: 16px;
+	}
+}

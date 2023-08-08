@@ -1,1 +1,70 @@
 @import './../../landing-page01.component.scss';
+
+.footer {
+	padding: 80px 0px 40px 0px;
+	color: var(--greyf);
+	background-color: var(--baseRed);
+
+	&__container {
+	}
+	&__content {
+		@include flex(flex-start, space-between);
+	}
+	&__left {
+		width: 300px;
+	}
+	&__image {
+		margin-bottom: 30px;
+	}
+	&__center {
+		width: 270px;
+		@include flex(flex-start, space-between);
+	}
+	&__list {
+		& + & {
+			margin-left: 15px;
+		}
+	}
+	&__list_title {
+		display: block;
+		@include title(16px, 700);
+		margin-bottom: 24px;
+	}
+	&__list_icon {
+	}
+	&__list_item {
+		@include title(16px, 400);
+
+		& + & {
+			margin-top: 16px;
+		}
+	}
+	&__right {
+		width: calc(100% - (330px + 270px + 50px));
+		max-width: 270px;
+	}
+	&__social {
+		@include row(-8px);
+	}
+	&__social_title {
+		@include column(100%, 8px);
+		display: block;
+		@include title(16px, 700);
+		margin-bottom: 24px;
+	}
+	&__social_item {
+		@include column(max-content, 8px);
+		margin-bottom: 16px;
+	}
+	&__social_link {
+		width: 40px;
+		height: 40px;
+		border-radius: 50px;
+		font-size: 20px;
+		background-color: var(--greyf);
+		@include flex(center, center);
+		color: var(--baseRed);
+	}
+	&__social_icon {
+	}
+}

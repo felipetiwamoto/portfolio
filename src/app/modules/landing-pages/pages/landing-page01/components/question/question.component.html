@@ -1,7 +1,7 @@
 <div class="question {{ question.isOpened ? 'opened' : '' }}" *ngIf="question">
 	<div class="question__header">
 		<span class="question__title">{{ question.question }}</span>
-		<span class="question__toggler"></span>
+		<span class="question__toggler ft_plus" (click)="toggler()"></span>
 	</div>
 	<div class="question__content">
 		<span class="question__text" [innerHTML]="question.anwser"></span>

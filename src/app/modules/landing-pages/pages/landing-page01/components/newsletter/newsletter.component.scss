@@ -7,9 +7,40 @@
 	background-color: var(--baseRed);
 	@include flex(center);
 
+	.ornament__item {
+		&:nth-of-type(1) {
+			top: 40px;
+			left: -236px;
+		}
+		&:nth-of-type(2) {
+			right: 134px;
+			bottom: -165px;
+		}
+	}
 	.information {
 		&__main,
 		&__text {
+			color: var(--greyf);
+		}
+	}
+	.text_field01 {
+		@include flex(initial, initial, column-reverse);
+
+		&__input {
+			padding: 5px 15px;
+			border-color: transparent;
+			border-radius: 8px;
+			width: 100%;
+			min-height: 56px;
+
+			&::placeholder {
+				@include title(16px);
+				color: var(--grey9);
+			}
+		}
+		&__label {
+			margin-bottom: 16px;
+			@include title(16px);
 			color: var(--greyf);
 		}
 	}
@@ -23,6 +54,12 @@
 		width: calc(100% - (var(--newsletterRightWidth) + 30px));
 	}
 	&__right {
+		@include flex(initial, initial, column);
 		width: var(--newsletterRightWidth);
+	}
+	&__button {
+		margin-top: 40px;
+		width: 160px;
+		min-height: 53px;
 	}
 }

@@ -10,7 +10,7 @@
 				</span>
 			</div>
 			<div class="portfolio__project">
-				<div class="portfolio__project_slider">
+				<div class="portfolio__project_slider" [attr.data-projects-length]="20">
 					<ng-container *ngFor="let _ of [0, 0, 0, 0]">
 						<div class="portfolio__project_item" *ngFor="let item of projects || []; index as i">
 							<lp01-project [project]="item"></lp01-project>

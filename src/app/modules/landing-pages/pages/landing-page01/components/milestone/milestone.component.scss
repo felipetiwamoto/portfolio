@@ -4,10 +4,20 @@
 	--milestoneRightWidth: 500px;
 	margin-block: 150px;
 
+	.ornament__item {
+		&:nth-of-type(1) {
+			top: -89px;
+			left: -222px;
+		}
+		&:nth-of-type(2) {
+			bottom: -178px;
+			right: -236px;
+		}
+	}
 	&__container {
 	}
 	&__content {
-		@include flex(center, space-between);
+		@include flex(flex-end, space-between);
 	}
 	&__left {
 		margin-right: 30px;

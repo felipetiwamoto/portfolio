@@ -5,6 +5,12 @@
 	margin-top: 250px;
 	margin-bottom: 150px;
 
+	.ornament__item {
+		&:nth-of-type(1) {
+			right: -240px;
+			top: 34vh;
+		}
+	}
 	&__container {
 	}
 	&__content {

@@ -8,4 +8,9 @@ import {Question} from '../../interfaces/question.interface'
 })
 export class QuestionComponent {
 	@Input() question?: Question
+
+	toggler() {
+		if (!this.question) return
+		this.question.isOpened = !this.question?.isOpened
+	}
 }
