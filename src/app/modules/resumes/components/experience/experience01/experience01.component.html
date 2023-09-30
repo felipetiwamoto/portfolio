@@ -11,7 +11,7 @@
 	<div class="experience01__bottom">
 		<span class="experience01__description" *ngIf="experience.description">{{ experience.description }}</span>
 		<ul class="experience01__list" *ngIf="(experience.tasks || []).length">
-			<span class="experience01__list_title">Tarefas</span>
+			<span class="experience01__list_title">{{ texts[language].listTitle.tasks }}</span>
 			<li class="experience01__list_item" *ngFor="let item of experience.tasks || []; index as i">
 				{{ item }}
 			</li>

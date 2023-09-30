@@ -36,6 +36,7 @@
 		@include flex(center, space-between);
 	}
 	&__left {
+		position: relative;
 		height: 687px;
 
 		&:before {
@@ -53,6 +54,7 @@
 		}
 	}
 	&__right {
+		position: relative;
 		margin-left: auto;
 		width: max-content;
 		translate: -75px -14px;

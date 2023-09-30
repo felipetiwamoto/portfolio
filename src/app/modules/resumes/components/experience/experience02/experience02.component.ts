@@ -8,4 +8,5 @@ import {Experience} from '../../../interfaces/experience.interface'
 })
 export class Experience02Component {
 	@Input() experience?: Experience
+	@Input() language: 'pt-br' | 'en-us' = 'pt-br'
 }

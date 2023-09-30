@@ -9,4 +9,5 @@ import {Experience} from '../../interfaces/experience.interface'
 export class ExperienceComponent {
 	@Input() slug: string = '01'
 	@Input() experience?: Experience
+	@Input() language: 'pt-br' | 'en-us' = 'pt-br'
 }

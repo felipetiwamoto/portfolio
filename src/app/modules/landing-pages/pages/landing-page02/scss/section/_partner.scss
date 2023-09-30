@@ -1,0 +1,160 @@
+.partner {
+	// padding-top: 233px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	margin-bottom: -100px;
+	z-index: 1;
+	position: relative;
+
+	&__container {
+		max-width: 1220px;
+		flex-basis: 1220px;
+	}
+	&__content {
+		min-height: 200px;
+		border-radius: 15px;
+		padding: 30px 60px;
+		box-shadow: 0px 19px 33px adjust-color($color: #6f6d71, $alpha: -0.83);
+		background-color: $white;
+		display: flex;
+		align-items: center;
+	}
+	&__list {
+		margin-left: -31px;
+		margin-right: -31px;
+		display: flex;
+	}
+	&__list__item {
+		width: 20%;
+		padding-left: 31px;
+		padding-right: 31px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+
+		&:nth-child(4) {
+			svg {
+				width: 200px;
+			}
+		}
+	}
+	&__list__logo {
+		width: 100%;
+
+		img,
+		svg {
+			width: 100%;
+			object-fit: contain;
+			transition: 0.5s;
+
+			&:hover path {
+				transition: 0.5s;
+				fill: #f16e88;
+			}
+		}
+	}
+}
+
+@media all and (max-width: 1200px) {
+	.partner {
+		&__container {
+		}
+		&__content {
+		}
+		&__list {
+		}
+		&__list__item {
+			&:nth-child(4) {
+				svg {
+				}
+			}
+		}
+		&__list__logo {
+			img,
+			svg {
+				&:hover path {
+				}
+			}
+		}
+	}
+}
+
+@media all and (max-width: 992px) {
+	.partner {
+		&__container {
+		}
+		&__content {
+		}
+		&__list {
+			flex-wrap: wrap;
+			justify-content: center;
+		}
+		&__list__item {
+			width: 50%;
+			margin-bottom: 15px;
+
+			&:nth-child(4) {
+				svg {
+					width: 100%;
+				}
+			}
+		}
+		&__list__logo {
+			img,
+			svg {
+				&:hover path {
+				}
+			}
+		}
+	}
+}
+
+@media all and (max-width: 768px) {
+	.partner {
+		&__container {
+		}
+		&__content {
+			margin-top: 30px;
+		}
+		&__list {
+		}
+		&__list__item {
+			&:nth-child(4) {
+				svg {
+				}
+			}
+		}
+		&__list__logo {
+			img,
+			svg {
+				&:hover path {
+				}
+			}
+		}
+	}
+}
+
+@media all and (max-width: 576px) {
+	.partner {
+		&__container {
+		}
+		&__content {
+			padding: 10px;
+		}
+		&__list {
+		}
+		&__list__item {
+			&:nth-child(4) {
+				svg {
+				}
+			}
+		}
+		&__list__logo {
+			img,
+			svg {
+				&:hover path {
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,332 @@
+.blog {
+	padding-top: 68px;
+	padding-bottom: 219px;
+	text-align: center;
+
+	&__container {
+	}
+	&__header {
+	}
+	&__name {
+		font-size: 1.3rem;
+		margin-bottom: 19px;
+		font-weight: bold;
+		display: block;
+		color: #ff7eb3;
+	}
+	&__title {
+		font-size: 1.8rem;
+		font-weight: 900;
+		letter-spacing: 0.3px;
+	}
+	&__description {
+		margin-top: 26px;
+		font-size: 0.98rem;
+		line-height: 26px;
+		color: $grey6;
+	}
+	&__content {
+		margin-top: 72px;
+	}
+	&__slide {
+		margin-left: -35px;
+		margin-right: -35px;
+		text-align: left;
+		display: inline-flex;
+		animation: infinityBlogSlide 10s infinite alternate linear;
+
+		&:hover {
+			animation-play-state: paused;
+		}
+
+		&__item {
+			padding-left: 35px;
+			padding-right: 35px;
+		}
+		&__content {
+			width: 478px;
+		}
+		&__top {
+			margin-bottom: 29px;
+		}
+		&__image {
+			width: 100%;
+			height: 264px;
+			border-radius: 15px;
+			background-color: $greyd;
+		}
+		&__bottom {
+		}
+		&__category {
+			font-size: 1.2rem;
+			letter-spacing: 0.5px;
+			margin-bottom: 8px;
+			font-weight: bold;
+			display: block;
+			color: $grey6;
+		}
+		&__title {
+			font-size: 1.87rem;
+			line-height: 41px;
+		}
+		&__action {
+			margin-top: 12px;
+			display: inline-flex;
+			color: $grey6;
+		}
+		&__action__item {
+			margin-right: 40px;
+			display: inline-flex;
+			align-items: center;
+
+			&:last-child {
+				margin-right: 0px;
+			}
+
+			i {
+				font-size: 1.5rem;
+				margin-right: 14px;
+			}
+		}
+	}
+	@keyframes infinityBlogSlide {
+		from {
+			transform: translateX(-(568px * 2.5));
+		}
+		to {
+			transform: translateX((568px * 1));
+		}
+	}
+}
+
+@media all and (max-width: 1200px) {
+	.blog {
+		&__container {
+		}
+		&__header {
+		}
+		&__name {
+		}
+		&__title {
+		}
+		&__description {
+		}
+		&__content {
+		}
+		&__slide {
+			&:hover {
+			}
+
+			&__item {
+			}
+			&__content {
+			}
+			&__top {
+			}
+			&__image {
+			}
+			&__bottom {
+			}
+			&__category {
+			}
+			&__title {
+			}
+			&__action {
+			}
+			&__action__item {
+				&:last-child {
+				}
+
+				i {
+				}
+			}
+		}
+		@keyframes infinityBlogSlide {
+			from {
+				transform: translateX(-(568px * 2));
+			}
+			to {
+				transform: translateX((568px * 1.5));
+			}
+		}
+	}
+}
+
+@media all and (max-width: 992px) {
+	.blog {
+		&__container {
+		}
+		&__header {
+		}
+		&__name {
+		}
+		&__title {
+		}
+		&__description {
+		}
+		&__content {
+		}
+		&__slide {
+			&:hover {
+			}
+
+			&__item {
+			}
+			&__content {
+			}
+			&__top {
+			}
+			&__image {
+			}
+			&__bottom {
+			}
+			&__category {
+			}
+			&__title {
+			}
+			&__action {
+			}
+			&__action__item {
+				&:last-child {
+				}
+
+				i {
+				}
+			}
+		}
+		@keyframes infinityBlogSlide {
+			from {
+				transform: translateX(-(568px * 2));
+			}
+			to {
+				transform: translateX((568px * 1.5));
+			}
+		}
+	}
+}
+
+@media all and (max-width: 768px) {
+	.blog {
+		padding-top: 30px;
+		padding-bottom: 30px;
+
+		&__container {
+		}
+		&__header {
+		}
+		&__name {
+		}
+		&__title {
+			font-size: 1.5rem;
+			line-height: 30px;
+		}
+		&__description {
+			font-size: 0.8rem;
+			line-height: 20px;
+		}
+		&__content {
+			margin-top: 30px;
+			// transform:translateX(0px)
+		}
+		&__slide {
+			margin-left: -10px;
+			margin-right: -10px;
+			&:hover {
+			}
+
+			&__item {
+				width: calc(50vw - 40px);
+				padding-left: 10px;
+				padding-right: 10px;
+			}
+			&__content {
+				width: 100%;
+			}
+			&__top {
+			}
+			&__image {
+				height: 150px;
+			}
+			&__bottom {
+			}
+			&__category {
+				font-size: 1rem;
+			}
+			&__title {
+				font-size: 1.2rem;
+				line-height: 24px;
+			}
+			&__action {
+			}
+			&__action__item {
+				&:last-child {
+				}
+
+				i {
+				}
+			}
+		}
+		@keyframes infinityBlogSlide {
+			from {
+				transform: translateX(-(50vw * 1.7));
+			}
+			to {
+				transform: translateX((50vw * 1.5));
+			}
+		}
+	}
+}
+
+@media all and (max-width: 576px) {
+	.blog {
+		&__container {
+		}
+		&__header {
+		}
+		&__name {
+		}
+		&__title {
+		}
+		&__description {
+		}
+		&__content {
+		}
+		&__slide {
+			&:hover {
+			}
+
+			&__item {
+				width: calc(100vw - 40px);
+			}
+			&__content {
+			}
+			&__top {
+			}
+			&__image {
+			}
+			&__bottom {
+			}
+			&__category {
+			}
+			&__title {
+			}
+			&__action {
+			}
+			&__action__item {
+				&:last-child {
+				}
+
+				i {
+				}
+			}
+		}
+		@keyframes infinityBlogSlide {
+			from {
+				transform: translateX(-(100vw * 2.5));
+			}
+			to {
+				transform: translateX((100vw * 0.7));
+			}
+		}
+	}
+}

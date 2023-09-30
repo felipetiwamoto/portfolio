@@ -8,6 +8,11 @@ import {Experience} from '../../../interfaces/experience.interface'
 })
 export class Experience01Component {
 	@Input() experience?: Experience
+	@Input() language: 'pt-br' | 'en-us' = 'pt-br'
+	@Input() texts: any = {
+		'pt-br': {listTitle: {tasks: 'Tarefas'}},
+		'en-us': {listTitle: {tasks: 'Tasks'}},
+	}
 
 	get periodFrom(): string {
 		if (!this.experience?.period?.from) return ''
