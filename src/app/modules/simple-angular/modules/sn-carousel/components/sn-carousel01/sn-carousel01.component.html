@@ -1,0 +1,52 @@
+<!-- --sn_carousel01_active_item: {{ config.active_carousel_item }}; -->
+<!-- --sn_carousel01_item_gap: {{ config.carousel_item_gap }}; -->
+<!-- --sn_carousel01_bullet_size: {{ config.bullet_size }}; -->
+<!-- --sn_carousel01_bullet_gap: {{ config.bullet_gap }}; -->
+<!-- --sn_carousel01_bullet_bottom: {{ config.bullet_bottom }}; -->
+<!-- --sn_carousel01_bullet_top: {{ config.bullet_top }}; -->
+<!-- --sn_carousel01_bullet_active_bg_color: {{ config.bullet_active_bg_color }}; -->
+<!-- --sn_carousel01_arrow_size: {{ config.arrow_size }}; -->
+<!-- --sn_carousel01_arrow_icon_size: {{ config.arrow_icon_size }}; -->
+<!-- --sn_carousel01_arrow_bg_color: {{ config.arrow_bg_color }}; -->
+<!-- --sn_carousel01_arrow_color: {{ config.arrow_color }}; -->
+<!-- --sn_carousel01_arrow_container: {{ config.arrow_container }}; -->
+
+<div
+	class="sn_carousel01"
+	#snCarousel
+	style="
+		--sn_carousel01_active_item: {{ config.active_item }};
+		--sn_carousel01_item_gap: {{ config.item_gap }};
+		--sn_carousel01_bullet_size: {{ config.bullet_size }};
+		--sn_carousel01_bullet_gap: {{ config.bullet_gap }};
+		--sn_carousel01_bullet_bottom: {{ config.bullet_bottom }};
+		--sn_carousel01_bullet_top: {{ config.bullet_top }};
+		--sn_carousel01_bullet_active_bg_color: {{ config.bullet_active_bg_color }};
+		--sn_carousel01_arrow_size: {{ config.arrow_size }};
+		--sn_carousel01_arrow_icon_size: {{ config.arrow_icon_size }};
+		--sn_carousel01_arrow_bg_color: {{ config.arrow_bg_color }};
+		--sn_carousel01_arrow_color: {{ config.arrow_color }};
+		--sn_carousel01_arrow_container: {{ config.arrow_container }};
+    "
+>
+	<div class="sn_carousel01__main">
+		<div class="sn_carousel01__container" #snCarouselContainer>
+			<ng-content></ng-content>
+		</div>
+		<ul class="sn_carousel01__arrow" *ngIf="config.arrow_enabled">
+			<li class="sn_carousel01__arrow_item prev" (click)="prev()" [attr.disabled]="isPrevDisabled()">
+				<i class="sn_carousel01__arrow_icon fas fa-arrow-left"></i>
+			</li>
+			<li class="sn_carousel01__arrow_item next" (click)="next()" [attr.disabled]="isNextDisabled()">
+				<i class="sn_carousel01__arrow_icon fas fa-arrow-right"></i>
+			</li>
+		</ul>
+		<ul class="sn_carousel01__bullet" *ngIf="config.bullet_enabled">
+			<li
+				class="sn_carousel01__bullet_item {{ config.active_item === i ? 'active' : '' }}"
+				*ngFor="let item of snCarouselItems; index as i"
+				(click)="slideTo(i)"
+			></li>
+		</ul>
+	</div>
+</div>

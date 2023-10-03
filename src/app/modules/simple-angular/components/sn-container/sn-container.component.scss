@@ -1,0 +1,27 @@
+@import './../../simple-angular-theme.component.scss';
+@import './../../simple-angular-mixins.component.scss';
+
+.sn_container {
+	--snContainerWidth: min(100% - 30px, 1200px);
+	width: var(--snContainerWidth);
+	margin-inline: auto;
+	position: relative;
+	z-index: 1;
+	box-sizing: content-box;
+
+	&.small {
+		--snContainerWidth: width: min(100% - 30px, 576px);
+	}
+	&.medium {
+		--snContainerWidth: width: min(100% - 30px, 768px);
+	}
+	&.large {
+		--snContainerWidth: width: min(100% - 30px, 992px);
+	}
+	&.xlarge {
+		--snContainerWidth: width: min(100% - 30px, 1200px);
+	}
+	&.xxlarge {
+		--snContainerWidth: width: min(100% - 30px, 1400px);
+	}
+}

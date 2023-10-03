@@ -1,0 +1,181 @@
+@import './../../simple-angular-theme.component.scss';
+@import './../../simple-angular-mixins.component.scss';
+
+@mixin columnGenerator($maxColumn, $breakpoint) {
+	@for $i from 1 through $maxColumn {
+		& > .sn_row__column_#{$breakpoint}_#{$i} {
+			width: min(100%, calc((100% / #{$maxColumn}) * #{$i}));
+		}
+	}
+}
+
+@mixin offsetGenerator($maxColumn, $breakpoint) {
+	@for $i from 1 through $maxColumn {
+		& > .sn_row__offset_#{$breakpoint}_#{$i} {
+			margin-left: min(100%, calc((100% / #{$maxColumn}) * #{$i}));
+		}
+	}
+}
+
+@mixin pushGenerator($maxColumn, $breakpoint) {
+	@for $i from 1 through $maxColumn {
+		& > .sn_row__push_#{$breakpoint}_#{$i} {
+			margin-right: min(100%, calc((100% / #{$maxColumn}) * #{$i}));
+		}
+	}
+}
+
+@mixin orderGenerator($maxColumn, $breakpoint) {
+	@for $i from 1 through $maxColumn {
+		& > .sn_row__order_#{$breakpoint}_#{$i} {
+			order: $i;
+		}
+	}
+}
+
+.sn_row {
+	--snGridGap: 30px;
+	display: flex;
+	flex-wrap: wrap;
+	margin-inline: calc((var(--snGridGap) / 2) * -1);
+
+	&.no_gap {
+		--snGridGap: 0px;
+	}
+	&.small {
+		--snGridGap: 10px;
+	}
+	&.medium {
+		--snGridGap: 30px;
+	}
+	&.large {
+		--snGridGap: 50px;
+	}
+	&.xlarge {
+		--snGridGap: 75px;
+	}
+	&.xxlarge {
+		--snGridGap: 100px;
+	}
+
+	&.twelve {
+		@include xs {
+			@include columnGenerator(12, xs);
+			@include offsetGenerator(12, xs);
+			@include pushGenerator(12, xs);
+			@include orderGenerator(12, xs);
+		}
+		@include sm {
+			@include columnGenerator(12, sm);
+			@include offsetGenerator(12, sm);
+			@include pushGenerator(12, sm);
+			@include orderGenerator(12, sm);
+		}
+		@include md {
+			@include columnGenerator(12, md);
+			@include offsetGenerator(12, md);
+			@include pushGenerator(12, md);
+			@include orderGenerator(12, md);
+		}
+		@include lg {
+			@include columnGenerator(12, lg);
+			@include offsetGenerator(12, lg);
+			@include pushGenerator(12, lg);
+			@include orderGenerator(12, lg);
+		}
+		@include xl {
+			@include columnGenerator(12, xl);
+			@include offsetGenerator(12, xl);
+			@include pushGenerator(12, xl);
+			@include orderGenerator(12, xl);
+		}
+		@include xxl {
+			@include columnGenerator(12, xxl);
+			@include offsetGenerator(12, xxl);
+			@include pushGenerator(12, xxl);
+			@include orderGenerator(12, xxl);
+		}
+	}
+	&.sixteen {
+		@include xs {
+			@include columnGenerator(16, xs);
+			@include offsetGenerator(16, xs);
+			@include pushGenerator(16, xs);
+			@include orderGenerator(16, xs);
+		}
+		@include sm {
+			@include columnGenerator(16, sm);
+			@include offsetGenerator(16, sm);
+			@include pushGenerator(16, sm);
+			@include orderGenerator(16, sm);
+		}
+		@include md {
+			@include columnGenerator(16, md);
+			@include offsetGenerator(16, md);
+			@include pushGenerator(16, md);
+			@include orderGenerator(16, md);
+		}
+		@include lg {
+			@include columnGenerator(16, lg);
+			@include offsetGenerator(16, lg);
+			@include pushGenerator(16, lg);
+			@include orderGenerator(16, lg);
+		}
+		@include xl {
+			@include columnGenerator(16, xl);
+			@include offsetGenerator(16, xl);
+			@include pushGenerator(16, xl);
+			@include orderGenerator(16, xl);
+		}
+		@include xxl {
+			@include columnGenerator(16, xxl);
+			@include offsetGenerator(16, xxl);
+			@include pushGenerator(16, xxl);
+			@include orderGenerator(16, xxl);
+		}
+	}
+	&.twenty {
+		@include xs {
+			@include columnGenerator(20, xs);
+			@include offsetGenerator(20, xs);
+			@include pushGenerator(20, xs);
+			@include orderGenerator(20, xs);
+		}
+		@include sm {
+			@include columnGenerator(20, sm);
+			@include offsetGenerator(20, sm);
+			@include pushGenerator(20, sm);
+			@include orderGenerator(20, sm);
+		}
+		@include md {
+			@include columnGenerator(20, md);
+			@include offsetGenerator(20, md);
+			@include pushGenerator(20, md);
+			@include orderGenerator(20, md);
+		}
+		@include lg {
+			@include columnGenerator(20, lg);
+			@include offsetGenerator(20, lg);
+			@include pushGenerator(20, lg);
+			@include orderGenerator(20, lg);
+		}
+		@include xl {
+			@include columnGenerator(20, xl);
+			@include offsetGenerator(20, xl);
+			@include pushGenerator(20, xl);
+			@include orderGenerator(20, xl);
+		}
+		@include xxl {
+			@include columnGenerator(20, xxl);
+			@include offsetGenerator(20, xxl);
+			@include pushGenerator(20, xxl);
+			@include orderGenerator(20, xxl);
+		}
+	}
+
+	& > [class*='sn_row__column_'] {
+		width: 100%;
+		box-sizing: border-box;
+		padding-inline: calc((var(--snGridGap) / 2));
+	}
+}

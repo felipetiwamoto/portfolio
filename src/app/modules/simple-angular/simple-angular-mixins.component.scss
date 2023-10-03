@@ -1,0 +1,109 @@
+@mixin min($width) {
+	@media all and (min-width: $width) {
+		@content;
+	}
+}
+
+@mixin max($width) {
+	@media all and (max-width: $width) {
+		@content;
+	}
+}
+
+@mixin xs() {
+	@media all and (max-width: 576px) {
+		@content;
+	}
+}
+
+@mixin sm() {
+	@media all and (min-width: 576px) {
+		@content;
+	}
+}
+
+@mixin md() {
+	@media all and (min-width: 768px) {
+		@content;
+	}
+}
+
+@mixin lg() {
+	@media all and (min-width: 992px) {
+		@content;
+	}
+}
+
+@mixin xl() {
+	@media all and (min-width: 1200px) {
+		@content;
+	}
+}
+
+@mixin xxl() {
+	@media all and (min-width: 1400px) {
+		@content;
+	}
+}
+
+@mixin flex($align: initial, $justify: initial, $direction: initial) {
+	display: flex;
+	align-items: $align;
+	justify-content: $justify;
+	flex-direction: $direction;
+}
+
+@mixin inlineFlex($align: initial, $justify: initial, $direction: initial) {
+	display: inline-flex;
+	align-items: $align;
+	justify-content: $justify;
+	flex-direction: $direction;
+}
+
+@mixin row($gap: 15px) {
+	display: flex;
+	flex-wrap: wrap;
+	margin-inline: #{$gap * -1};
+}
+
+@mixin column($width: 100%, $gap: 15px) {
+	max-width: $width;
+	flex-basis: $width;
+	padding-inline: $gap;
+	box-sizing: border-box;
+}
+
+@mixin title($size: 14px, $weight: initial, $spacing: initial, $height: initial) {
+	font-family: 'Roboto', sans-serif;
+	font-size: $size;
+	font-weight: $weight;
+	letter-spacing: $spacing;
+	line-height: $height;
+}
+
+@mixin text($size: 14px, $weight: initial, $spacing: initial, $height: initial) {
+	font-family: 'Open Sans', sans-serif;
+	font-size: $size;
+	font-weight: $weight;
+	letter-spacing: $spacing;
+	line-height: $height;
+}
+
+@mixin shadow($shadow: 50px, $color: $primary, $alpha: 1) {
+	$y: #{15 * $shadow / 50};
+	box-shadow: 0px $y $shadow #{($shadow / 2) * -1} adjust-color($color: $color, $alpha: $alpha);
+}
+
+@mixin scroller($width: 7px, $bgc: $greyf9) {
+	&::-webkit-scrollbar {
+		width: calc($width * 2);
+	}
+	&::-webkit-scrollbar-thumb {
+		border-radius: 50px;
+		border: 4px solid $bgc;
+		background-color: var(--primary);
+	}
+	&::-webkit-scrollbar-track {
+		background-color: $bgc;
+	}
+}

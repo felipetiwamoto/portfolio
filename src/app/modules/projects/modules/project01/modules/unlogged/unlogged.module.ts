@@ -8,6 +8,7 @@ import {RegisterComponent} from './pages/register/register.component'
 import {ForgotPasswordComponent} from './pages/forgot-password/forgot-password.component'
 import {RedefinePasswordComponent} from './pages/redefine-password/redefine-password.component'
 import {EmailValidationComponent} from './pages/email-validation/email-validation.component'
+import {SimpleAngularModule} from 'src/app/modules/simple-angular/simple-angular.module'
 
 @NgModule({
 	declarations: [
@@ -18,6 +19,6 @@ import {EmailValidationComponent} from './pages/email-validation/email-validatio
 		RedefinePasswordComponent,
 		EmailValidationComponent,
 	],
-	imports: [CommonModule, UnloggedRoutingModule],
+	imports: [CommonModule, UnloggedRoutingModule, SimpleAngularModule],
 })
 export class UnloggedModule {}

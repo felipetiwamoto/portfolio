@@ -12,6 +12,7 @@ import {ContactsComponent} from './pages/contacts/contacts.component'
 import {HomeComponent} from './pages/home/home.component'
 import {SettingsComponent} from './pages/settings/settings.component'
 import {ProfileComponent} from './pages/profile/profile.component'
+import {SimpleAngularModule} from 'src/app/modules/simple-angular/simple-angular.module'
 
 @NgModule({
 	declarations: [
@@ -26,6 +27,6 @@ import {ProfileComponent} from './pages/profile/profile.component'
 		CommentComponent,
 		ProfileComponent,
 	],
-	imports: [CommonModule, LoggedRoutingModule],
+	imports: [CommonModule, LoggedRoutingModule, SimpleAngularModule],
 })
 export class LoggedModule {}
