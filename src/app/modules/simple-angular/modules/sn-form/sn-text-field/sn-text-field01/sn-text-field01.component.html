@@ -1,1 +1,24 @@
-<p>sn-text-field01 works!</p>
+<div class="sn_text_field01 {{ class }} {{ hasErrors }} {{ isSuccess }} {{ isFilled }}" [formGroup]="form">
+	<span class="sn_text_field01__feedback" *ngIf="hasErrors">{{ errors }}</span>
+	<div class="sn_text_field01__container">
+		<i class="sn_text_field01__icon left" *ngIf="leftIcon"></i>
+		<i class="sn_text_field01__icon right" *ngIf="rightIcon"></i>
+		<input
+			class="sn_text_field01__input"
+			[placeholder]="placeholder"
+			[type]="type"
+			[id]="id || name"
+			[name]="name || id"
+			[formControlName]="name"
+			(click)="click.next($event)"
+			(change)="change.next($event)"
+			(blur)="blur.next($event)"
+			(mouseover)="mouseover.next($event)"
+			(mouseout)="mouseout.next($event)"
+			(keyup)="keyup.next($event)"
+			(keydown)="keydown.next($event)"
+			(keypress)="keypress.next($event)"
+		/>
+	</div>
+	<label class="sn_text_field01__label" [for]="id || name">{{ label || id || name }}</label>
+</div>

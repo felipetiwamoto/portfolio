@@ -2,7 +2,7 @@
 @import '/src/app/modules/simple-angular/simple-angular-mixins.component.scss';
 
 .main {
-	--mainRightWidth: 350px;
+	--mainRightWidth: 450px;
 	overflow: hidden;
 	position: relative;
 	margin-inline: auto;
@@ -17,6 +17,7 @@
 		position: absolute;
 		top: 0px;
 		left: 0px;
+		z-index: 1;
 		background-color: adjust-color($color: $primary, $alpha: -0.5);
 		background-image: url('/assets/images/projects/project01/login-bg01.avif');
 		background-size: cover;
@@ -28,18 +29,20 @@
 		transition: 0.5s;
 
 		@include lg {
-			width: calc(100% - var(--mainRightWidth));
+			// width: calc(100% - var(--mainRightWidth));
 		}
 	}
 	&__right {
 		--mainRightWidth: 100%;
-		margin-left: auto;
+		// margin-left: auto;
+		// --mainRightWidth: 450px;
+		margin-inline: auto;
 		transition: 0.5s;
 		width: var(--mainRightWidth);
 		@include flex(center, center);
 
 		@include lg {
-			--mainRightWidth: 350px;
+			// --mainRightWidth: 450px;
 		}
 	}
 	&__container {

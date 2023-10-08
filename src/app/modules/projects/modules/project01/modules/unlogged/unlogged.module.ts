@@ -1,5 +1,6 @@
 import {NgModule} from '@angular/core'
 import {CommonModule} from '@angular/common'
+import {ReactiveFormsModule} from '@angular/forms'
 
 import {UnloggedRoutingModule} from './unlogged-routing.module'
 import {MainComponent} from './components/main/main.component'
@@ -19,6 +20,6 @@ import {SimpleAngularModule} from 'src/app/modules/simple-angular/simple-angular
 		RedefinePasswordComponent,
 		EmailValidationComponent,
 	],
-	imports: [CommonModule, UnloggedRoutingModule, SimpleAngularModule],
+	imports: [CommonModule, UnloggedRoutingModule, SimpleAngularModule, ReactiveFormsModule],
 })
 export class UnloggedModule {}

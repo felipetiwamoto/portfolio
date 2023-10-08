@@ -1,7 +1,7 @@
 import {Component} from '@angular/core'
 
 @Component({
-	selector: 'app-sn-textarea-field03',
+	selector: 'sn-textarea-field03',
 	templateUrl: './sn-textarea-field03.component.html',
 	styleUrls: ['./sn-textarea-field03.component.scss'],
 })

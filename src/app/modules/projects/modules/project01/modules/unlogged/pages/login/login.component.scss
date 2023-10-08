@@ -2,15 +2,15 @@
 @import '/src/app/modules/simple-angular/simple-angular-mixins.component.scss';
 
 :host {
-	width: 300px;
-
-	@include lg {
-		width: 100%;
-	}
+	width: 100%;
 }
 
 .login {
+	padding: 0px 0px;
+
 	&__form {
+		width: min(100%, 350px);
+		margin-inline: auto;
 	}
 	&__title {
 		margin-bottom: 15px;
@@ -30,47 +30,31 @@
 	}
 	&__box {
 		padding: 30px 30px;
-		border-radius: 15px;
+		border-radius: 10px;
 		backdrop-filter: blur(5px);
-		background-color: adjust-color($color: $greyf, $alpha: -0.5);
+		// background-color: adjust-color($color: $greyf, $alpha: -0.5);
+		background-color: var(--greyf);
 		@include shadow(15px);
 	}
 	&__field {
 	}
 	&__field_item {
+		margin-bottom: 15px;
 	}
 	&__button {
 	}
 	&__action {
+		margin-top: 15px;
+		text-align: center;
 	}
 	&__action_item {
+		& + & {
+			margin-top: 10px;
+		}
 	}
 	&__action_text {
-	}
-}
-
-.text_field01 {
-	&.error {
-	}
-	&.success {
-	}
-	&.warning {
-	}
-	&.focused {
-	}
-	&.filled {
-	}
-
-	&__feedback {
-	}
-	&__container {
-	}
-	&__icon {
-	}
-	&__icon {
-	}
-	&__input {
-	}
-	&__label {
+		text-decoration: underline;
+		color: var(--grey7);
+		@include title(12px, 300);
 	}
 }

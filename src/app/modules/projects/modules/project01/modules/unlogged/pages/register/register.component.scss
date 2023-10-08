@@ -1,0 +1,74 @@
+@import '/src/app/modules/simple-angular/simple-angular-theme.component.scss';
+@import '/src/app/modules/simple-angular/simple-angular-mixins.component.scss';
+
+:host {
+	width: 100%;
+}
+
+.register {
+	padding: 0px 0px;
+
+	@include lg {
+		padding: 30px 45px;
+	}
+	&__carousel {
+		width: 100%;
+
+		::ng-deep sn-carousel01 .sn_carousel01__container {
+			align-items: center;
+		}
+	}
+	&__carousel_item {
+		margin-bottom: 30px;
+		margin-inline: auto;
+	}
+	&__form {
+		width: min(100%, 350px);
+		margin-inline: auto;
+	}
+	&__title {
+		margin-bottom: 15px;
+		display: block;
+		text-align: center;
+		text-shadow: 0px 1px 5px var(--grey0);
+		@include title(26px, 300);
+		color: var(--greyf);
+	}
+	&__text {
+		margin-bottom: 15px;
+		text-align: center;
+		display: block;
+		text-shadow: 0px 1px 5px var(--grey0);
+		@include title(14px, 300);
+		color: var(--greyf);
+	}
+	&__box {
+		padding: 30px 30px;
+		border-radius: 10px;
+		backdrop-filter: blur(5px);
+		// background-color: adjust-color($color: $greyf, $alpha: -0.5);
+		background-color: var(--greyf);
+		@include shadow(15px);
+	}
+	&__field {
+	}
+	&__field_item {
+		margin-bottom: 15px;
+	}
+	&__button {
+	}
+	&__action {
+		margin-top: 15px;
+		text-align: center;
+	}
+	&__action_item {
+		& + & {
+			margin-top: 10px;
+		}
+	}
+	&__action_text {
+		text-decoration: underline;
+		color: var(--grey7);
+		@include title(12px, 300);
+	}
+}

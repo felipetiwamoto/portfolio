@@ -1,0 +1,74 @@
+@import './../../../../simple-angular-theme.component.scss';
+@import './../../../../simple-angular-mixins.component.scss';
+
+.sn_text_field01 {
+	--snTextField01Height: 40px;
+	@include flex(initial, initial, column-reverse);
+
+	&.error {
+	}
+	&.success {
+	}
+	&.warning {
+	}
+	&.focused {
+	}
+	&.filled {
+	}
+
+	&__feedback {
+		display: block;
+		margin-top: 2px;
+		@include title(12px, 300);
+	}
+	&__container {
+		min-height: var(--snTextField01Height);
+		@include flex(center, center);
+	}
+	&__icon {
+		outline: 2px solid red;
+		width: 40px;
+		min-height: var(--snTextField01Height);
+		position: relative;
+		z-index: 1;
+		@include flex(center, center);
+
+		&.left {
+			order: 1;
+			margin-right: calc(var(--snTextField01Height) * -1);
+
+			& ~ .sn_text_field01__input {
+				padding-left: calc(var(--snTextField01Height) + 15px);
+			}
+		}
+		&.right {
+			order: 3;
+			margin-left: calc(var(--snTextField01Height) * -1);
+
+			& ~ .sn_text_field01__input {
+				padding-right: calc(var(--snTextField01Height) + 15px);
+			}
+		}
+	}
+	&__input {
+		order: 2;
+		padding: 5px 15px;
+		width: 100%;
+		min-height: 40px;
+		border-radius: 5px;
+		box-shadow: 0px;
+		outline: none;
+		border: 1px solid var(--greyc);
+		background-color: var(--greye);
+		@include title(14px, 300);
+
+		&::placeholder {
+			color: var(--grey9);
+		}
+	}
+	&__label {
+		display: block;
+		margin-bottom: 2px;
+		@include title(12px, 300);
+	}
+}

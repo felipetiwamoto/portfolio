@@ -1,1 +1,118 @@
-<p>register works!</p>
+<div class="register">
+	<div class="register__carousel">
+		<sn-carousel01 [config]="snCarouselConfig">
+			<sn-carousel-item>
+				<div class="register__carousel_item">
+					<form class="register__form" [formGroup]="formStep01" (ngSubmit)="handleFormStep01Submit()">
+						<span class="register__title">REGISTER</span>
+						<span class="register__text">Share your amazing stories!</span>
+						<div class="register__box">
+							<div class="register__field">
+								<div class="register__field_item">
+									<sn-text-field01
+										[form]="formStep01"
+										label="Name"
+										placeholder="Ex: joão"
+										name="name"
+									></sn-text-field01>
+								</div>
+								<div class="register__field_item">
+									<sn-text-field01
+										[form]="formStep01"
+										label="Surname"
+										placeholder="Ex: Silva"
+										name="surname"
+									></sn-text-field01>
+								</div>
+								<div class="register__field_item">
+									<sn-text-field01
+										[form]="formStep01"
+										label="E-mail"
+										placeholder="Ex: joao.da.silva@gmail.com"
+										name="email"
+									></sn-text-field01>
+								</div>
+							</div>
+							<div sn-row="small twelve">
+								<div sn-column="6 6">
+									<button class="register__button sn_button grey9 fluid" [disabled]="true">
+										back
+									</button>
+								</div>
+								<div sn-column="6 6">
+									<button
+										class="register__button sn_button primary fluid"
+										[disabled]="formStep01.invalid"
+									>
+										next
+									</button>
+								</div>
+							</div>
+							<ul class="register__action">
+								<li class="register__action_item">
+									<a class="register__action_text" routerLink="/projects/01">
+										Already have a account?
+									</a>
+								</li>
+							</ul>
+						</div>
+					</form>
+				</div>
+			</sn-carousel-item>
+			<sn-carousel-item>
+				<div class="register__carousel_item">
+					<form class="register__form" [formGroup]="formStep02" (ngSubmit)="handleFormStep02Submit()">
+						<span class="register__title">REGISTER</span>
+						<span class="register__text">Share your amazing stories!</span>
+						<div class="register__box">
+							<div class="register__field">
+								<div class="register__field_item">
+									<sn-text-field01
+										[form]="formStep02"
+										type="password"
+										label="Password"
+										name="password"
+									></sn-text-field01>
+								</div>
+								<div class="register__field_item">
+									<sn-text-field01
+										[form]="formStep02"
+										type="password"
+										label="Confirm password"
+										name="confirmPassword"
+									></sn-text-field01>
+								</div>
+							</div>
+							<div sn-row="small twelve">
+								<div sn-column="6 6">
+									<button
+										type="button"
+										class="register__button sn_button grey9 fluid"
+										(click)="setActiveItemByIndex(0)"
+									>
+										back
+									</button>
+								</div>
+								<div sn-column="6 6">
+									<button
+										class="register__button sn_button primary fluid"
+										[disabled]="formStep02.invalid"
+									>
+										finish
+									</button>
+								</div>
+							</div>
+							<ul class="register__action">
+								<li class="register__action_item">
+									<a class="register__action_text" routerLink="/projects/01">
+										Already have a account?
+									</a>
+								</li>
+							</ul>
+						</div>
+					</form>
+				</div>
+			</sn-carousel-item>
+		</sn-carousel01>
+	</div>
+</div>

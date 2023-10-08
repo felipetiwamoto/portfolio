@@ -1,7 +1,7 @@
 import {Component} from '@angular/core'
 
 @Component({
-	selector: 'app-sn-select-field',
+	selector: 'sn-select-field',
 	templateUrl: './sn-select-field.component.html',
 	styleUrls: ['./sn-select-field.component.scss'],
 })

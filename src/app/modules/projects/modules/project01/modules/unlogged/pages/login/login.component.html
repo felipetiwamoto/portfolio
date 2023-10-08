@@ -1,37 +1,30 @@
 <div class="login">
-	<div class="login__form">
+	<form class="login__form" [formGroup]="form" (ngSubmit)="handleFormSubmit()">
 		<span class="login__title">LOGIN</span>
 		<span class="login__text">Share your amazing stories!</span>
 		<div class="login__box">
 			<div class="login__field">
 				<div class="login__field_item">
-					<div class="text_field01">
-						<span class="text_field01__feedback"></span>
-						<div class="text_field01__container">
-							<i class="text_field01__icon left"></i>
-							<i class="text_field01__icon right"></i>
-							<input type="text" class="text_field01__input" />
-						</div>
-						<label class="text_field01__label"></label>
-					</div>
+					<sn-text-field01
+						[form]="form"
+						label="E-mail"
+						placeholder="Ex: joao.da.silva@gmail.com"
+						name="email"
+					></sn-text-field01>
 				</div>
 				<div class="login__field_item">
-					<div class="text_field01">
-						<span class="text_field01__feedback"></span>
-						<div class="text_field01__container">
-							<i class="text_field01__icon left"></i>
-							<i class="text_field01__icon right"></i>
-							<input type="text" class="text_field01__input" />
-						</div>
-						<label class="text_field01__label"></label>
-					</div>
+					<sn-text-field01 [form]="form" type="password" label="Senha" name="password"></sn-text-field01>
 				</div>
 			</div>
-			<div class="login__button button">login</div>
+			<button class="login__button sn_button primary fluid" [disabled]="form.invalid">login</button>
 			<ul class="login__action">
-				<li class="login__action_item"><span class="login__action_text">Forgot your password?</span></li>
-				<li class="login__action_item"><span class="login__action_text">Create new account</span></li>
+				<li class="login__action_item">
+					<a class="login__action_text" routerLink="/projects/01/forgot-passsword">Forgot your password?</a>
+				</li>
+				<li class="login__action_item">
+					<a class="login__action_text" routerLink="/projects/01/register">Create new account</a>
+				</li>
 			</ul>
 		</div>
-	</div>
+	</form>
 </div>

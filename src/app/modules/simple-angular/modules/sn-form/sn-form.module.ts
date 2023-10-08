@@ -20,6 +20,7 @@ import {SnRadioFieldComponent} from './sn-radio-field/sn-radio-field.component'
 import {SnRadioField01Component} from './sn-radio-field/sn-radio-field01/sn-radio-field01.component'
 import {SnRadioField02Component} from './sn-radio-field/sn-radio-field02/sn-radio-field02.component'
 import {SnRadioField03Component} from './sn-radio-field/sn-radio-field03/sn-radio-field03.component'
+import {ReactiveFormsModule} from '@angular/forms'
 
 @NgModule({
 	declarations: [
@@ -44,6 +45,28 @@ import {SnRadioField03Component} from './sn-radio-field/sn-radio-field03/sn-radi
 		SnRadioField02Component,
 		SnRadioField03Component,
 	],
-	imports: [CommonModule],
+	imports: [CommonModule, ReactiveFormsModule],
+	exports: [
+		SnTextFieldComponent,
+		SnTextField01Component,
+		SnTextField02Component,
+		SnTextField03Component,
+		SnTextareaFieldComponent,
+		SnTextareaField01Component,
+		SnTextareaField02Component,
+		SnTextareaField03Component,
+		SnSelectFieldComponent,
+		SnSelectField01Component,
+		SnSelectField02Component,
+		SnSelectField03Component,
+		SnCheckboxFieldComponent,
+		SnCheckboxField01Component,
+		SnCheckboxField02Component,
+		SnCheckboxField03Component,
+		SnRadioFieldComponent,
+		SnRadioField01Component,
+		SnRadioField02Component,
+		SnRadioField03Component,
+	],
 })
 export class SnFormModule {}

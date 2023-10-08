@@ -1,0 +1,37 @@
+@import './../../simple-angular-theme.component.scss';
+@import './../../simple-angular-mixins.component.scss';
+
+.sn_button {
+	min-height: 40px;
+	padding: 5px 15px;
+	border-radius: 5px;
+	text-align: center;
+	border: 1px solid var(--greyc);
+	background-color: var(--greye);
+	color: var(--grey9);
+	@include inlineFlex(center, center);
+	@include title(14px, 300);
+	cursor: pointer;
+	transition: 0.5s;
+
+	&[disabled] {
+		opacity: 0.4;
+		cursor: not-allowed;
+	}
+	&:not([disabled]):hover {
+		opacity: 0.8;
+		transition: 0.5s;
+		translate: 0px -2px;
+	}
+	&.fluid {
+		width: 100%;
+	}
+
+	@each $name, $color in $theme {
+		&.#{$name} {
+			border-color: var(--#{$name});
+			background-color: var(--#{$name});
+			color: var(--greyf);
+		}
+	}
+}

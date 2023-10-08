@@ -1,2 +1,23 @@
-<p>main works!</p>
-<router-outlet></router-outlet>
+<div class="main">
+	<div class="main__nav" *ngIf="false">
+		<div class="main__nav_container sn_container">
+			<div class="main__nav_form">
+				<div class="main__nav_left">
+					<span class="main__nav_logo"></span>
+				</div>
+				<div class="main__nav_right">
+					<sn-text-field01></sn-text-field01>
+					<ul class="main__nav_menu">
+						<li class="main__nav_menu_item">
+							<a routerLink="/projects/01" class="main__nav_menu_link">Home</a>
+						</li>
+						<li class="main__nav_menu_item">
+							<a routerLink="/projects/01" class="main__nav_menu_link">Logout</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	<router-outlet></router-outlet>
+</div>
