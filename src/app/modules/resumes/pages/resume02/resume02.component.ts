@@ -65,7 +65,7 @@ export class Resume02Component {
 			tasks: ['Senior role', 'Mentoring interns', 'Maintenance current system', 'Add new features.'],
 			softSkills: ['Negotiation;', 'Proactivity;', 'Work under pressure;', 'Leadership;', 'Analytic;'],
 			hardSkills: ['Tecnical course;'],
-			period: {from: 'APR 2023', to: 'CURRENT'},
+			period: {from: 'SEP 2022', to: 'CURRENT'},
 		},
 		{
 			company: 'Tagme',

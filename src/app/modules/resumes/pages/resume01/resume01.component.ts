@@ -59,6 +59,20 @@ export class Resume01Component {
 	]
 	public experiences: Experience[] = [
 		{
+			company: 'Banco BS2',
+			job: 'Sr. Full-Stack',
+			tasks: ['Atuação como Sênior.', 'Manutenção nos sistemas existentes.', 'Criação de novas funcionalidades.'],
+			softSkills: [
+				'Capacidade de persuasão;',
+				'Proatividade;',
+				'Capacidade de trabalhar sob pressão;',
+				'Senso de liderança;',
+				'Capacidade analítica.',
+			],
+			hardSkills: ['Cursos técnicos;'],
+			period: {from: 'SET 2022', to: 'ATUAL'},
+		},
+		{
 			company: 'Tagme',
 			job: 'Sr. Full-Stack',
 			tasks: [
