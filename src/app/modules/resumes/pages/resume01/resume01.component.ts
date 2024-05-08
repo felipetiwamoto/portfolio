@@ -26,8 +26,8 @@ export class Resume01Component {
 		{icon: 'ft_phone', text: '(11) 9.8455-6053'},
 		{
 			icon: 'ft_globe',
-			text: 'felipetiwamoto.github.io/portfolio/',
-			href: 'https://felipetiwamoto.github.io/portfolio/',
+			text: 'felipetiwamoto.systemnear.com',
+			href: 'https://felipetiwamoto.systemnear.com/',
 		},
 	]
 	public skills: Skill[] = [

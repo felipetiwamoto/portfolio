@@ -149,15 +149,15 @@ export class Resume02Component {
 	]
 	public educations: Education[] = [
 		{university: 'Opet University', course: 'Digital game (Tecnical)', period: '1y'},
-		{university: 'Udemy', course: 'Desenvolvimento Web', period: '54h'},
-		{university: 'Udemy', course: 'Programação Reactiva', period: '17h'},
+		{university: 'Udemy', course: 'Web Development', period: '54h'},
+		{university: 'Udemy', course: 'RXJS', period: '17h'},
 		{university: 'Udemy', course: 'PHP/Laravel/Symfony', period: '115h'},
 		{university: 'Udemy', course: 'Angular 2+', period: '29h'},
 		{university: 'Udemy', course: 'React/Redux', period: '54h'},
 		{university: 'Udemy', course: 'NodeJS', period: '15h'},
 		{university: 'Udemy', course: 'Design Pattern', period: '29h'},
 		{university: 'Udemy', course: 'SOLID', period: '5h'},
-		{university: 'Udemy', course: 'Design de Interface', period: '77h'},
+		{university: 'Udemy', course: 'UI/UX Design', period: '77h'},
 	]
 	get getSkillsTypes() {
 		return Array.from(new Set(this.skills.map((item) => item.type)))
