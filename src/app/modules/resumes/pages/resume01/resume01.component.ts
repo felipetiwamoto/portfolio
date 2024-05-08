@@ -61,7 +61,12 @@ export class Resume01Component {
 		{
 			company: 'Banco BS2',
 			job: 'Sr. Full-Stack',
-			tasks: ['Atuação como Sênior.', 'Manutenção nos sistemas existentes.', 'Criação de novas funcionalidades.'],
+			tasks: [
+				'Recrutamento de Desenvolvedores',
+				'Atuação como Sênior.',
+				'Manutenção nos sistemas existentes.',
+				'Criação de novas funcionalidades.',
+			],
 			softSkills: [
 				'Capacidade de persuasão;',
 				'Proatividade;',

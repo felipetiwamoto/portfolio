@@ -12,20 +12,21 @@ import {Project08Component} from './pages/project08/project08.component'
 import {Project09Component} from './pages/project09/project09.component'
 import {Project10Component} from './pages/project10/project10.component'
 import {ProjectsRoutingModule} from './projects-routing.module'
+import {RouterModule} from '@angular/router'
 
 @NgModule({
 	declarations: [
 		ProjectsComponent,
 		Project01Component,
-		Project02Component,
-		Project03Component,
-		Project04Component,
-		Project05Component,
-		Project06Component,
-		Project07Component,
-		Project08Component,
-		Project09Component,
-		Project10Component,
+		// Project02Component,
+		// Project03Component,
+		// Project04Component,
+		// Project05Component,
+		// Project06Component,
+		// Project07Component,
+		// Project08Component,
+		// Project09Component,
+		// Project10Component,
 	],
 	imports: [CommonModule, ProjectsRoutingModule],
 })

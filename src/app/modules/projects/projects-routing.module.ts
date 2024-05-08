@@ -14,19 +14,19 @@ import {Project10Component} from './pages/project10/project10.component'
 
 const routes: Routes = [
 	{
-		path: 'projects',
+		path: '',
 		component: ProjectsComponent,
 		children: [
 			{path: '01', component: Project01Component},
-			{path: '02', component: Project02Component},
-			{path: '03', component: Project03Component},
-			{path: '04', component: Project04Component},
-			{path: '05', component: Project05Component},
-			{path: '06', component: Project06Component},
-			{path: '07', component: Project07Component},
-			{path: '08', component: Project08Component},
-			{path: '09', component: Project09Component},
-			{path: '10', component: Project10Component},
+			// {path: '02', component: Project02Component},
+			// {path: '03', component: Project03Component},
+			// {path: '04', component: Project04Component},
+			// {path: '05', component: Project05Component},
+			// {path: '06', component: Project06Component},
+			// {path: '07', component: Project07Component},
+			// {path: '08', component: Project08Component},
+			// {path: '09', component: Project09Component},
+			// {path: '10', component: Project10Component},
 		],
 	},
 ]

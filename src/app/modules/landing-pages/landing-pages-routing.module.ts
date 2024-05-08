@@ -14,19 +14,19 @@ import {LandingPage10Component} from './pages/landing-page10/landing-page10.comp
 
 const routes: Routes = [
 	{
-		path: 'landing-pages',
+		path: '',
 		component: LandingPagesComponent,
 		children: [
 			{path: '01', component: LandingPage01Component},
 			{path: '02', component: LandingPage02Component},
-			{path: '03', component: LandingPage03Component},
-			{path: '04', component: LandingPage04Component},
-			{path: '05', component: LandingPage05Component},
-			{path: '06', component: LandingPage06Component},
-			{path: '07', component: LandingPage07Component},
-			{path: '08', component: LandingPage08Component},
-			{path: '09', component: LandingPage09Component},
-			{path: '10', component: LandingPage10Component},
+			// {path: '03', component: LandingPage03Component},
+			// {path: '04', component: LandingPage04Component},
+			// {path: '05', component: LandingPage05Component},
+			// {path: '06', component: LandingPage06Component},
+			// {path: '07', component: LandingPage07Component},
+			// {path: '08', component: LandingPage08Component},
+			// {path: '09', component: LandingPage09Component},
+			// {path: '10', component: LandingPage10Component},
 		],
 	},
 ]

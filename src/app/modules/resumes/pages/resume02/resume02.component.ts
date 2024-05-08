@@ -27,8 +27,8 @@ export class Resume02Component {
 		{icon: 'ft_phone', text: '+55 (11) 9.8455-6053'},
 		{
 			icon: 'ft_globe',
-			text: 'felipetiwamoto.github.io/portfolio/',
-			href: 'https://felipetiwamoto.github.io/portfolio/',
+			text: 'felipetiwamoto.systemnear.com',
+			href: 'https://felipetiwamoto.systemnear.com/',
 		},
 	]
 	public skills: Skill[] = [
@@ -62,7 +62,13 @@ export class Resume02Component {
 		{
 			company: 'Banco BS2',
 			job: 'Sr. Full-Stack',
-			tasks: ['Senior role', 'Mentoring interns', 'Maintenance current system', 'Add new features.'],
+			tasks: [
+				'Recruiting Developer',
+				'Senior role',
+				'Mentoring interns',
+				'Maintenance current system',
+				'Add new features.',
+			],
 			softSkills: ['Negotiation;', 'Proactivity;', 'Work under pressure;', 'Leadership;', 'Analytic;'],
 			hardSkills: ['Tecnical course;'],
 			period: {from: 'SEP 2022', to: 'CURRENT'},

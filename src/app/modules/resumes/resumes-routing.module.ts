@@ -14,7 +14,7 @@ import {Resume10Component} from './pages/resume10/resume10.component'
 
 const routes: Routes = [
 	{
-		path: 'resumes',
+		path: '',
 		component: ResumesComponent,
 		children: [
 			{path: 'pt', component: Resume01Component},
@@ -29,6 +29,7 @@ const routes: Routes = [
 			// {path: '10', component: Resume10Component},
 		],
 	},
+	{path: '**', redirectTo: '/projects/01'},
 ]
 
 @NgModule({
