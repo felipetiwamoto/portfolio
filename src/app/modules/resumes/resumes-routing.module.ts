@@ -19,7 +19,7 @@ const routes: Routes = [
 		children: [
 			{path: 'pt', component: Resume01Component},
 			{path: 'en', component: Resume02Component},
-			// {path: '03', component: Resume03Component},
+			{path: 'jane', component: Resume03Component},
 			// {path: '04', component: Resume04Component},
 			// {path: '05', component: Resume05Component},
 			// {path: '06', component: Resume06Component},

@@ -1,1 +1,88 @@
-<p>resume03 works!</p>
+<div class="resume03">
+	<div class="resume03__main">
+		<div class="resume03__container">
+			<div class="resume03__top">
+				<div class="resume03__top_left">
+					<div class="resume03__person">
+						<div class="resume03__person_info">
+							<span class="resume03__person_name">
+								JANE RANGEL<br />
+								R. IWAMOTO
+							</span>
+							<span class="resume03__person_job">Analista de Operações</span>
+						</div>
+					</div>
+				</div>
+				<div class="resume03__top_right">
+					<ul class="resume03__contact">
+						<li class="resume03__contact_item" *ngFor="let item of contacts || []; index as i">
+							<re-contact slug="01" [contact]="item"></re-contact>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="resume03__content">
+				<div class="resume03__content_left">
+					<div class="resume03__panel">
+						<span class="resume03__panel_title">
+							<i class="resume03__panel_icon ft_briefcase"></i>EXPERIÊCIAS
+						</span>
+						<div class="resume03__experience">
+							<div class="resume03__experience_item" *ngFor="let item of experiences || []; index as i">
+								<re-experience slug="01" [experience]="item"></re-experience>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="resume03__content_right">
+					<div class="resume03__panel" *ngIf="false">
+						<span class="resume03__panel_title">
+							<i class="resume03__panel_icon ft_user"></i>SOBRE MIM
+						</span>
+						<span class="resume03__text">{{ aboutMe.text }}</span>
+					</div>
+					<div class="resume03__panel">
+						<span class="resume03__panel_title">
+							<i class="resume03__panel_icon ft_globe"></i>LINGUAGENS
+						</span>
+						<div class="resume03__language">
+							<ul class="resume03__language_list">
+								<li class="resume03__language_item" *ngFor="let item of languages || []; index as i">
+									<re-language slug="01" [language]="item"></re-language>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="resume03__panel">
+						<span class="resume03__panel_title">
+							<i class="resume03__panel_icon ft_award"></i>GRADUAÇÕES
+						</span>
+						<ul class="resume03__education">
+							<li class="resume03__education_item" *ngFor="let item of educations || []; index as i">
+								<re-education slug="01" [education]="item"></re-education>
+							</li>
+						</ul>
+					</div>
+					<div class="resume03__panel">
+						<span class="resume03__panel_title">
+							<i class="resume03__panel_icon ft_flag"></i>HABILIDADES
+						</span>
+						<div class="resume03__skill">
+							<div class="resume03__skill_type" *ngFor="let type of getSkillsTypes || []; index as i">
+								<span class="resume03__skill_type_name">{{ type }}</span>
+								<ul class="resume03__skill_list">
+									<li
+										class="resume03__skill_item"
+										*ngFor="let item of getSkillsByType(type) || []; index as i"
+									>
+										<re-skill slug="01" [skill]="item"></re-skill>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
