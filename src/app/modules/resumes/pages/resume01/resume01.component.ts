@@ -166,7 +166,7 @@ export class Resume01Component {
 		},
 		{
 			company: 'Serviços comunitários',
-			job: 'Sr. Full-Stack',
+			job: 'Auxilios gerais',
 			tasks: [
 				'Ensinar programação (Projeto Lovelace)',
 				'Fazer palestras.',
