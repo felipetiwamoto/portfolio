@@ -1,0 +1,52 @@
+@import './../../../../../../mixins.scss';
+
+.resume_courses01 {
+	color: var(--grey7);
+
+	&__list {
+	}
+
+	&__list_item {
+	}
+
+	&__list_top {
+	}
+
+	&__list_bottom {
+		@include flex(center, space-between);
+		margin-bottom: 15px;
+		width: calc(100% + 3.5px);
+	}
+
+	&__list_bottom_left {
+		@include flex(center);
+	}
+
+	&__list_bottom_right {
+		@include flex(center);
+
+		::ng-deep .resume_courses01__list_icon {
+			color: var(--resume01_primary);
+		}
+	}
+
+	&__list_institution {
+		@include text(12px, 400);
+		margin-bottom: 5px;
+		display: block;
+	}
+
+	&__list_name {
+		@include text(12px, 300);
+		display: block;
+	}
+
+	&__list_time_spent {
+		@include text(12px, 300);
+		display: block;
+
+		& + i-lucide {
+			margin-left: 5px;
+		}
+	}
+}

@@ -1,0 +1,81 @@
+@mixin min($width) {
+	@media all and (min-width: $width) {
+		@content;
+	}
+}
+
+@mixin max($width) {
+	@media all and (max-width: $width) {
+		@content;
+	}
+}
+
+@mixin xs {
+	@media all and (max-width: 576px) {
+		@content;
+	}
+}
+
+@mixin sm {
+	@media all and (min-width: 576px) {
+		@content;
+	}
+}
+
+@mixin md {
+	@media all and (min-width: 768px) {
+		@content;
+	}
+}
+
+@mixin lg {
+	@media all and (min-width: 992px) {
+		@content;
+	}
+}
+
+@mixin xl {
+	@media all and (min-width: 1200px) {
+		@content;
+	}
+}
+
+@mixin xxl {
+	@media all and (min-width: 1400px) {
+		@content;
+	}
+}
+
+@mixin row($gap: -15px) {
+	display: flex;
+	flex-wrap: wrap;
+	margin-inline: $gap;
+}
+
+@mixin column($width: 100%, $gap: 15px) {
+	box-sizing: border-box;
+	max-width: $width;
+	flex-basis: $width;
+	padding-inline: $gap;
+}
+
+@mixin text($size: 14px, $weight: initial, $spacing: initial, $height: initial) {
+	font-size: $size;
+	font-weight: $weight;
+	letter-spacing: $spacing;
+	line-height: $height;
+}
+
+@mixin flex($align: initial, $justify: initial, $direction: initial) {
+	display: flex;
+	align-items: $align;
+	justify-content: $justify;
+	flex-direction: $direction;
+}
+
+@mixin inlineFlex($align: initial, $justify: initial, $direction: initial) {
+	display: inline-flex;
+	align-items: $align;
+	justify-content: $justify;
+	flex-direction: $direction;
+}

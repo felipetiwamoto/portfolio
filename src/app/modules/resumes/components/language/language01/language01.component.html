@@ -1,9 +1,0 @@
-<div class="language01" *ngIf="language">
-	<span class="language01__label">{{ language.label }}</span>
-	<ul class="language01__bullet">
-		<li
-			class="language01__bullet_item {{ isBulletItemActive(i + 1) }}"
-			*ngFor="let item of levels || []; index as i"
-		></li>
-	</ul>
-</div>

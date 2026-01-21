@@ -1,0 +1,34 @@
+@import './../../../../../../mixins.scss';
+
+.resume_contacts01 {
+	&__list {
+	}
+
+	&__list_item {
+		@include flex(center, center);
+		margin-bottom: 15px;
+
+		@include md {
+			@include flex(flex-start);
+		}
+	}
+
+	&__list_icon {
+	}
+
+	&__list_name {
+		@include text(12px, 300);
+		color: var(--grey7);
+		display: block;
+		margin-top: 2px;
+	}
+
+	::ng-deep {
+		.resume_contacts01 {
+			&__list_icon {
+				stroke: var(--resume01_primary);
+				margin-right: 5px;
+			}
+		}
+	}
+}

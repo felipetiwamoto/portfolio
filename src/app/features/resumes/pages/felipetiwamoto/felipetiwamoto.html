@@ -1,0 +1,89 @@
+@let block = 'resume';
+
+<div class="{{ block }}">
+	<div class="{{ block }}__page">
+		<div class="{{ block }}__container">
+			<div class="{{ block }}__top">
+				<div class="{{ block }}__top_left">
+					<resume-hero01 [hero]="hero" />
+				</div>
+				<div class="{{ block }}__top_right">
+					<resume-contacts01 [contacts]="contacts" />
+				</div>
+			</div>
+			<div class="{{ block }}__bottom">
+				<div class="{{ block }}__bottom_left">
+					<div class="{{ block }}__section">
+						<div class="{{ block }}__section_title">
+							<i-lucide
+								class="{{ block }}__section_title_icon"
+								name="briefcase-business"
+								[size]="24"
+								[strokeWidth]="2"
+							/>
+							<span class="{{ block }}__section_title_text">EXPERIÊNCIAS</span>
+						</div>
+						<resume-experiences01 [experiences]="experiences" />
+					</div>
+				</div>
+				<div class="{{ block }}__bottom_right">
+					<div class="{{ block }}__section">
+						<div class="{{ block }}__section_title">
+							<i-lucide
+								class="{{ block }}__section_title_icon"
+								name="user"
+								[size]="24"
+								[strokeWidth]="2"
+							/>
+							<span class="{{ block }}__section_title_text">SOBRE MIM</span>
+						</div>
+						<resume-about01 [about]="about" />
+					</div>
+					<div class="{{ block }}__section">
+						<div class="{{ block }}__section_title">
+							<i-lucide
+								class="{{ block }}__section_title_icon"
+								name="globe"
+								[size]="24"
+								[strokeWidth]="2"
+							/>
+							<span class="{{ block }}__section_title_text">LINGUAGENS</span>
+						</div>
+						<resume-skills01 [skills]="languages" />
+					</div>
+					<div class="{{ block }}__section">
+						<div class="{{ block }}__section_title">
+							<i-lucide
+								class="{{ block }}__section_title_icon"
+								name="graduation-cap"
+								[size]="24"
+								[strokeWidth]="2"
+							/>
+							<span class="{{ block }}__section_title_text">CURSOS</span>
+						</div>
+						<resume-courses01 [courses]="courses" />
+					</div>
+					<div class="{{ block }}__section">
+						<div class="{{ block }}__section_title">
+							<i-lucide
+								class="{{ block }}__section_title_icon"
+								name="medal"
+								[size]="24"
+								[strokeWidth]="2"
+							/>
+							<span class="{{ block }}__section_title_text">HABILIDADES</span>
+						</div>
+						<div class="{{ block }}__sub_section">
+							<span class="{{ block }}__section_sub_title">Frontend</span>
+							<resume-skills01 [skills]="frontend" />
+						</div>
+						<div class="{{ block }}__sub_section">
+							<span class="{{ block }}__section_sub_title">Backend</span>
+							<resume-skills01 [skills]="backend" />
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

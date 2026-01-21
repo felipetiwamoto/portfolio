@@ -1,7 +1,2 @@
-#!/usr/bin/env sh
-. "$(dirname -- "$0")/_/husky.sh"
-
-npx prettier --write .
-npm run build
-cp ./docs/index.html ./docs/404.html
+npx lint-staged
 git add .

@@ -1,0 +1,104 @@
+@import './../../../../../mixins.scss';
+
+.resume {
+	--resume_right_side: 100%;
+
+	padding: 10px 10px;
+	background-color: var(--greye);
+	@include flex(center, center);
+
+	@include md {
+		padding: 50px 10px;
+		--resume_right_side: 200px;
+	}
+
+	&__page {
+		width: min(100%, 25cm);
+		min-height: 33.7cm;
+		padding: 30px 30px;
+		box-sizing: border-box;
+		background-color: var(--greyf);
+
+		@include md {
+			padding: 90px 90px;
+		}
+	}
+
+	&__container {
+		width: min(100% - 20px, 768px);
+		margin-inline: auto;
+		position: relative;
+	}
+
+	&__top {
+		display: grid;
+		grid-template-columns: 1fr;
+		row-gap: 30px;
+
+		@include md {
+			display: grid;
+			grid-template-columns: 1fr 200px;
+			column-gap: 30px;
+			row-gap: 0px;
+		}
+	}
+
+	&__top_left {
+	}
+
+	&__top_right {
+		width: var(--resume_right_side);
+	}
+
+	&__bottom {
+		display: grid;
+		grid-template-columns: 1fr;
+		row-gap: 30px;
+
+		@include md {
+			grid-template-columns: 1fr 200px;
+			column-gap: 30px;
+			row-gap: 0px;
+		}
+	}
+
+	&__bottom_left {
+	}
+
+	&__bottom_right {
+		width: var(--resume_right_side);
+	}
+
+	&__section {
+		margin-top: 30px;
+	}
+
+	&__sub_section {
+		margin-top: 30px;
+	}
+
+	&__section_title {
+		color: var(--resume01_primary);
+		@include flex(center);
+		margin-bottom: 30px;
+
+		i-lucide {
+			margin-right: 10px;
+		}
+	}
+
+	&__section_title_icon {
+	}
+
+	&__section_title_text {
+		@include text(18px, 400);
+		display: block;
+	}
+
+	&__section_sub_title {
+		@include text(14px, 300);
+		margin-bottom: 15px;
+		display: block;
+		color: var(--grey7);
+	}
+}

@@ -1,0 +1,39 @@
+@import './../../../../../../mixins.scss';
+
+.resume_skills01 {
+	&__list {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		gap: 10px;
+	}
+
+	&__list_item {
+	}
+
+	&__list_name {
+		@include text(12px, 300);
+		color: var(--grey7);
+		display: block;
+	}
+
+	&__bullet {
+		display: grid;
+		grid-template-columns: repeat(10, auto);
+		margin-top: 2.5px;
+	}
+
+	&__bullet_item {
+		width: 6px;
+		height: 6px;
+		border-radius: 50px;
+		background-color: var(--greyd);
+
+		& + & {
+			margin-left: 2.5px;
+		}
+
+		&.active {
+			background-color: var(--resume01_primary);
+		}
+	}
+}
