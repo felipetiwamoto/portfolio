@@ -8,6 +8,13 @@
 	"projects": {
 		"portfolio": {
 			"projectType": "application",
+			"i18n": {
+				"sourceLocale": "pt-BR",
+				"locales": {
+					"en": "src/locales/messages.en.xlf",
+					"pt": "src/locales/messages.pt.xlf"
+				}
+			},
 			"schematics": {
 				"@schematics/angular:component": {
 					"style": "scss",
@@ -42,6 +49,7 @@
 				"build": {
 					"builder": "@angular/build:application",
 					"options": {
+						"localize": ["pt", "en"],
 						"outputPath": {
 							"base": "docs",
 							"browser": ""
@@ -56,7 +64,8 @@
 								"input": "public"
 							}
 						],
-						"styles": ["src/styles.scss"]
+						"styles": ["src/styles.scss"],
+						"polyfills": ["@angular/localize/init"]
 					},
 					"configurations": {
 						"prd": {
@@ -84,6 +93,12 @@
 									"with": "src/environments/environment.dev.ts"
 								}
 							]
+						},
+						"pt": {
+							"localize": ["pt"]
+						},
+						"en": {
+							"localize": ["en"]
 						}
 					},
 					"defaultConfiguration": "prd"
@@ -96,12 +111,24 @@
 						},
 						"dev": {
 							"buildTarget": "portfolio:build:dev"
+						},
+						"en": {
+							"buildTarget": "portfolio:build:en"
 						}
 					},
 					"defaultConfiguration": "dev"
 				},
 				"test": {
 					"builder": "@angular/build:unit-test"
+				},
+				"extract-i18n": {
+					"builder": "ng-extract-i18n-merge:ng-extract-i18n-merge",
+					"options": {
+						"buildTarget": "portfolio:build",
+						"format": "xlf2",
+						"outputPath": "src/locales",
+						"targetFiles": ["messages.en.xlf", "messages.pt.xlf"]
+					}
 				}
 			}
 		}

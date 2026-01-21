@@ -1,0 +1,310 @@
+<xliff version="2.0" xmlns="urn:oasis:names:tc:xliff:document:2.0" srcLang="pt-BR" trgLang="pt">
+  <file id="ngi18n" original="ng.template">
+    <unit id="felipetiwamoto_">
+      <segment state="initial">
+        <source> Sou programador com foco em ser desenvolvedor Full-Stack, atuando na área web há sete anos. Nas minhas experiências, tive o privilégio de trabalhar em empresas nas quais tive autonomia de buscar conhecimento e aplicar no dia a dia. Me esforcei para ser um profissional capaz de suprir as necessidades das empresas, nas quais aprendi com o proxímo e ensinei. Meu objetivo é aperfeiçoar os meus conhecimentos e buscar novas aprendizagens dentro da empresas, sempre com olhar na evolução pessoal e profissional.</source>
+        <target> Sou programador com foco em ser desenvolvedor Full-Stack, atuando na área web há sete anos. Nas minhas experiências, tive o privilégio de trabalhar em empresas nas quais tive autonomia de buscar conhecimento e aplicar no dia a dia. Me esforcei para ser um profissional capaz de suprir as necessidades das empresas, nas quais aprendi com o proxímo e ensinei. Meu objetivo é aperfeiçoar os meus conhecimentos e buscar novas aprendizagens dentro da empresas, sempre com olhar na evolução pessoal e profissional.</target>
+      </segment>
+    </unit>
+    <unit id="felipetiwamoto_about_title">
+      <segment state="initial">
+        <source>SOBRE MIM</source>
+        <target>SOBRE MIM</target>
+      </segment>
+    </unit>
+    <unit id="felipetiwamoto_backend_title">
+      <segment state="initial">
+        <source>Backend</source>
+        <target>Backend</target>
+      </segment>
+    </unit>
+    <unit id="felipetiwamoto_courses_games">
+      <segment state="initial">
+        <source> Jogos Digitais (Técnico)</source>
+        <target> Jogos Digitais (Técnico)</target>
+      </segment>
+    </unit>
+    <unit id="felipetiwamoto_courses_opet">
+      <segment state="initial">
+        <source> Faculdade Opet</source>
+        <target> Faculdade Opet</target>
+      </segment>
+    </unit>
+    <unit id="felipetiwamoto_courses_title">
+      <segment state="initial">
+        <source>CURSOS</source>
+        <target>CURSOS</target>
+      </segment>
+    </unit>
+    <unit id="felipetiwamoto_experiences_01tec_ended_at">
+      <segment state="initial">
+        <source> SET 2016</source>
+        <target> SET 2016</target>
+      </segment>
+    </unit>
+    <unit id="felipetiwamoto_experiences_01tec_started_at">
+      <segment state="initial">
+        <source> ABR 2015</source>
+        <target> ABR 2015</target>
+      </segment>
+    </unit>
+    <unit id="felipetiwamoto_experiences_4you2_ended_at">
+      <segment state="initial">
+        <source> SET 2019</source>
+        <target> SET 2019</target>
+      </segment>
+    </unit>
+    <unit id="felipetiwamoto_experiences_4you2_started_at">
+      <segment state="initial">
+        <source> ABR 2019</source>
+        <target> ABR 2019</target>
+      </segment>
+    </unit>
+    <unit id="felipetiwamoto_experiences_analytical">
+      <segment state="initial">
+        <source> Capacidade analítica.</source>
+        <target> Capacidade analítica.</target>
+      </segment>
+    </unit>
+    <unit id="felipetiwamoto_experiences_bs2_started_at">
+      <segment state="initial">
+        <source> SET 2022</source>
+        <target> SET 2022</target>
+      </segment>
+    </unit>
+    <unit id="felipetiwamoto_experiences_community_ended_at">
+      <segment state="initial">
+        <source> SET 2016</source>
+        <target> SET 2016</target>
+      </segment>
+    </unit>
+    <unit id="felipetiwamoto_experiences_community_started_at">
+      <segment state="initial">
+        <source> ABR 2015</source>
+        <target> ABR 2015</target>
+      </segment>
+    </unit>
+    <unit id="felipetiwamoto_experiences_computer_science">
+      <segment state="initial">
+        <source> habilidades ligadas à informática.</source>
+        <target> habilidades ligadas à informática.</target>
+      </segment>
+    </unit>
+    <unit id="felipetiwamoto_experiences_courses">
+      <segment state="initial">
+        <source> Cursos técnicos;</source>
+        <target> Cursos técnicos;</target>
+      </segment>
+    </unit>
+    <unit id="felipetiwamoto_experiences_creation">
+      <segment state="initial">
+        <source> Criação de novas funcionalidades.</source>
+        <target> Criação de novas funcionalidades.</target>
+      </segment>
+    </unit>
+    <unit id="felipetiwamoto_experiences_current">
+      <segment state="initial">
+        <source> ATUAL</source>
+        <target> ATUAL</target>
+      </segment>
+    </unit>
+    <unit id="felipetiwamoto_experiences_description_01tec">
+      <segment state="initial">
+        <source> Experiência de estágio onde iniciei com conhecimentos básicos em lógica de programação e evoluí para o desenvolvimento web completo, aprendendo HTML, CSS, JavaScript, jQuery, PHP e MySQL, além da criação de temas para WordPress. Após o período de estágio, atuei como freelancer para a empresa por alguns meses, contribuindo em projetos adicionais.</source>
+        <target> Experiência de estágio onde iniciei com conhecimentos básicos em lógica de programação e evoluí para o desenvolvimento web completo, aprendendo HTML, CSS, JavaScript, jQuery, PHP e MySQL, além da criação de temas para WordPress. Após o período de estágio, atuei como freelancer para a empresa por alguns meses, contribuindo em projetos adicionais.</target>
+      </segment>
+    </unit>
+    <unit id="felipetiwamoto_experiences_description_4you2">
+      <segment state="initial">
+        <source> Atuação na manutenção e evolução de sistemas existentes, desenvolvimento de novas funcionalidades e criação de projetos do zero. Forte experiência com inglês no dia a dia, participando de dailies e alinhamentos técnicos com falantes nativos, entendendo demandas diretamente com o time internacional e realizando implementações e ajustes contínuos. Atuação ativa no mentoriamento de novos colaboradores, apoiando onboarding, direcionamento técnico e evolução profissional, com perfil proativo, analítico e senso de liderança.</source>
+        <target> Atuação na manutenção e evolução de sistemas existentes, desenvolvimento de novas funcionalidades e criação de projetos do zero. Forte experiência com inglês no dia a dia, participando de dailies e alinhamentos técnicos com falantes nativos, entendendo demandas diretamente com o time internacional e realizando implementações e ajustes contínuos. Atuação ativa no mentoriamento de novos colaboradores, apoiando onboarding, direcionamento técnico e evolução profissional, com perfil proativo, analítico e senso de liderança.</target>
+      </segment>
+    </unit>
+    <unit id="felipetiwamoto_experiences_description_devmaker">
+      <segment state="initial">
+        <source> Apesar da posição júnior, identifiquei a alta demanda de projetos e a dificuldade do time em manter o ritmo de entregas. Em alinhamento com o time de design, liderei a padronização dos componentes da empresa, criando variações reutilizáveis aplicadas em todos os novos projetos. Para viabilizar essa iniciativa, estudei profundamente frameworks como Bootstrap, Material e Semantic UI, desenvolvendo uma solução adaptada às necessidades da empresa, o que contribuiu para redução de horas extras e trabalho aos fins de semana.</source>
+        <target> Apesar da posição júnior, identifiquei a alta demanda de projetos e a dificuldade do time em manter o ritmo de entregas. Em alinhamento com o time de design, liderei a padronização dos componentes da empresa, criando variações reutilizáveis aplicadas em todos os novos projetos. Para viabilizar essa iniciativa, estudei profundamente frameworks como Bootstrap, Material e Semantic UI, desenvolvendo uma solução adaptada às necessidades da empresa, o que contribuiu para redução de horas extras e trabalho aos fins de semana.</target>
+      </segment>
+    </unit>
+    <unit id="felipetiwamoto_experiences_description_senior_developer">
+      <segment state="initial">
+        <source> Atuação como desenvolvedor sênior, com foco em arquitetura e padronização. Responsável pelo Design System corporativo (componentes, diretivas, pipes e services), aplicado gradualmente em múltiplos projetos. Mentoria de novos colaboradores, palestras internas e migrações do Angular (12 → 16 → 18). Implementação de i18n com suporte a Português, inglês e chinês.</source>
+        <target> Atuação como desenvolvedor sênior, com foco em arquitetura e padronização. Responsável pelo Design System corporativo (componentes, diretivas, pipes e services), aplicado gradualmente em múltiplos projetos. Mentoria de novos colaboradores, palestras internas e migrações do Angular (12 → 16 → 18). Implementação de i18n com suporte a Português, inglês e chinês.</target>
+      </segment>
+    </unit>
+    <unit id="felipetiwamoto_experiences_description_spro">
+      <segment state="initial">
+        <source> Atuação na manutenção de sistemas existentes, desenvolvimento de novas funcionalidades e criação de projetos do zero, com forte foco em automação de processos. Mapeamento e entendimento de tarefas manuais que levavam dias ou semanas para serem executadas, criando automações que passaram a realizar esses processos em segundos, acelerando significativamente o fluxo de trabalho e apoiando diretamente outras áreas da empresa.</source>
+        <target> Atuação na manutenção de sistemas existentes, desenvolvimento de novas funcionalidades e criação de projetos do zero, com forte foco em automação de processos. Mapeamento e entendimento de tarefas manuais que levavam dias ou semanas para serem executadas, criando automações que passaram a realizar esses processos em segundos, acelerando significativamente o fluxo de trabalho e apoiando diretamente outras áreas da empresa.</target>
+      </segment>
+    </unit>
+    <unit id="felipetiwamoto_experiences_description_team_lead">
+      <segment state="initial">
+        <source> Liderança do time de front-end na criação de um novo projeto, atuando como desenvolvedor sênior com foco técnico e arquitetural. Mentoria de novos colaboradores e condução de palestras internas para capacitação do time no uso de tecnologias e boas práticas.</source>
+        <target> Liderança do time de front-end na criação de um novo projeto, atuando como desenvolvedor sênior com foco técnico e arquitetural. Mentoria de novos colaboradores e condução de palestras internas para capacitação do time no uso de tecnologias e boas práticas.</target>
+      </segment>
+    </unit>
+    <unit id="felipetiwamoto_experiences_description_tuxon">
+      <segment state="initial">
+        <source> Atuação na manutenção de sistemas existentes, desenvolvimento de novas funcionalidades e criação de projetos do zero. Perfil proativo, com forte capacidade analítica, habilidade para trabalhar sob pressão e boa comunicação para alinhamento técnico com o time.</source>
+        <target> Atuação na manutenção de sistemas existentes, desenvolvimento de novas funcionalidades e criação de projetos do zero. Perfil proativo, com forte capacidade analítica, habilidade para trabalhar sob pressão e boa comunicação para alinhamento técnico com o time.</target>
+      </segment>
+    </unit>
+    <unit id="felipetiwamoto_experiences_devmaker_ended_at">
+      <segment state="initial">
+        <source> SET 2018</source>
+        <target> SET 2018</target>
+      </segment>
+    </unit>
+    <unit id="felipetiwamoto_experiences_devmaker_started_at">
+      <segment state="initial">
+        <source> OUT 2017</source>
+        <target> OUT 2017</target>
+      </segment>
+    </unit>
+    <unit id="felipetiwamoto_experiences_foreign_language">
+      <segment state="initial">
+        <source> Conhecimento em uma língua estrangeira;</source>
+        <target> Conhecimento em uma língua estrangeira;</target>
+      </segment>
+    </unit>
+    <unit id="felipetiwamoto_experiences_leadership">
+      <segment state="initial">
+        <source> Senso de liderança;</source>
+        <target> Senso de liderança;</target>
+      </segment>
+    </unit>
+    <unit id="felipetiwamoto_experiences_maintenance">
+      <segment state="initial">
+        <source> Manutenção nos sistemas existentes.</source>
+        <target> Manutenção nos sistemas existentes.</target>
+      </segment>
+    </unit>
+    <unit id="felipetiwamoto_experiences_mentoring">
+      <segment state="initial">
+        <source> Mentoriamento de novos colaboradores.</source>
+        <target> Mentoriamento de novos colaboradores.</target>
+      </segment>
+    </unit>
+    <unit id="felipetiwamoto_experiences_persuasion">
+      <segment state="initial">
+        <source> Capacidade de persuasão;</source>
+        <target> Capacidade de persuasão;</target>
+      </segment>
+    </unit>
+    <unit id="felipetiwamoto_experiences_pressure">
+      <segment state="initial">
+        <source> Capacidade de trabalhar sob pressão;</source>
+        <target> Capacidade de trabalhar sob pressão;</target>
+      </segment>
+    </unit>
+    <unit id="felipetiwamoto_experiences_proactivity">
+      <segment state="initial">
+        <source> Proatividade;</source>
+        <target> Proatividade;</target>
+      </segment>
+    </unit>
+    <unit id="felipetiwamoto_experiences_recruitment">
+      <segment state="initial">
+        <source> Recrutamento de Desenvolvedores</source>
+        <target> Recrutamento de Desenvolvedores</target>
+      </segment>
+    </unit>
+    <unit id="felipetiwamoto_experiences_senior">
+      <segment state="initial">
+        <source> Atuação como Sênior.</source>
+        <target> Atuação como Sênior.</target>
+      </segment>
+    </unit>
+    <unit id="felipetiwamoto_experiences_spro_ended_at">
+      <segment state="initial">
+        <source> ABR 2019</source>
+        <target> ABR 2019</target>
+      </segment>
+    </unit>
+    <unit id="felipetiwamoto_experiences_spro_started_at">
+      <segment state="initial">
+        <source> SET 2018</source>
+        <target> SET 2018</target>
+      </segment>
+    </unit>
+    <unit id="felipetiwamoto_experiences_tagme_ended_at">
+      <segment state="initial">
+        <source> AGO 2022</source>
+        <target> AGO 2022</target>
+      </segment>
+    </unit>
+    <unit id="felipetiwamoto_experiences_tagme_started_at">
+      <segment state="initial">
+        <source> JUN 2021 </source>
+        <target> JUN 2021 </target>
+      </segment>
+    </unit>
+    <unit id="felipetiwamoto_experiences_title">
+      <segment state="initial">
+        <source>EXPERIÊNCIAS</source>
+        <target>EXPERIÊNCIAS</target>
+      </segment>
+    </unit>
+    <unit id="felipetiwamoto_experiences_tuxon_ended_at">
+      <segment state="initial">
+        <source> NOV 2020</source>
+        <target> NOV 2020</target>
+      </segment>
+    </unit>
+    <unit id="felipetiwamoto_experiences_tuxon_started_at">
+      <segment state="initial">
+        <source> FEV 2020</source>
+        <target> FEV 2020</target>
+      </segment>
+    </unit>
+    <unit id="felipetiwamoto_frontend_title">
+      <segment state="initial">
+        <source>Frontend</source>
+        <target>Frontend</target>
+      </segment>
+    </unit>
+    <unit id="felipetiwamoto_hero_name">
+      <segment state="initial">
+        <source> Felipe Iwamoto</source>
+        <target> Felipe Iwamoto</target>
+      </segment>
+    </unit>
+    <unit id="felipetiwamoto_hero_role">
+      <segment state="initial">
+        <source> Desenvolvedor Full-Stack Sênior</source>
+        <target> Desenvolvedor Full-Stack Sênior</target>
+      </segment>
+    </unit>
+    <unit id="felipetiwamoto_languages_english">
+      <segment state="initial">
+        <source> Inglês</source>
+        <target> Inglês</target>
+      </segment>
+    </unit>
+    <unit id="felipetiwamoto_languages_japanese">
+      <segment state="initial">
+        <source> Japonês</source>
+        <target> Japonês</target>
+      </segment>
+    </unit>
+    <unit id="felipetiwamoto_languages_portuguese">
+      <segment state="initial">
+        <source> Português</source>
+        <target> Português</target>
+      </segment>
+    </unit>
+    <unit id="felipetiwamoto_languages_title">
+      <segment state="initial">
+        <source>LINGUAGENS</source>
+        <target>LINGUAGENS</target>
+      </segment>
+    </unit>
+    <unit id="felipetiwamoto_skills_title">
+      <segment state="initial">
+        <source>HABILIDADES</source>
+        <target>HABILIDADES</target>
+      </segment>
+    </unit>
+  </file>
+</xliff>
