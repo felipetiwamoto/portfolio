@@ -1,0 +1,9 @@
+@import './../../../../../../mixins.scss';
+
+.resume_about01 {
+	&__summary {
+		@include text(12px, 300);
+		color: var(--grey7);
+		display: block;
+	}
+}

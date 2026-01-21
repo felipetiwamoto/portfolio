@@ -1,0 +1,24 @@
+@let block = 'resume_experiences01';
+
+<div class="{{ block }}__item">
+	@for(item of experiences(); track $index){
+	<div class="{{ block }}__item">
+		<div class="{{ block }}__item_top">
+			<div class="{{ block }}__item_company">
+				<i-lucide class="{{ block }}__item_company_icon" name="chevron-right" [size]="18" [strokeWidth]="2" />
+				{{ item.company }}
+			</div>
+			<div class="{{ block }}__item_period">
+				<span class="{{ block }}__item_from">{{ item.startedAt }}</span>
+				<span class="{{ block }}__item_to">{{ item.endedAt ?? 'ATUAL' }}</span>
+				<i-lucide class="{{ block }}__item_period_icon" name="calendar" [size]="14" [strokeWidth]="2" />
+			</div>
+		</div>
+		<div class="{{ block }}__item_bottom">
+			@if(item.description){
+			<span class="{{ block }}__item_description">{{ item.description }}</span>
+			}
+		</div>
+	</div>
+	}
+</div>

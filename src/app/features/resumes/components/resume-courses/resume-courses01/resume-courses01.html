@@ -1,0 +1,23 @@
+@let block = 'resume_courses01';
+
+<div class="{{ block }}">
+	<ul class="{{ block }}__list">
+		@for(item of courses(); track $index){
+		<li class="{{ block }}__list_item">
+			<div class="{{ block }}__list_top">
+				<span class="{{ block }}__list_institution">{{ item.institution }}</span>
+			</div>
+			<div class="{{ block }}__list_bottom">
+				<div class="{{ block }}__list_bottom_left">
+					<i-lucide class="{{ block }}__list_icon" name="chevron-right" [size]="14" [strokeWidth]="2" />
+					<span class="{{ block }}__list_name">{{ item.name }}</span>
+				</div>
+				<div class="{{ block }}__list_bottom_right">
+					<span class="{{ block }}__list_time_spent">{{ item.timeSpent }}</span>
+					<i-lucide class="{{ block }}__list_icon" name="clock" [size]="14" [strokeWidth]="2" />
+				</div>
+			</div>
+		</li>
+		}
+	</ul>
+</div>

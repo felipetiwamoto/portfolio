@@ -1,0 +1,95 @@
+@import './../../../../../../mixins.scss';
+
+.resume_experiences01 {
+	&__item {
+		margin-bottom: 30px;
+	}
+
+	&__item_job {
+		display: none;
+		margin-bottom: 15px;
+		@include text(14px, 700);
+		color: var(--grey7);
+	}
+
+	&__item_top {
+		margin-bottom: 15px;
+		@include flex(center, space-between);
+	}
+
+	&__item_company {
+		@include text(14px, 700);
+		color: var(--grey7);
+		@include flex(center);
+
+		i-lucide {
+			color: var(--resume01_primary);
+			margin-right: 5px;
+		}
+	}
+
+	&__item_period {
+		@include flex(baseline);
+		@include text(12px, 300);
+		@include flex(center);
+		color: var(--grey7);
+
+		i-lucide {
+			color: var(--resume01_primary);
+			margin-left: 5px;
+		}
+	}
+
+	&__item_from {
+		text-transform: capitalize;
+
+		&:after {
+			content: '-';
+			display: inline-flex;
+			margin-inline: 5px;
+		}
+	}
+
+	&__item_to {
+		text-transform: capitalize;
+	}
+
+	&__item_is_current {
+		text-transform: capitalize;
+	}
+
+	&__item_bottom {
+	}
+
+	&__item_description {
+		@include text(14px, 300);
+		color: var(--grey7);
+	}
+
+	&__item_list {
+		@include row(-15px);
+
+		& + & {
+			margin-top: 10px;
+		}
+	}
+
+	&__item_list_title {
+		margin-block: 15px;
+		@include text(12px, 700);
+		color: var(--grey7);
+		@include flex(center);
+
+		i-lucide {
+			color: var(--resume01_primary);
+		}
+	}
+
+	&__item_list_item {
+		@include flex(center);
+		@include column(50%, 15px);
+		@include text(12px, 300);
+		color: var(--grey7);
+		margin-bottom: 5px;
+	}
+}
