@@ -1,94 +1,96 @@
 import {
-	$ as Zt,
-	A as q,
+	$ as Yt,
+	A as G,
 	B as Ke,
 	C as j,
 	D as R,
-	Da as rt,
-	E as Hr,
+	Da as it,
+	E as Gt,
 	F as m,
-	G as Br,
+	G as Vr,
 	H as b,
 	I as y,
+	Ia as un,
 	J as f,
-	K as Vr,
+	K as qr,
 	L as Gr,
-	M as qr,
+	M as Wr,
 	N as ee,
 	O as L,
-	P as Vt,
-	Q as T,
-	R as Gt,
-	S as Wr,
+	P as Qe,
+	Q as E,
+	R as Xe,
+	S as Zr,
 	T as ue,
-	Ta as ln,
-	U as Qe,
-	Ua as un,
-	V as qt,
+	U as Je,
+	V as Wt,
 	Va as dn,
-	W as Wt,
+	W as Zt,
 	Wa as hn,
-	X as Zr,
+	X as Yr,
 	Xa as fn,
-	Y as Xe,
+	Y as et,
+	Ya as Jt,
 	Z as te,
 	Za as pn,
-	_ as Yr,
+	_ as Kr,
+	_a as gn,
 	a as h,
-	aa as Kr,
-	b as D,
-	ba as Yt,
-	c as Nr,
-	ca as Qr,
-	d as Pr,
-	da as Je,
-	e as Ur,
-	ea as Kt,
+	aa as Qr,
+	ab as mn,
+	b as M,
+	ba as Kt,
+	c as Ur,
+	ca as Xr,
+	d as xr,
+	da as tt,
+	e as kr,
+	ea as Qt,
 	f as B,
-	fa as et,
-	g as A,
+	fa as rt,
+	g as _,
 	h as O,
 	i as x,
 	ia as Ie,
 	j as g,
-	ja as Xr,
-	k as xr,
-	ka as Jr,
-	l as zt,
-	la as en,
-	m as kr,
-	ma as tn,
-	n as I,
-	na as rn,
-	o as jr,
-	oa as Qt,
+	ja as Jr,
+	k as jr,
+	ka as en,
+	l as Ft,
+	la as tn,
+	m as $r,
+	ma as rn,
+	n as T,
+	na as nn,
+	o as zr,
+	oa as Xt,
 	p as V,
-	pa as tt,
-	q as $r,
-	qa as nn,
+	pa as nt,
+	q as Hr,
+	qa as on,
 	r as Ye,
-	ra as on,
+	ra as sn,
 	s as ce,
-	sa as sn,
-	t as Ft,
-	ta as an,
-	u as Ht,
-	ua as cn,
+	sa as an,
+	t as Bt,
+	ta as cn,
+	u as Vt,
+	ua as ln,
 	v as le,
-	w as zr,
-	x as G,
-	y as Bt,
-	z as Fr,
-} from './chunk-MZYUXCZI.js';
-var gn = null;
+	w as Fr,
+	x as q,
+	y as qt,
+	z as Br,
+} from './chunk-XZUFZZPX.js';
+var vn = null;
 function $() {
-	return gn;
+	return vn;
 }
-function Xt(t) {
-	gn ??= t;
+function er(t) {
+	vn ??= t;
 }
 var Te = class {},
-	nt = (() => {
+	ot = (() => {
 		class t {
 			historyGo(e) {
 				throw new Error('');
@@ -96,15 +98,15 @@ var Te = class {},
 			static ɵfac = function (r) {
 				return new (r || t)();
 			};
-			static ɵprov = m({ token: t, factory: () => f(mn), providedIn: 'platform' });
+			static ɵprov = m({ token: t, factory: () => f(yn), providedIn: 'platform' });
 		}
 		return t;
 	})();
-var mn = (() => {
-	class t extends nt {
+var yn = (() => {
+	class t extends ot {
 		_location;
 		_history;
-		_doc = f(T);
+		_doc = f(E);
 		constructor() {
 			(super(), (this._location = window.location), (this._history = window.history));
 		}
@@ -168,7 +170,7 @@ var mn = (() => {
 	}
 	return t;
 })();
-function Sn(t, n) {
+function Rn(t, n) {
 	return t
 		? n
 			? t.endsWith('/')
@@ -181,14 +183,14 @@ function Sn(t, n) {
 			: t
 		: n;
 }
-function vn(t) {
+function Sn(t) {
 	let n = t.search(/#|\?|$/);
 	return t[n - 1] === '/' ? t.slice(0, n - 1) + t.slice(n) : t;
 }
 function W(t) {
 	return t && t[0] !== '?' ? `?${t}` : t;
 }
-var it = (() => {
+var st = (() => {
 		class t {
 			historyGo(e) {
 				throw new Error('');
@@ -196,20 +198,20 @@ var it = (() => {
 			static ɵfac = function (r) {
 				return new (r || t)();
 			};
-			static ɵprov = m({ token: t, factory: () => f(Oi), providedIn: 'root' });
+			static ɵprov = m({ token: t, factory: () => f(Ui), providedIn: 'root' });
 		}
 		return t;
 	})(),
-	Ai = new b(''),
-	Oi = (() => {
-		class t extends it {
+	Pi = new b(''),
+	Ui = (() => {
+		class t extends st {
 			_platformLocation;
 			_baseHref;
 			_removeListenerFns = [];
 			constructor(e, r) {
 				(super(),
 					(this._platformLocation = e),
-					(this._baseHref = r ?? this._platformLocation.getBaseHrefFromDOM() ?? f(T).location?.origin ?? ''));
+					(this._baseHref = r ?? this._platformLocation.getBaseHrefFromDOM() ?? f(E).location?.origin ?? ''));
 			}
 			ngOnDestroy() {
 				for (; this._removeListenerFns.length; ) this._removeListenerFns.pop()();
@@ -224,7 +226,7 @@ var it = (() => {
 				return this._baseHref;
 			}
 			prepareExternalUrl(e) {
-				return Sn(this._baseHref, e);
+				return Rn(this._baseHref, e);
 			}
 			path(e = !1) {
 				let r = this._platformLocation.pathname + W(this._platformLocation.search),
@@ -252,7 +254,7 @@ var it = (() => {
 				this._platformLocation.historyGo?.(e);
 			}
 			static ɵfac = function (r) {
-				return new (r || t)(y(nt), y(Ai, 8));
+				return new (r || t)(y(ot), y(Pi, 8));
 			};
 			static ɵprov = m({ token: t, factory: t.ɵfac, providedIn: 'root' });
 		}
@@ -268,7 +270,7 @@ var it = (() => {
 			constructor(e) {
 				this._locationStrategy = e;
 				let r = this._locationStrategy.getBaseHref();
-				((this._basePath = Pi(vn(yn(r)))),
+				((this._basePath = ji(Sn(wn(r)))),
 					this._locationStrategy.onPopState((i) => {
 						this._subject.next({ url: this.path(!0), pop: !0, state: i.state, type: i.type });
 					}));
@@ -286,7 +288,7 @@ var it = (() => {
 				return this.path() == this.normalize(e + W(r));
 			}
 			normalize(e) {
-				return t.stripTrailingSlash(Ni(this._basePath, yn(e)));
+				return t.stripTrailingSlash(ki(this._basePath, wn(e)));
 			}
 			prepareExternalUrl(e) {
 				return (e && e[0] !== '/' && (e = '/' + e), this._locationStrategy.prepareExternalUrl(e));
@@ -329,34 +331,34 @@ var it = (() => {
 				return this._subject.subscribe({ next: e, error: r ?? void 0, complete: i ?? void 0 });
 			}
 			static normalizeQueryParams = W;
-			static joinWithSlash = Sn;
-			static stripTrailingSlash = vn;
+			static joinWithSlash = Rn;
+			static stripTrailingSlash = Sn;
 			static ɵfac = function (r) {
-				return new (r || t)(y(it));
+				return new (r || t)(y(st));
 			};
-			static ɵprov = m({ token: t, factory: () => Li(), providedIn: 'root' });
+			static ɵprov = m({ token: t, factory: () => xi(), providedIn: 'root' });
 		}
 		return t;
 	})();
-function Li() {
-	return new he(y(it));
+function xi() {
+	return new he(y(st));
 }
-function Ni(t, n) {
+function ki(t, n) {
 	if (!t || !n.startsWith(t)) return n;
 	let e = n.substring(t.length);
 	return e === '' || ['/', ';', '?', '#'].includes(e[0]) ? e : n;
 }
-function yn(t) {
+function wn(t) {
 	return t.replace(/\/index.html$/, '');
 }
-function Pi(t) {
+function ji(t) {
 	if (new RegExp('^(https?:)?//').test(t)) {
 		let [, e] = t.split(/\/\/[^\/]+/);
 		return e;
 	}
 	return t;
 }
-function Jt(t, n) {
+function tr(t, n) {
 	n = encodeURIComponent(n);
 	for (let e of t.split(';')) {
 		let r = e.indexOf('='),
@@ -365,17 +367,20 @@ function Jt(t, n) {
 	}
 	return null;
 }
-var De = class {};
-var wn = 'browser';
-var Me = class {
+var Me = class {};
+function bn(t, n, e) {
+	return un(t, n, e);
+}
+var Cn = 'browser';
+var De = class {
 		_doc;
 		constructor(n) {
 			this._doc = n;
 		}
 		manager;
 	},
-	ot = (() => {
-		class t extends Me {
+	at = (() => {
+		class t extends De {
 			constructor(e) {
 				super(e);
 			}
@@ -389,14 +394,14 @@ var Me = class {
 				return e.removeEventListener(r, i, o);
 			}
 			static ɵfac = function (r) {
-				return new (r || t)(y(T));
+				return new (r || t)(y(E));
 			};
 			static ɵprov = m({ token: t, factory: t.ɵfac });
 		}
 		return t;
 	})(),
-	ct = new b(''),
-	nr = (() => {
+	ut = new b(''),
+	or = (() => {
 		class t {
 			_zone;
 			_plugins;
@@ -406,9 +411,9 @@ var Me = class {
 					e.forEach((s) => {
 						s.manager = this;
 					}));
-				let i = e.filter((s) => !(s instanceof ot));
+				let i = e.filter((s) => !(s instanceof at));
 				this._plugins = i.slice().reverse();
-				let o = e.find((s) => s instanceof ot);
+				let o = e.find((s) => s instanceof at);
 				o && this._plugins.push(o);
 			}
 			addEventListener(e, r, i, o) {
@@ -424,34 +429,34 @@ var Me = class {
 				return (this._eventNameToPlugin.set(e, r), r);
 			}
 			static ɵfac = function (r) {
-				return new (r || t)(y(ct), y(Qe));
+				return new (r || t)(y(ut), y(Je));
 			};
 			static ɵprov = m({ token: t, factory: t.ɵfac });
 		}
 		return t;
 	})(),
-	er = 'ng-app-id';
-function Rn(t) {
+	rr = 'ng-app-id';
+function En(t) {
 	for (let n of t) n.remove();
 }
-function bn(t, n) {
+function In(t, n) {
 	let e = n.createElement('style');
 	return ((e.textContent = t), e);
 }
-function Ui(t, n, e, r) {
-	let i = t.head?.querySelectorAll(`style[${er}="${n}"],link[${er}="${n}"]`);
+function Fi(t, n, e, r) {
+	let i = t.head?.querySelectorAll(`style[${rr}="${n}"],link[${rr}="${n}"]`);
 	if (i)
 		for (let o of i)
-			(o.removeAttribute(er),
+			(o.removeAttribute(rr),
 				o instanceof HTMLLinkElement
 					? r.set(o.href.slice(o.href.lastIndexOf('/') + 1), { usage: 0, elements: [o] })
 					: o.textContent && e.set(o.textContent, { usage: 0, elements: [o] }));
 }
-function rr(t, n) {
+function ir(t, n) {
 	let e = n.createElement('link');
 	return (e.setAttribute('rel', 'stylesheet'), e.setAttribute('href', t), e);
 }
-var ir = (() => {
+var sr = (() => {
 		class t {
 			doc;
 			appId;
@@ -463,12 +468,12 @@ var ir = (() => {
 				((this.doc = e),
 					(this.appId = r),
 					(this.nonce = i),
-					Ui(e, r, this.inline, this.external),
+					Fi(e, r, this.inline, this.external),
 					this.hosts.add(e.head));
 			}
 			addStyles(e, r) {
-				for (let i of e) this.addUsage(i, this.inline, bn);
-				r?.forEach((i) => this.addUsage(i, this.external, rr));
+				for (let i of e) this.addUsage(i, this.inline, In);
+				r?.forEach((i) => this.addUsage(i, this.external, ir));
 			}
 			removeStyles(e, r) {
 				for (let i of e) this.removeUsage(i, this.inline);
@@ -482,16 +487,16 @@ var ir = (() => {
 			}
 			removeUsage(e, r) {
 				let i = r.get(e);
-				i && (i.usage--, i.usage <= 0 && (Rn(i.elements), r.delete(e)));
+				i && (i.usage--, i.usage <= 0 && (En(i.elements), r.delete(e)));
 			}
 			ngOnDestroy() {
-				for (let [, { elements: e }] of [...this.inline, ...this.external]) Rn(e);
+				for (let [, { elements: e }] of [...this.inline, ...this.external]) En(e);
 				this.hosts.clear();
 			}
 			addHost(e) {
 				this.hosts.add(e);
-				for (let [r, { elements: i }] of this.inline) i.push(this.addElement(e, bn(r, this.doc)));
-				for (let [r, { elements: i }] of this.external) i.push(this.addElement(e, rr(r, this.doc)));
+				for (let [r, { elements: i }] of this.inline) i.push(this.addElement(e, In(r, this.doc)));
+				for (let [r, { elements: i }] of this.external) i.push(this.addElement(e, ir(r, this.doc)));
 			}
 			removeHost(e) {
 				this.hosts.delete(e);
@@ -500,13 +505,13 @@ var ir = (() => {
 				return (this.nonce && r.setAttribute('nonce', this.nonce), e.appendChild(r));
 			}
 			static ɵfac = function (r) {
-				return new (r || t)(y(T), y(Yt), y(Kt, 8), y(Je));
+				return new (r || t)(y(E), y(Kt), y(Qt, 8), y(tt));
 			};
 			static ɵprov = m({ token: t, factory: t.ɵfac });
 		}
 		return t;
 	})(),
-	tr = {
+	nr = {
 		svg: 'http://www.w3.org/2000/svg',
 		xhtml: 'http://www.w3.org/1999/xhtml',
 		xlink: 'http://www.w3.org/1999/xlink',
@@ -514,22 +519,22 @@ var ir = (() => {
 		xmlns: 'http://www.w3.org/2000/xmlns/',
 		math: 'http://www.w3.org/1998/Math/MathML',
 	},
-	or = /%COMP%/g;
-var En = '%COMP%',
-	xi = `_nghost-${En}`,
-	ki = `_ngcontent-${En}`,
-	ji = !0,
-	$i = new b('', { factory: () => ji });
-function zi(t) {
-	return ki.replace(or, t);
+	ar = /%COMP%/g;
+var Mn = '%COMP%',
+	Bi = `_nghost-${Mn}`,
+	Vi = `_ngcontent-${Mn}`,
+	qi = !0,
+	Gi = new b('', { factory: () => qi });
+function Wi(t) {
+	return Vi.replace(ar, t);
 }
-function Fi(t) {
-	return xi.replace(or, t);
+function Zi(t) {
+	return Bi.replace(ar, t);
 }
-function In(t, n) {
-	return n.map((e) => e.replace(or, t));
+function Dn(t, n) {
+	return n.map((e) => e.replace(ar, t));
 }
-var sr = (() => {
+var cr = (() => {
 		class t {
 			eventManager;
 			sharedStylesHost;
@@ -550,12 +555,12 @@ var sr = (() => {
 					(this.ngZone = a),
 					(this.nonce = c),
 					(this.tracingService = l),
-					(this.defaultRenderer = new _e(e, s, a, this.tracingService)));
+					(this.defaultRenderer = new Ae(e, s, a, this.tracingService)));
 			}
 			createRenderer(e, r) {
 				if (!e || !r) return this.defaultRenderer;
 				let i = this.getOrCreateRenderer(e, r);
-				return (i instanceof at ? i.applyToHost(e) : i instanceof Ae && i.applyStyles(), i);
+				return (i instanceof lt ? i.applyToHost(e) : i instanceof _e && i.applyStyles(), i);
 			}
 			getOrCreateRenderer(e, r) {
 				let i = this.rendererByCompId,
@@ -568,15 +573,15 @@ var sr = (() => {
 						u = this.removeStylesOnCompDestroy,
 						d = this.tracingService;
 					switch (r.encapsulation) {
-						case et.Emulated:
-							o = new at(c, l, r, this.appId, u, s, a, d);
+						case rt.Emulated:
+							o = new lt(c, l, r, this.appId, u, s, a, d);
 							break;
-						case et.ShadowDom:
-							return new st(c, e, r, s, a, this.nonce, d, l);
-						case et.ExperimentalIsolatedShadowDom:
-							return new st(c, e, r, s, a, this.nonce, d);
+						case rt.ShadowDom:
+							return new ct(c, e, r, s, a, this.nonce, d, l);
+						case rt.ExperimentalIsolatedShadowDom:
+							return new ct(c, e, r, s, a, this.nonce, d);
 						default:
-							o = new Ae(c, l, r, u, s, a, d);
+							o = new _e(c, l, r, u, s, a, d);
 							break;
 					}
 					i.set(r.id, o);
@@ -590,13 +595,13 @@ var sr = (() => {
 				this.rendererByCompId.delete(e);
 			}
 			static ɵfac = function (r) {
-				return new (r || t)(y(nr), y(ir), y(Yt), y($i), y(T), y(Qe), y(Kt), y(Jr, 8));
+				return new (r || t)(y(or), y(sr), y(Kt), y(Gi), y(E), y(Je), y(Qt), y(en, 8));
 			};
 			static ɵprov = m({ token: t, factory: t.ɵfac });
 		}
 		return t;
 	})(),
-	_e = class {
+	Ae = class {
 		eventManager;
 		doc;
 		ngZone;
@@ -609,7 +614,7 @@ var sr = (() => {
 		destroy() {}
 		destroyNode = null;
 		createElement(n, e) {
-			return e ? this.doc.createElementNS(tr[e] || e, n) : this.doc.createElement(n);
+			return e ? this.doc.createElementNS(nr[e] || e, n) : this.doc.createElement(n);
 		}
 		createComment(n) {
 			return this.doc.createComment(n);
@@ -618,10 +623,10 @@ var sr = (() => {
 			return this.doc.createTextNode(n);
 		}
 		appendChild(n, e) {
-			(Cn(n) ? n.content : n).appendChild(e);
+			(Tn(n) ? n.content : n).appendChild(e);
 		}
 		insertBefore(n, e, r) {
-			n && (Cn(n) ? n.content : n).insertBefore(e, r);
+			n && (Tn(n) ? n.content : n).insertBefore(e, r);
 		}
 		removeChild(n, e) {
 			e.remove();
@@ -640,13 +645,13 @@ var sr = (() => {
 		setAttribute(n, e, r, i) {
 			if (i) {
 				e = i + ':' + e;
-				let o = tr[i];
+				let o = nr[i];
 				o ? n.setAttributeNS(o, e, r) : n.setAttribute(e, r);
 			} else n.setAttribute(e, r);
 		}
 		removeAttribute(n, e, r) {
 			if (r) {
-				let i = tr[r];
+				let i = nr[r];
 				i ? n.removeAttributeNS(i, e) : n.removeAttribute(`${r}:${e}`);
 			} else n.removeAttribute(e);
 		}
@@ -685,10 +690,10 @@ var sr = (() => {
 			};
 		}
 	};
-function Cn(t) {
+function Tn(t) {
 	return t.tagName === 'TEMPLATE' && t.content !== void 0;
 }
-var st = class extends _e {
+var ct = class extends Ae {
 		hostEl;
 		sharedStylesHost;
 		shadowRoot;
@@ -699,7 +704,7 @@ var st = class extends _e {
 				(this.shadowRoot = e.attachShadow({ mode: 'open' })),
 				this.sharedStylesHost && this.sharedStylesHost.addHost(this.shadowRoot));
 			let l = r.styles;
-			l = In(r.id, l);
+			l = Dn(r.id, l);
 			for (let d of l) {
 				let S = document.createElement('style');
 				(s && S.setAttribute('nonce', s), (S.textContent = d), this.shadowRoot.appendChild(S));
@@ -707,7 +712,7 @@ var st = class extends _e {
 			let u = r.getExternalStyles?.();
 			if (u)
 				for (let d of u) {
-					let S = rr(d, i);
+					let S = ir(d, i);
 					(s && S.setAttribute('nonce', s), this.shadowRoot.appendChild(S));
 				}
 		}
@@ -730,7 +735,7 @@ var st = class extends _e {
 			this.sharedStylesHost && this.sharedStylesHost.removeHost(this.shadowRoot);
 		}
 	},
-	Ae = class extends _e {
+	_e = class extends Ae {
 		sharedStylesHost;
 		removeStylesOnCompDestroy;
 		styles;
@@ -738,23 +743,23 @@ var st = class extends _e {
 		constructor(n, e, r, i, o, s, a, c) {
 			(super(n, o, s, a), (this.sharedStylesHost = e), (this.removeStylesOnCompDestroy = i));
 			let l = r.styles;
-			((this.styles = c ? In(c, l) : l), (this.styleUrls = r.getExternalStyles?.(c)));
+			((this.styles = c ? Dn(c, l) : l), (this.styleUrls = r.getExternalStyles?.(c)));
 		}
 		applyStyles() {
 			this.sharedStylesHost.addStyles(this.styles, this.styleUrls);
 		}
 		destroy() {
 			this.removeStylesOnCompDestroy &&
-				Xr.size === 0 &&
+				Jr.size === 0 &&
 				this.sharedStylesHost.removeStyles(this.styles, this.styleUrls);
 		}
 	},
-	at = class extends Ae {
+	lt = class extends _e {
 		contentAttr;
 		hostAttr;
 		constructor(n, e, r, i, o, s, a, c) {
 			let l = i + '-' + r.id;
-			(super(n, e, r, o, s, a, c, l), (this.contentAttr = zi(l)), (this.hostAttr = Fi(l)));
+			(super(n, e, r, o, s, a, c, l), (this.contentAttr = Wi(l)), (this.hostAttr = Zi(l)));
 		}
 		applyToHost(n) {
 			(this.applyStyles(), this.setAttribute(n, this.hostAttr, ''));
@@ -764,10 +769,10 @@ var st = class extends _e {
 			return (super.setAttribute(r, this.contentAttr, ''), r);
 		}
 	};
-var lt = class t extends Te {
+var dt = class t extends Te {
 		supportsDOMEvents = !0;
 		static makeCurrent() {
-			Xt(new t());
+			er(new t());
 		}
 		onAndCancel(n, e, r, i) {
 			return (
@@ -802,8 +807,8 @@ var lt = class t extends Te {
 			return e === 'window' ? window : e === 'document' ? n : e === 'body' ? n.body : null;
 		}
 		getBaseHref(n) {
-			let e = Vi();
-			return e == null ? null : Gi(e);
+			let e = Qi();
+			return e == null ? null : Xi(e);
 		}
 		resetBaseElement() {
 			Oe = null;
@@ -812,17 +817,17 @@ var lt = class t extends Te {
 			return window.navigator.userAgent;
 		}
 		getCookie(n) {
-			return Jt(document.cookie, n);
+			return tr(document.cookie, n);
 		}
 	},
 	Oe = null;
-function Vi() {
+function Qi() {
 	return ((Oe = Oe || document.head.querySelector('base')), Oe ? Oe.getAttribute('href') : null);
 }
-function Gi(t) {
+function Xi(t) {
 	return new URL(t, document.baseURI).pathname;
 }
-var qi = (() => {
+var Ji = (() => {
 		class t {
 			build() {
 				return new XMLHttpRequest();
@@ -834,8 +839,8 @@ var qi = (() => {
 		}
 		return t;
 	})(),
-	Tn = ['alt', 'control', 'meta', 'shift'],
-	Wi = {
+	An = ['alt', 'control', 'meta', 'shift'],
+	eo = {
 		'\b': 'Backspace',
 		'	': 'Tab',
 		'\x7F': 'Delete',
@@ -850,9 +855,9 @@ var qi = (() => {
 		Scroll: 'ScrollLock',
 		Win: 'OS',
 	},
-	Zi = { alt: (t) => t.altKey, control: (t) => t.ctrlKey, meta: (t) => t.metaKey, shift: (t) => t.shiftKey },
-	Dn = (() => {
-		class t extends Me {
+	to = { alt: (t) => t.altKey, control: (t) => t.ctrlKey, meta: (t) => t.metaKey, shift: (t) => t.shiftKey },
+	_n = (() => {
+		class t extends De {
 			constructor(e) {
 				super(e);
 			}
@@ -873,7 +878,7 @@ var qi = (() => {
 					a = r.indexOf('code');
 				if (
 					(a > -1 && (r.splice(a, 1), (s = 'code.')),
-					Tn.forEach((l) => {
+					An.forEach((l) => {
 						let u = r.indexOf(l);
 						u > -1 && (r.splice(u, 1), (s += l + '.'));
 					}),
@@ -885,7 +890,7 @@ var qi = (() => {
 				return ((c.domEventName = i), (c.fullKey = s), c);
 			}
 			static matchEventFullKeyCode(e, r) {
-				let i = Wi[e.key] || e.key,
+				let i = eo[e.key] || e.key,
 					o = '';
 				return (
 					r.indexOf('code.') > -1 && ((i = e.code), (o = 'code.')),
@@ -893,9 +898,9 @@ var qi = (() => {
 						? !1
 						: ((i = i.toLowerCase()),
 							i === ' ' ? (i = 'space') : i === '.' && (i = 'dot'),
-							Tn.forEach((s) => {
+							An.forEach((s) => {
 								if (s !== i) {
-									let a = Zi[s];
+									let a = to[s];
 									a(e) && (o += s + '.');
 								}
 							}),
@@ -912,46 +917,46 @@ var qi = (() => {
 				return e === 'esc' ? 'escape' : e;
 			}
 			static ɵfac = function (r) {
-				return new (r || t)(y(T));
+				return new (r || t)(y(E));
 			};
 			static ɵprov = m({ token: t, factory: t.ɵfac });
 		}
 		return t;
 	})();
-async function ar(t, n, e) {
-	let r = h({ rootComponent: t }, Yi(n, e));
-	return hn(r);
+async function lr(t, n, e) {
+	let r = h({ rootComponent: t }, ro(n, e));
+	return pn(r);
 }
-function Yi(t, n) {
-	return { platformRef: n?.platformRef, appProviders: [...eo, ...(t?.providers ?? [])], platformProviders: Ji };
+function ro(t, n) {
+	return { platformRef: n?.platformRef, appProviders: [...ao, ...(t?.providers ?? [])], platformProviders: so };
 }
-function Ki() {
-	lt.makeCurrent();
+function no() {
+	dt.makeCurrent();
 }
-function Qi() {
-	return new qt();
+function io() {
+	return new Wt();
 }
-function Xi() {
-	return (Kr(document), document);
+function oo() {
+	return (Qr(document), document);
 }
-var Ji = [
-	{ provide: Je, useValue: wn },
-	{ provide: Qr, useValue: Ki, multi: !0 },
-	{ provide: T, useFactory: Xi },
+var so = [
+	{ provide: tt, useValue: Cn },
+	{ provide: Xr, useValue: no, multi: !0 },
+	{ provide: E, useFactory: oo },
 ];
-var eo = [
-	{ provide: qr, useValue: 'root' },
-	{ provide: qt, useFactory: Qi },
-	{ provide: ct, useClass: ot, multi: !0 },
-	{ provide: ct, useClass: Dn, multi: !0 },
+var ao = [
+	{ provide: Wr, useValue: 'root' },
+	{ provide: Wt, useFactory: io },
+	{ provide: ut, useClass: at, multi: !0 },
+	{ provide: ut, useClass: _n, multi: !0 },
+	cr,
 	sr,
-	ir,
-	nr,
-	{ provide: en, useExisting: sr },
-	{ provide: De, useClass: qi },
+	or,
+	{ provide: tn, useExisting: cr },
+	{ provide: Me, useClass: Ji },
 	[],
 ];
-var Mn = (() => {
+var On = (() => {
 	class t {
 		_doc;
 		constructor(e) {
@@ -964,7 +969,7 @@ var Mn = (() => {
 			this._doc.title = e || '';
 		}
 		static ɵfac = function (r) {
-			return new (r || t)(y(T));
+			return new (r || t)(y(E));
 		};
 		static ɵprov = m({ token: t, factory: t.ɵfac, providedIn: 'root' });
 	}
@@ -972,7 +977,7 @@ var Mn = (() => {
 })();
 var p = 'primary',
 	Be = Symbol('RouteTitle'),
-	hr = class {
+	pr = class {
 		params;
 		constructor(n) {
 			this.params = n || {};
@@ -999,9 +1004,9 @@ var p = 'primary',
 		}
 	};
 function ie(t) {
-	return new hr(t);
+	return new pr(t);
 }
-function cr(t, n, e) {
+function ur(t, n, e) {
 	for (let r = 0; r < t.length; r++) {
 		let i = t[r],
 			o = n[r];
@@ -1010,46 +1015,46 @@ function cr(t, n, e) {
 	}
 	return !0;
 }
-function jn(t, n, e) {
+function Hn(t, n, e) {
 	let r = e.path.split('/'),
 		i = r.indexOf('**');
 	if (i === -1) {
 		if (r.length > t.length || (e.pathMatch === 'full' && (n.hasChildren() || r.length < t.length))) return null;
 		let c = {},
 			l = t.slice(0, r.length);
-		return cr(r, l, c) ? { consumed: l, posParams: c } : null;
+		return ur(r, l, c) ? { consumed: l, posParams: c } : null;
 	}
 	if (i !== r.lastIndexOf('**')) return null;
 	let o = r.slice(0, i),
 		s = r.slice(i + 1);
 	if (o.length + s.length > t.length || (e.pathMatch === 'full' && n.hasChildren() && e.path !== '**')) return null;
 	let a = {};
-	return !cr(o, t.slice(0, o.length), a) || !cr(s, t.slice(t.length - s.length), a)
+	return !ur(o, t.slice(0, o.length), a) || !ur(s, t.slice(t.length - s.length), a)
 		? null
 		: { consumed: t, posParams: a };
 }
-function gt(t) {
+function vt(t) {
 	return new Promise((n, e) => {
-		t.pipe(G()).subscribe({ next: (r) => n(r), error: (r) => e(r) });
+		t.pipe(q()).subscribe({ next: (r) => n(r), error: (r) => e(r) });
 	});
 }
-function no(t, n) {
+function uo(t, n) {
 	if (t.length !== n.length) return !1;
 	for (let e = 0; e < t.length; ++e) if (!k(t[e], n[e])) return !1;
 	return !0;
 }
 function k(t, n) {
-	let e = t ? fr(t) : void 0,
-		r = n ? fr(n) : void 0;
+	let e = t ? gr(t) : void 0,
+		r = n ? gr(n) : void 0;
 	if (!e || !r || e.length != r.length) return !1;
 	let i;
-	for (let o = 0; o < e.length; o++) if (((i = e[o]), !$n(t[i], n[i]))) return !1;
+	for (let o = 0; o < e.length; o++) if (((i = e[o]), !Fn(t[i], n[i]))) return !1;
 	return !0;
 }
-function fr(t) {
+function gr(t) {
 	return [...Object.keys(t), ...Object.getOwnPropertySymbols(t)];
 }
-function $n(t, n) {
+function Fn(t, n) {
 	if (Array.isArray(t) && Array.isArray(n)) {
 		if (t.length !== n.length) return !1;
 		let e = [...t].sort(),
@@ -1057,55 +1062,55 @@ function $n(t, n) {
 		return e.every((i, o) => r[o] === i);
 	} else return t === n;
 }
-function io(t) {
+function ho(t) {
 	return t.length > 0 ? t[t.length - 1] : null;
 }
 function ae(t) {
-	return zt(t) ? t : sn(t) ? x(Promise.resolve(t)) : g(t);
+	return Ft(t) ? t : an(t) ? x(Promise.resolve(t)) : g(t);
 }
-function zn(t) {
-	return zt(t) ? gt(t) : Promise.resolve(t);
+function Bn(t) {
+	return Ft(t) ? vt(t) : Promise.resolve(t);
 }
-var oo = { exact: Hn, subset: Bn },
-	Fn = { exact: so, subset: ao, ignored: () => !0 };
-function _n(t, n, e) {
+var fo = { exact: qn, subset: Gn },
+	Vn = { exact: po, subset: go, ignored: () => !0 };
+function Ln(t, n, e) {
 	return (
-		oo[e.paths](t.root, n.root, e.matrixParams) &&
-		Fn[e.queryParams](t.queryParams, n.queryParams) &&
+		fo[e.paths](t.root, n.root, e.matrixParams) &&
+		Vn[e.queryParams](t.queryParams, n.queryParams) &&
 		!(e.fragment === 'exact' && t.fragment !== n.fragment)
 	);
 }
-function so(t, n) {
+function po(t, n) {
 	return k(t, n);
 }
-function Hn(t, n, e) {
-	if (!re(t.segments, n.segments) || !ht(t.segments, n.segments, e) || t.numberOfChildren !== n.numberOfChildren)
+function qn(t, n, e) {
+	if (!re(t.segments, n.segments) || !pt(t.segments, n.segments, e) || t.numberOfChildren !== n.numberOfChildren)
 		return !1;
-	for (let r in n.children) if (!t.children[r] || !Hn(t.children[r], n.children[r], e)) return !1;
+	for (let r in n.children) if (!t.children[r] || !qn(t.children[r], n.children[r], e)) return !1;
 	return !0;
 }
-function ao(t, n) {
-	return Object.keys(n).length <= Object.keys(t).length && Object.keys(n).every((e) => $n(t[e], n[e]));
+function go(t, n) {
+	return Object.keys(n).length <= Object.keys(t).length && Object.keys(n).every((e) => Fn(t[e], n[e]));
 }
-function Bn(t, n, e) {
-	return Vn(t, n, n.segments, e);
+function Gn(t, n, e) {
+	return Wn(t, n, n.segments, e);
 }
-function Vn(t, n, e, r) {
+function Wn(t, n, e, r) {
 	if (t.segments.length > e.length) {
 		let i = t.segments.slice(0, e.length);
-		return !(!re(i, e) || n.hasChildren() || !ht(i, e, r));
+		return !(!re(i, e) || n.hasChildren() || !pt(i, e, r));
 	} else if (t.segments.length === e.length) {
-		if (!re(t.segments, e) || !ht(t.segments, e, r)) return !1;
-		for (let i in n.children) if (!t.children[i] || !Bn(t.children[i], n.children[i], r)) return !1;
+		if (!re(t.segments, e) || !pt(t.segments, e, r)) return !1;
+		for (let i in n.children) if (!t.children[i] || !Gn(t.children[i], n.children[i], r)) return !1;
 		return !0;
 	} else {
 		let i = e.slice(0, t.segments.length),
 			o = e.slice(t.segments.length);
-		return !re(t.segments, i) || !ht(t.segments, i, r) || !t.children[p] ? !1 : Vn(t.children[p], n, o, r);
+		return !re(t.segments, i) || !pt(t.segments, i, r) || !t.children[p] ? !1 : Wn(t.children[p], n, o, r);
 	}
 }
-function ht(t, n, e) {
-	return n.every((r, i) => Fn[e](t[i].parameters, r.parameters));
+function pt(t, n, e) {
+	return n.every((r, i) => Vn[e](t[i].parameters, r.parameters));
 }
 var U = class {
 		root;
@@ -1119,7 +1124,7 @@ var U = class {
 			return ((this._queryParamMap ??= ie(this.queryParams)), this._queryParamMap);
 		}
 		toString() {
-			return uo.serialize(this);
+			return yo.serialize(this);
 		}
 	},
 	v = class {
@@ -1136,7 +1141,7 @@ var U = class {
 			return Object.keys(this.children).length;
 		}
 		toString() {
-			return ft(this);
+			return gt(this);
 		}
 	},
 	Z = class {
@@ -1150,16 +1155,16 @@ var U = class {
 			return ((this._parameterMap ??= ie(this.parameters)), this._parameterMap);
 		}
 		toString() {
-			return qn(this);
+			return Yn(this);
 		}
 	};
-function co(t, n) {
+function mo(t, n) {
 	return re(t, n) && t.every((e, r) => k(e.parameters, n[r].parameters));
 }
 function re(t, n) {
 	return t.length !== n.length ? !1 : t.every((e, r) => e.path === n[r].path);
 }
-function lo(t, n) {
+function vo(t, n) {
 	let e = [];
 	return (
 		Object.entries(t.children).forEach(([r, i]) => {
@@ -1182,22 +1187,22 @@ var Ve = (() => {
 	})(),
 	Y = class {
 		parse(n) {
-			let e = new gr(n);
+			let e = new vr(n);
 			return new U(e.parseRootSegment(), e.parseQueryParams(), e.parseFragment());
 		}
 		serialize(n) {
 			let e = `/${Le(n.root, !0)}`,
-				r = po(n.queryParams),
-				i = typeof n.fragment == 'string' ? `#${ho(n.fragment)}` : '';
+				r = Ro(n.queryParams),
+				i = typeof n.fragment == 'string' ? `#${So(n.fragment)}` : '';
 			return `${e}${r}${i}`;
 		}
 	},
-	uo = new Y();
-function ft(t) {
-	return t.segments.map((n) => qn(n)).join('/');
+	yo = new Y();
+function gt(t) {
+	return t.segments.map((n) => Yn(n)).join('/');
 }
 function Le(t, n) {
-	if (!t.hasChildren()) return ft(t);
+	if (!t.hasChildren()) return gt(t);
 	if (n) {
 		let e = t.children[p] ? Le(t.children[p], !1) : '',
 			r = [];
@@ -1208,65 +1213,65 @@ function Le(t, n) {
 			r.length > 0 ? `${e}(${r.join('//')})` : e
 		);
 	} else {
-		let e = lo(t, (r, i) => (i === p ? [Le(t.children[p], !1)] : [`${i}:${Le(r, !1)}`]));
+		let e = vo(t, (r, i) => (i === p ? [Le(t.children[p], !1)] : [`${i}:${Le(r, !1)}`]));
 		return Object.keys(t.children).length === 1 && t.children[p] != null
-			? `${ft(t)}/${e[0]}`
-			: `${ft(t)}/(${e.join('//')})`;
+			? `${gt(t)}/${e[0]}`
+			: `${gt(t)}/(${e.join('//')})`;
 	}
 }
-function Gn(t) {
+function Zn(t) {
 	return encodeURIComponent(t).replace(/%40/g, '@').replace(/%3A/gi, ':').replace(/%24/g, '$').replace(/%2C/gi, ',');
 }
-function ut(t) {
-	return Gn(t).replace(/%3B/gi, ';');
+function ht(t) {
+	return Zn(t).replace(/%3B/gi, ';');
 }
-function ho(t) {
+function So(t) {
 	return encodeURI(t);
 }
-function pr(t) {
-	return Gn(t).replace(/\(/g, '%28').replace(/\)/g, '%29').replace(/%26/gi, '&');
+function mr(t) {
+	return Zn(t).replace(/\(/g, '%28').replace(/\)/g, '%29').replace(/%26/gi, '&');
 }
-function pt(t) {
+function mt(t) {
 	return decodeURIComponent(t);
 }
-function An(t) {
-	return pt(t.replace(/\+/g, '%20'));
+function Nn(t) {
+	return mt(t.replace(/\+/g, '%20'));
 }
-function qn(t) {
-	return `${pr(t.path)}${fo(t.parameters)}`;
+function Yn(t) {
+	return `${mr(t.path)}${wo(t.parameters)}`;
 }
-function fo(t) {
+function wo(t) {
 	return Object.entries(t)
-		.map(([n, e]) => `;${pr(n)}=${pr(e)}`)
+		.map(([n, e]) => `;${mr(n)}=${mr(e)}`)
 		.join('');
 }
-function po(t) {
+function Ro(t) {
 	let n = Object.entries(t)
-		.map(([e, r]) => (Array.isArray(r) ? r.map((i) => `${ut(e)}=${ut(i)}`).join('&') : `${ut(e)}=${ut(r)}`))
+		.map(([e, r]) => (Array.isArray(r) ? r.map((i) => `${ht(e)}=${ht(i)}`).join('&') : `${ht(e)}=${ht(r)}`))
 		.filter((e) => e);
 	return n.length ? `?${n.join('&')}` : '';
 }
-var go = /^[^\/()?;#]+/;
-function lr(t) {
-	let n = t.match(go);
+var bo = /^[^\/()?;#]+/;
+function dr(t) {
+	let n = t.match(bo);
 	return n ? n[0] : '';
 }
-var mo = /^[^\/()?;=#]+/;
-function vo(t) {
-	let n = t.match(mo);
+var Co = /^[^\/()?;=#]+/;
+function Eo(t) {
+	let n = t.match(Co);
 	return n ? n[0] : '';
 }
-var yo = /^[^=?&#]+/;
-function So(t) {
-	let n = t.match(yo);
+var Io = /^[^=?&#]+/;
+function To(t) {
+	let n = t.match(Io);
 	return n ? n[0] : '';
 }
-var wo = /^[^&#]+/;
-function Ro(t) {
-	let n = t.match(wo);
+var Mo = /^[^&#]+/;
+function Do(t) {
+	let n = t.match(Mo);
 	return n ? n[0] : '';
 }
-var gr = class {
+var vr = class {
 	url;
 	remaining;
 	constructor(n) {
@@ -1309,9 +1314,9 @@ var gr = class {
 		);
 	}
 	parseSegment() {
-		let n = lr(this.remaining);
+		let n = dr(this.remaining);
 		if (n === '' && this.peekStartsWith(';')) throw new R(4009, !1);
-		return (this.capture(n), new Z(pt(n), this.parseMatrixParams()));
+		return (this.capture(n), new Z(mt(n), this.parseMatrixParams()));
 	}
 	parseMatrixParams() {
 		let n = {};
@@ -1319,27 +1324,27 @@ var gr = class {
 		return n;
 	}
 	parseParam(n) {
-		let e = vo(this.remaining);
+		let e = Eo(this.remaining);
 		if (!e) return;
 		this.capture(e);
 		let r = '';
 		if (this.consumeOptional('=')) {
-			let i = lr(this.remaining);
+			let i = dr(this.remaining);
 			i && ((r = i), this.capture(r));
 		}
-		n[pt(e)] = pt(r);
+		n[mt(e)] = mt(r);
 	}
 	parseQueryParam(n) {
-		let e = So(this.remaining);
+		let e = To(this.remaining);
 		if (!e) return;
 		this.capture(e);
 		let r = '';
 		if (this.consumeOptional('=')) {
-			let s = Ro(this.remaining);
+			let s = Do(this.remaining);
 			s && ((r = s), this.capture(r));
 		}
-		let i = An(e),
-			o = An(r);
+		let i = Nn(e),
+			o = Nn(r);
 		if (n.hasOwnProperty(i)) {
 			let s = n[i];
 			(Array.isArray(s) || ((s = [s]), (n[i] = s)), s.push(o));
@@ -1348,7 +1353,7 @@ var gr = class {
 	parseParens(n) {
 		let e = {};
 		for (this.capture('('); !this.consumeOptional(')') && this.remaining.length > 0; ) {
-			let r = lr(this.remaining),
+			let r = dr(this.remaining),
 				i = this.remaining[r.length];
 			if (i !== '/' && i !== ')' && i !== ';') throw new R(4010, !1);
 			let o;
@@ -1368,21 +1373,21 @@ var gr = class {
 		if (!this.consumeOptional(n)) throw new R(4011, !1);
 	}
 };
-function Wn(t) {
+function Kn(t) {
 	return t.segments.length > 0 ? new v([], { [p]: t }) : t;
 }
-function Zn(t) {
+function Qn(t) {
 	let n = {};
 	for (let [r, i] of Object.entries(t.children)) {
-		let o = Zn(i);
+		let o = Qn(i);
 		if (r === p && o.segments.length === 0 && o.hasChildren())
 			for (let [s, a] of Object.entries(o.children)) n[s] = a;
 		else (o.segments.length > 0 || o.hasChildren()) && (n[r] = o);
 	}
 	let e = new v(t.segments, n);
-	return bo(e);
+	return Ao(e);
 }
-function bo(t) {
+function Ao(t) {
 	if (t.numberOfChildren === 1 && t.children[p]) {
 		let n = t.children[p];
 		return new v(t.segments.concat(n.segments), n.children);
@@ -1392,11 +1397,11 @@ function bo(t) {
 function me(t) {
 	return t instanceof U;
 }
-function Yn(t, n, e = null, r = null, i = new Y()) {
-	let o = Kn(t);
-	return Qn(o, n, e, r, i);
+function Xn(t, n, e = null, r = null, i = new Y()) {
+	let o = Jn(t);
+	return ei(o, n, e, r, i);
 }
-function Kn(t) {
+function Jn(t) {
 	let n;
 	function e(o) {
 		let s = {};
@@ -1408,63 +1413,63 @@ function Kn(t) {
 		return (o === t && (n = a), a);
 	}
 	let r = e(t.root),
-		i = Wn(r);
+		i = Kn(r);
 	return n ?? i;
 }
-function Qn(t, n, e, r, i) {
+function ei(t, n, e, r, i) {
 	let o = t;
 	for (; o.parent; ) o = o.parent;
-	if (n.length === 0) return ur(o, o, o, e, r, i);
-	let s = Co(n);
-	if (s.toRoot()) return ur(o, o, new v([], {}), e, r, i);
-	let a = Eo(s, o, t),
-		c = a.processChildren ? Pe(a.segmentGroup, a.index, s.commands) : Jn(a.segmentGroup, a.index, s.commands);
-	return ur(o, a.segmentGroup, c, e, r, i);
+	if (n.length === 0) return hr(o, o, o, e, r, i);
+	let s = _o(n);
+	if (s.toRoot()) return hr(o, o, new v([], {}), e, r, i);
+	let a = Oo(s, o, t),
+		c = a.processChildren ? Pe(a.segmentGroup, a.index, s.commands) : ri(a.segmentGroup, a.index, s.commands);
+	return hr(o, a.segmentGroup, c, e, r, i);
 }
-function mt(t) {
+function yt(t) {
 	return typeof t == 'object' && t != null && !t.outlets && !t.segmentPath;
 }
 function ke(t) {
 	return typeof t == 'object' && t != null && t.outlets;
 }
-function On(t, n, e) {
+function Pn(t, n, e) {
 	t ||= '\u0275';
 	let r = new U();
 	return ((r.queryParams = { [t]: n }), e.parse(e.serialize(r)).queryParams[t]);
 }
-function ur(t, n, e, r, i, o) {
+function hr(t, n, e, r, i, o) {
 	let s = {};
-	for (let [l, u] of Object.entries(r ?? {})) s[l] = Array.isArray(u) ? u.map((d) => On(l, d, o)) : On(l, u, o);
+	for (let [l, u] of Object.entries(r ?? {})) s[l] = Array.isArray(u) ? u.map((d) => Pn(l, d, o)) : Pn(l, u, o);
 	let a;
-	t === n ? (a = e) : (a = Xn(t, n, e));
-	let c = Wn(Zn(a));
+	t === n ? (a = e) : (a = ti(t, n, e));
+	let c = Kn(Qn(a));
 	return new U(c, s, i);
 }
-function Xn(t, n, e) {
+function ti(t, n, e) {
 	let r = {};
 	return (
 		Object.entries(t.children).forEach(([i, o]) => {
-			o === n ? (r[i] = e) : (r[i] = Xn(o, n, e));
+			o === n ? (r[i] = e) : (r[i] = ti(o, n, e));
 		}),
 		new v(t.segments, r)
 	);
 }
-var vt = class {
+var St = class {
 	isAbsolute;
 	numberOfDoubleDots;
 	commands;
 	constructor(n, e, r) {
-		if (((this.isAbsolute = n), (this.numberOfDoubleDots = e), (this.commands = r), n && r.length > 0 && mt(r[0])))
+		if (((this.isAbsolute = n), (this.numberOfDoubleDots = e), (this.commands = r), n && r.length > 0 && yt(r[0])))
 			throw new R(4003, !1);
 		let i = r.find(ke);
-		if (i && i !== io(r)) throw new R(4004, !1);
+		if (i && i !== ho(r)) throw new R(4004, !1);
 	}
 	toRoot() {
 		return this.isAbsolute && this.commands.length === 1 && this.commands[0] == '/';
 	}
 };
-function Co(t) {
-	if (typeof t[0] == 'string' && t.length === 1 && t[0] === '/') return new vt(!0, 0, t);
+function _o(t) {
+	if (typeof t[0] == 'string' && t.length === 1 && t[0] === '/') return new St(!0, 0, t);
 	let n = 0,
 		e = !1,
 		r = t.reduce((i, o, s) => {
@@ -1490,7 +1495,7 @@ function Co(t) {
 						i)
 					: [...i, o];
 		}, []);
-	return new vt(e, n, r);
+	return new St(e, n, r);
 }
 var pe = class {
 	segmentGroup;
@@ -1500,15 +1505,15 @@ var pe = class {
 		((this.segmentGroup = n), (this.processChildren = e), (this.index = r));
 	}
 };
-function Eo(t, n, e) {
+function Oo(t, n, e) {
 	if (t.isAbsolute) return new pe(n, !0, 0);
 	if (!e) return new pe(n, !1, NaN);
 	if (e.parent === null) return new pe(e, !0, 0);
-	let r = mt(t.commands[0]) ? 0 : 1,
+	let r = yt(t.commands[0]) ? 0 : 1,
 		i = e.segments.length - 1 + r;
-	return Io(e, i, t.numberOfDoubleDots);
+	return Lo(e, i, t.numberOfDoubleDots);
 }
-function Io(t, n, e) {
+function Lo(t, n, e) {
 	let r = t,
 		i = n,
 		o = e;
@@ -1518,12 +1523,12 @@ function Io(t, n, e) {
 	}
 	return new pe(r, !1, i - o);
 }
-function To(t) {
+function No(t) {
 	return ke(t[0]) ? t[0].outlets : { [p]: t };
 }
-function Jn(t, n, e) {
+function ri(t, n, e) {
 	if (((t ??= new v([], {})), t.segments.length === 0 && t.hasChildren())) return Pe(t, n, e);
-	let r = Do(t, n, e),
+	let r = Po(t, n, e),
 		i = e.slice(r.commandIndex);
 	if (r.match && r.pathIndex < t.segments.length) {
 		let o = new v(t.segments.slice(0, r.pathIndex), {});
@@ -1532,15 +1537,15 @@ function Jn(t, n, e) {
 		return r.match && i.length === 0
 			? new v(t.segments, {})
 			: r.match && !t.hasChildren()
-				? mr(t, n, e)
+				? yr(t, n, e)
 				: r.match
 					? Pe(t, 0, i)
-					: mr(t, n, e);
+					: yr(t, n, e);
 }
 function Pe(t, n, e) {
 	if (e.length === 0) return new v(t.segments, {});
 	{
-		let r = To(e),
+		let r = No(e),
 			i = {};
 		if (
 			Object.keys(r).some((o) => o !== p) &&
@@ -1553,7 +1558,7 @@ function Pe(t, n, e) {
 		}
 		return (
 			Object.entries(r).forEach(([o, s]) => {
-				(typeof s == 'string' && (s = [s]), s !== null && (i[o] = Jn(t.children[o], n, s)));
+				(typeof s == 'string' && (s = [s]), s !== null && (i[o] = ri(t.children[o], n, s)));
 			}),
 			Object.entries(t.children).forEach(([o, s]) => {
 				r[o] === void 0 && (i[o] = s);
@@ -1562,7 +1567,7 @@ function Pe(t, n, e) {
 		);
 	}
 }
-function Do(t, n, e) {
+function Po(t, n, e) {
 	let r = 0,
 		i = n,
 		o = { match: !1, pathIndex: 0, commandIndex: 0 };
@@ -1575,50 +1580,50 @@ function Do(t, n, e) {
 			l = r < e.length - 1 ? e[r + 1] : null;
 		if (i > 0 && c === void 0) break;
 		if (c && l && typeof l == 'object' && l.outlets === void 0) {
-			if (!Nn(c, l, s)) return o;
+			if (!xn(c, l, s)) return o;
 			r += 2;
 		} else {
-			if (!Nn(c, {}, s)) return o;
+			if (!xn(c, {}, s)) return o;
 			r++;
 		}
 		i++;
 	}
 	return { match: !0, pathIndex: i, commandIndex: r };
 }
-function mr(t, n, e) {
+function yr(t, n, e) {
 	let r = t.segments.slice(0, n),
 		i = 0;
 	for (; i < e.length; ) {
 		let o = e[i];
 		if (ke(o)) {
-			let c = Mo(o.outlets);
+			let c = Uo(o.outlets);
 			return new v(r, c);
 		}
-		if (i === 0 && mt(e[0])) {
+		if (i === 0 && yt(e[0])) {
 			let c = t.segments[n];
-			(r.push(new Z(c.path, Ln(e[0]))), i++);
+			(r.push(new Z(c.path, Un(e[0]))), i++);
 			continue;
 		}
 		let s = ke(o) ? o.outlets[p] : `${o}`,
 			a = i < e.length - 1 ? e[i + 1] : null;
-		s && a && mt(a) ? (r.push(new Z(s, Ln(a))), (i += 2)) : (r.push(new Z(s, {})), i++);
+		s && a && yt(a) ? (r.push(new Z(s, Un(a))), (i += 2)) : (r.push(new Z(s, {})), i++);
 	}
 	return new v(r, {});
 }
-function Mo(t) {
+function Uo(t) {
 	let n = {};
 	return (
 		Object.entries(t).forEach(([e, r]) => {
-			(typeof r == 'string' && (r = [r]), r !== null && (n[e] = mr(new v([], {}), 0, r)));
+			(typeof r == 'string' && (r = [r]), r !== null && (n[e] = yr(new v([], {}), 0, r)));
 		}),
 		n
 	);
 }
-function Ln(t) {
+function Un(t) {
 	let n = {};
 	return (Object.entries(t).forEach(([e, r]) => (n[e] = `${r}`)), n);
 }
-function Nn(t, n, e) {
+function xn(t, n, e) {
 	return t == e.path && k(n, e.parameters);
 }
 var Ue = 'imperative',
@@ -1644,14 +1649,14 @@ var Ue = 'imperative',
 			t
 		);
 	})(C || {}),
-	_ = class {
+	A = class {
 		id;
 		url;
 		constructor(n, e) {
 			((this.id = n), (this.url = e));
 		}
 	},
-	oe = class extends _ {
+	oe = class extends A {
 		type = C.NavigationStart;
 		navigationTrigger;
 		restoredState;
@@ -1662,7 +1667,7 @@ var Ue = 'imperative',
 			return `NavigationStart(id: ${this.id}, url: '${this.url}')`;
 		}
 	},
-	F = class extends _ {
+	H = class extends A {
 		urlAfterRedirects;
 		type = C.NavigationEnd;
 		constructor(n, e, r) {
@@ -1672,7 +1677,7 @@ var Ue = 'imperative',
 			return `NavigationEnd(id: ${this.id}, url: '${this.url}', urlAfterRedirects: '${this.urlAfterRedirects}')`;
 		}
 	},
-	E = (function (t) {
+	I = (function (t) {
 		return (
 			(t[(t.Redirect = 0)] = 'Redirect'),
 			(t[(t.SupersededByNewNavigation = 1)] = 'SupersededByNewNavigation'),
@@ -1681,7 +1686,7 @@ var Ue = 'imperative',
 			(t[(t.Aborted = 4)] = 'Aborted'),
 			t
 		);
-	})(E || {}),
+	})(I || {}),
 	je = (function (t) {
 		return (
 			(t[(t.IgnoredSameUrlNavigation = 0)] = 'IgnoredSameUrlNavigation'),
@@ -1689,7 +1694,7 @@ var Ue = 'imperative',
 			t
 		);
 	})(je || {}),
-	N = class extends _ {
+	N = class extends A {
 		reason;
 		code;
 		type = C.NavigationCancel;
@@ -1700,10 +1705,10 @@ var Ue = 'imperative',
 			return `NavigationCancel(id: ${this.id}, url: '${this.url}')`;
 		}
 	};
-function ei(t) {
-	return t instanceof N && (t.code === E.Redirect || t.code === E.SupersededByNewNavigation);
+function ni(t) {
+	return t instanceof N && (t.code === I.Redirect || t.code === I.SupersededByNewNavigation);
 }
-var H = class extends _ {
+var F = class extends A {
 		reason;
 		code;
 		type = C.NavigationSkipped;
@@ -1711,7 +1716,7 @@ var H = class extends _ {
 			(super(n, e), (this.reason = r), (this.code = i));
 		}
 	},
-	se = class extends _ {
+	se = class extends A {
 		error;
 		target;
 		type = C.NavigationError;
@@ -1722,7 +1727,7 @@ var H = class extends _ {
 			return `NavigationError(id: ${this.id}, url: '${this.url}', error: ${this.error})`;
 		}
 	},
-	ve = class extends _ {
+	ve = class extends A {
 		urlAfterRedirects;
 		state;
 		type = C.RoutesRecognized;
@@ -1733,7 +1738,7 @@ var H = class extends _ {
 			return `RoutesRecognized(id: ${this.id}, url: '${this.url}', urlAfterRedirects: '${this.urlAfterRedirects}', state: ${this.state})`;
 		}
 	},
-	yt = class extends _ {
+	wt = class extends A {
 		urlAfterRedirects;
 		state;
 		type = C.GuardsCheckStart;
@@ -1744,7 +1749,7 @@ var H = class extends _ {
 			return `GuardsCheckStart(id: ${this.id}, url: '${this.url}', urlAfterRedirects: '${this.urlAfterRedirects}', state: ${this.state})`;
 		}
 	},
-	St = class extends _ {
+	Rt = class extends A {
 		urlAfterRedirects;
 		state;
 		shouldActivate;
@@ -1756,7 +1761,7 @@ var H = class extends _ {
 			return `GuardsCheckEnd(id: ${this.id}, url: '${this.url}', urlAfterRedirects: '${this.urlAfterRedirects}', state: ${this.state}, shouldActivate: ${this.shouldActivate})`;
 		}
 	},
-	wt = class extends _ {
+	bt = class extends A {
 		urlAfterRedirects;
 		state;
 		type = C.ResolveStart;
@@ -1767,7 +1772,7 @@ var H = class extends _ {
 			return `ResolveStart(id: ${this.id}, url: '${this.url}', urlAfterRedirects: '${this.urlAfterRedirects}', state: ${this.state})`;
 		}
 	},
-	Rt = class extends _ {
+	Ct = class extends A {
 		urlAfterRedirects;
 		state;
 		type = C.ResolveEnd;
@@ -1778,7 +1783,7 @@ var H = class extends _ {
 			return `ResolveEnd(id: ${this.id}, url: '${this.url}', urlAfterRedirects: '${this.urlAfterRedirects}', state: ${this.state})`;
 		}
 	},
-	bt = class {
+	Et = class {
 		route;
 		type = C.RouteConfigLoadStart;
 		constructor(n) {
@@ -1788,7 +1793,7 @@ var H = class extends _ {
 			return `RouteConfigLoadStart(path: ${this.route.path})`;
 		}
 	},
-	Ct = class {
+	It = class {
 		route;
 		type = C.RouteConfigLoadEnd;
 		constructor(n) {
@@ -1798,7 +1803,7 @@ var H = class extends _ {
 			return `RouteConfigLoadEnd(path: ${this.route.path})`;
 		}
 	},
-	Et = class {
+	Tt = class {
 		snapshot;
 		type = C.ChildActivationStart;
 		constructor(n) {
@@ -1808,7 +1813,7 @@ var H = class extends _ {
 			return `ChildActivationStart(path: '${(this.snapshot.routeConfig && this.snapshot.routeConfig.path) || ''}')`;
 		}
 	},
-	It = class {
+	Mt = class {
 		snapshot;
 		type = C.ChildActivationEnd;
 		constructor(n) {
@@ -1818,7 +1823,7 @@ var H = class extends _ {
 			return `ChildActivationEnd(path: '${(this.snapshot.routeConfig && this.snapshot.routeConfig.path) || ''}')`;
 		}
 	},
-	Tt = class {
+	Dt = class {
 		snapshot;
 		type = C.ActivationStart;
 		constructor(n) {
@@ -1828,7 +1833,7 @@ var H = class extends _ {
 			return `ActivationStart(path: '${(this.snapshot.routeConfig && this.snapshot.routeConfig.path) || ''}')`;
 		}
 	},
-	Dt = class {
+	At = class {
 		snapshot;
 		type = C.ActivationEnd;
 		constructor(n) {
@@ -1846,10 +1851,10 @@ var ye = class {},
 			((this.url = n), (this.navigationBehaviorOptions = e));
 		}
 	};
-function _o(t) {
+function xo(t) {
 	return !(t instanceof ye) && !(t instanceof Se);
 }
-var Mt = class {
+var _t = class {
 		rootInjector;
 		outlet = null;
 		route = null;
@@ -1886,7 +1891,7 @@ var Mt = class {
 			}
 			getOrCreateContext(e) {
 				let r = this.getContext(e);
-				return (r || ((r = new Mt(this.rootInjector)), this.contexts.set(e, r)), r);
+				return (r || ((r = new _t(this.rootInjector)), this.contexts.set(e, r)), r);
 			}
 			getContext(e) {
 				return this.contexts.get(e) || null;
@@ -1898,7 +1903,7 @@ var Mt = class {
 		}
 		return t;
 	})(),
-	_t = class {
+	Ot = class {
 		_root;
 		constructor(n) {
 			this._root = n;
@@ -1911,38 +1916,38 @@ var Mt = class {
 			return e.length > 1 ? e[e.length - 2] : null;
 		}
 		children(n) {
-			let e = vr(n, this._root);
+			let e = Sr(n, this._root);
 			return e ? e.children.map((r) => r.value) : [];
 		}
 		firstChild(n) {
-			let e = vr(n, this._root);
+			let e = Sr(n, this._root);
 			return e && e.children.length > 0 ? e.children[0].value : null;
 		}
 		siblings(n) {
-			let e = yr(n, this._root);
+			let e = wr(n, this._root);
 			return e.length < 2 ? [] : e[e.length - 2].children.map((i) => i.value).filter((i) => i !== n);
 		}
 		pathFromRoot(n) {
-			return yr(n, this._root).map((e) => e.value);
+			return wr(n, this._root).map((e) => e.value);
 		}
 	};
-function vr(t, n) {
+function Sr(t, n) {
 	if (t === n.value) return n;
 	for (let e of n.children) {
-		let r = vr(t, e);
+		let r = Sr(t, e);
 		if (r) return r;
 	}
 	return null;
 }
-function yr(t, n) {
+function wr(t, n) {
 	if (t === n.value) return [n];
 	for (let e of n.children) {
-		let r = yr(t, e);
+		let r = wr(t, e);
 		if (r.length) return (r.unshift(n), r);
 	}
 	return [];
 }
-var M = class {
+var D = class {
 	value;
 	children;
 	constructor(n, e) {
@@ -1956,31 +1961,31 @@ function fe(t) {
 	let n = {};
 	return (t && t.children.forEach((e) => (n[e.value.outlet] = e)), n);
 }
-var $e = class extends _t {
+var $e = class extends Ot {
 	snapshot;
 	constructor(n, e) {
-		(super(n), (this.snapshot = e), Tr(this, n));
+		(super(n), (this.snapshot = e), Dr(this, n));
 	}
 	toString() {
 		return this.snapshot.toString();
 	}
 };
-function ti(t, n) {
-	let e = Ao(t, n),
-		r = new A([new Z('', {})]),
-		i = new A({}),
-		o = new A({}),
-		s = new A({}),
-		a = new A(''),
+function ii(t, n) {
+	let e = ko(t, n),
+		r = new _([new Z('', {})]),
+		i = new _({}),
+		o = new _({}),
+		s = new _({}),
+		a = new _(''),
 		c = new K(r, i, s, a, o, p, t, e.root);
-	return ((c.snapshot = e.root), new $e(new M(c, []), e));
+	return ((c.snapshot = e.root), new $e(new D(c, []), e));
 }
-function Ao(t, n) {
+function ko(t, n) {
 	let e = {},
 		r = {},
 		i = {},
 		s = new ne([], e, i, '', r, p, t, null, {}, n);
-	return new ze('', new M(s, []));
+	return new ze('', new D(s, []));
 }
 var K = class {
 	urlSubject;
@@ -2010,7 +2015,7 @@ var K = class {
 			(this.outlet = s),
 			(this.component = a),
 			(this._futureSnapshot = c),
-			(this.title = this.dataSubject?.pipe(I((l) => l[Be])) ?? g(void 0)),
+			(this.title = this.dataSubject?.pipe(T((l) => l[Be])) ?? g(void 0)),
 			(this.url = n),
 			(this.params = e),
 			(this.queryParams = r),
@@ -2036,16 +2041,16 @@ var K = class {
 		return this._routerState.pathFromRoot(this);
 	}
 	get paramMap() {
-		return ((this._paramMap ??= this.params.pipe(I((n) => ie(n)))), this._paramMap);
+		return ((this._paramMap ??= this.params.pipe(T((n) => ie(n)))), this._paramMap);
 	}
 	get queryParamMap() {
-		return ((this._queryParamMap ??= this.queryParams.pipe(I((n) => ie(n)))), this._queryParamMap);
+		return ((this._queryParamMap ??= this.queryParams.pipe(T((n) => ie(n)))), this._queryParamMap);
 	}
 	toString() {
 		return this.snapshot ? this.snapshot.toString() : `Future(${this._futureSnapshot})`;
 	}
 };
-function At(t, n, e = 'emptyOnly') {
+function Lt(t, n, e = 'emptyOnly') {
 	let r,
 		{ routeConfig: i } = t;
 	return (
@@ -2056,7 +2061,7 @@ function At(t, n, e = 'emptyOnly') {
 					resolve: h(h(h(h({}, t.data), n.data), i?.data), t._resolvedData),
 				})
 			: (r = { params: h({}, t.params), data: h({}, t.data), resolve: h(h({}, t.data), t._resolvedData ?? {}) }),
-		i && ni(i) && (r.resolve[Be] = i.title),
+		i && si(i) && (r.resolve[Be] = i.title),
 		r
 	);
 }
@@ -2117,23 +2122,23 @@ var ne = class {
 			return `Route(url:'${n}', path:'${e}')`;
 		}
 	},
-	ze = class extends _t {
+	ze = class extends Ot {
 		url;
 		constructor(n, e) {
-			(super(e), (this.url = n), Tr(this, e));
+			(super(e), (this.url = n), Dr(this, e));
 		}
 		toString() {
-			return ri(this._root);
+			return oi(this._root);
 		}
 	};
-function Tr(t, n) {
-	((n.value._routerState = t), n.children.forEach((e) => Tr(t, e)));
+function Dr(t, n) {
+	((n.value._routerState = t), n.children.forEach((e) => Dr(t, e)));
 }
-function ri(t) {
-	let n = t.children.length > 0 ? ` { ${t.children.map(ri).join(', ')} } ` : '';
+function oi(t) {
+	let n = t.children.length > 0 ? ` { ${t.children.map(oi).join(', ')} } ` : '';
 	return `${t.value}${n}`;
 }
-function dr(t) {
+function fr(t) {
 	if (t.snapshot) {
 		let n = t.snapshot,
 			e = t._futureSnapshot;
@@ -2141,20 +2146,20 @@ function dr(t) {
 			k(n.queryParams, e.queryParams) || t.queryParamsSubject.next(e.queryParams),
 			n.fragment !== e.fragment && t.fragmentSubject.next(e.fragment),
 			k(n.params, e.params) || t.paramsSubject.next(e.params),
-			no(n.url, e.url) || t.urlSubject.next(e.url),
+			uo(n.url, e.url) || t.urlSubject.next(e.url),
 			k(n.data, e.data) || t.dataSubject.next(e.data));
 	} else ((t.snapshot = t._futureSnapshot), t.dataSubject.next(t._futureSnapshot.data));
 }
-function Sr(t, n) {
-	let e = k(t.params, n.params) && co(t.url, n.url),
+function Rr(t, n) {
+	let e = k(t.params, n.params) && mo(t.url, n.url),
 		r = !t.parent != !n.parent;
-	return e && !r && (!t.parent || Sr(t.parent, n.parent));
+	return e && !r && (!t.parent || Rr(t.parent, n.parent));
 }
-function ni(t) {
+function si(t) {
 	return typeof t.title == 'string' || t.title === null;
 }
-var ii = new b(''),
-	Ge = (() => {
+var ai = new b(''),
+	qe = (() => {
 		class t {
 			activated = null;
 			get activatedComponentRef() {
@@ -2166,11 +2171,11 @@ var ii = new b(''),
 			deactivateEvents = new ue();
 			attachEvents = new ue();
 			detachEvents = new ue();
-			routerOutletData = un();
+			routerOutletData = fn();
 			parentContexts = f(be);
-			location = f(tn);
-			changeDetector = f(dn);
-			inputBinder = f(Pt, { optional: !0 });
+			location = f(rn);
+			changeDetector = f(Jt);
+			inputBinder = f(xt, { optional: !0 });
 			supportsBindingToComponentInputs = !0;
 			ngOnChanges(e) {
 				if (e.name) {
@@ -2238,7 +2243,7 @@ var ii = new b(''),
 				let i = this.location,
 					s = e.snapshot.component,
 					a = this.parentContexts.getOrCreateContext(this.name).children,
-					c = new wr(e, a, i.injector, this.routerOutletData);
+					c = new br(e, a, i.injector, this.routerOutletData);
 				((this.activated = i.createComponent(s, { index: i.length, injector: c, environmentInjector: r })),
 					this.changeDetector.markForCheck(),
 					this.inputBinder?.bindActivatedRouteToOutletComponent(this),
@@ -2247,7 +2252,7 @@ var ii = new b(''),
 			static ɵfac = function (r) {
 				return new (r || t)();
 			};
-			static ɵdir = nn({
+			static ɵdir = on({
 				type: t,
 				selectors: [['router-outlet']],
 				inputs: { name: 'name', routerOutletData: [1, 'routerOutletData'] },
@@ -2258,12 +2263,12 @@ var ii = new b(''),
 					detachEvents: 'detach',
 				},
 				exportAs: ['outlet'],
-				features: [Yr],
+				features: [Kr],
 			});
 		}
 		return t;
 	})(),
-	wr = class {
+	br = class {
 		route;
 		childContexts;
 		parent;
@@ -2276,76 +2281,76 @@ var ii = new b(''),
 				? this.route
 				: n === be
 					? this.childContexts
-					: n === ii
+					: n === ai
 						? this.outletData
 						: this.parent.get(n, e);
 		}
 	},
-	Pt = new b('');
-var Dr = (() => {
+	xt = new b('');
+var Ar = (() => {
 	class t {
 		static ɵfac = function (r) {
 			return new (r || t)();
 		};
-		static ɵcmp = tt({
+		static ɵcmp = nt({
 			type: t,
 			selectors: [['ng-component']],
 			exportAs: ['emptyRouterOutlet'],
 			decls: 1,
 			vars: 0,
 			template: function (r, i) {
-				r & 1 && rt(0, 'router-outlet');
+				r & 1 && it(0, 'router-outlet');
 			},
-			dependencies: [Ge],
+			dependencies: [qe],
 			encapsulation: 2,
 		});
 	}
 	return t;
 })();
-function Mr(t) {
-	let n = t.children && t.children.map(Mr),
-		e = n ? D(h({}, t), { children: n }) : h({}, t);
+function _r(t) {
+	let n = t.children && t.children.map(_r),
+		e = n ? M(h({}, t), { children: n }) : h({}, t);
 	return (
-		!e.component && !e.loadComponent && (n || e.loadChildren) && e.outlet && e.outlet !== p && (e.component = Dr),
+		!e.component && !e.loadComponent && (n || e.loadChildren) && e.outlet && e.outlet !== p && (e.component = Ar),
 		e
 	);
 }
-function Oo(t, n, e) {
-	let r = Fe(t, n._root, e ? e._root : void 0);
+function jo(t, n, e) {
+	let r = He(t, n._root, e ? e._root : void 0);
 	return new $e(r, n);
 }
-function Fe(t, n, e) {
+function He(t, n, e) {
 	if (e && t.shouldReuseRoute(n.value, e.value.snapshot)) {
 		let r = e.value;
 		r._futureSnapshot = n.value;
-		let i = Lo(t, n, e);
-		return new M(r, i);
+		let i = $o(t, n, e);
+		return new D(r, i);
 	} else {
 		if (t.shouldAttach(n.value)) {
 			let o = t.retrieve(n.value);
 			if (o !== null) {
 				let s = o.route;
-				return ((s.value._futureSnapshot = n.value), (s.children = n.children.map((a) => Fe(t, a))), s);
+				return ((s.value._futureSnapshot = n.value), (s.children = n.children.map((a) => He(t, a))), s);
 			}
 		}
-		let r = No(n.value),
-			i = n.children.map((o) => Fe(t, o));
-		return new M(r, i);
+		let r = zo(n.value),
+			i = n.children.map((o) => He(t, o));
+		return new D(r, i);
 	}
 }
-function Lo(t, n, e) {
+function $o(t, n, e) {
 	return n.children.map((r) => {
-		for (let i of e.children) if (t.shouldReuseRoute(r.value, i.value.snapshot)) return Fe(t, r, i);
-		return Fe(t, r);
+		for (let i of e.children) if (t.shouldReuseRoute(r.value, i.value.snapshot)) return He(t, r, i);
+		return He(t, r);
 	});
 }
-function No(t) {
+function zo(t) {
 	return new K(
-		new A(t.url),
-		new A(t.params),
-		new A(t.queryParams),
-		new A(t.fragment),
-		new A(t.data),
+		new _(t.url),
+		new _(t.params),
+		new _(t.queryParams),
+		new _(t.fragment),
+		new _(t.data),
 		t.outlet,
 		t.component,
 		t,
@@ -2358,25 +2363,25 @@ var we = class {
 			((this.redirectTo = n), (this.navigationBehaviorOptions = e));
 		}
 	},
-	oi = 'ngNavigationCancelingError';
-function Ot(t, n) {
+	ci = 'ngNavigationCancelingError';
+function Nt(t, n) {
 	let { redirectTo: e, navigationBehaviorOptions: r } = me(n)
 			? { redirectTo: n, navigationBehaviorOptions: void 0 }
 			: n,
-		i = si(!1, E.Redirect);
+		i = li(!1, I.Redirect);
 	return ((i.url = e), (i.navigationBehaviorOptions = r), i);
 }
-function si(t, n) {
+function li(t, n) {
 	let e = new Error(`NavigationCancelingError: ${t || ''}`);
-	return ((e[oi] = !0), (e.cancellationCode = n), e);
+	return ((e[ci] = !0), (e.cancellationCode = n), e);
 }
-function Po(t) {
-	return ai(t) && me(t.url);
+function Ho(t) {
+	return ui(t) && me(t.url);
 }
-function ai(t) {
-	return !!t && t[oi];
+function ui(t) {
+	return !!t && t[ci];
 }
-var Rr = class {
+var Cr = class {
 		routeReuseStrategy;
 		futureState;
 		currState;
@@ -2392,7 +2397,7 @@ var Rr = class {
 		activate(n) {
 			let e = this.futureState._root,
 				r = this.currState ? this.currState._root : null;
-			(this.deactivateChildRoutes(e, r, n), dr(this.futureState.root), this.activateChildRoutes(e, r, n));
+			(this.deactivateChildRoutes(e, r, n), fr(this.futureState.root), this.activateChildRoutes(e, r, n));
 		}
 		deactivateChildRoutes(n, e, r) {
 			let i = fe(e);
@@ -2443,14 +2448,14 @@ var Rr = class {
 		activateChildRoutes(n, e, r) {
 			let i = fe(e);
 			(n.children.forEach((o) => {
-				(this.activateRoutes(o, i[o.value.outlet], r), this.forwardEvent(new Dt(o.value.snapshot)));
+				(this.activateRoutes(o, i[o.value.outlet], r), this.forwardEvent(new At(o.value.snapshot)));
 			}),
-				n.children.length && this.forwardEvent(new It(n.value.snapshot)));
+				n.children.length && this.forwardEvent(new Mt(n.value.snapshot)));
 		}
 		activateRoutes(n, e, r) {
 			let i = n.value,
 				o = e ? e.value : null;
-			if ((dr(i), i === o))
+			if ((fr(i), i === o))
 				if (i.component) {
 					let s = r.getOrCreateContext(i.outlet);
 					this.activateChildRoutes(n, e, s.children);
@@ -2464,7 +2469,7 @@ var Rr = class {
 						(s.attachRef = a.componentRef),
 						(s.route = a.route.value),
 						s.outlet && s.outlet.attach(a.componentRef, a.route.value),
-						dr(a.route.value),
+						fr(a.route.value),
 						this.activateChildRoutes(n, null, s.children));
 				} else
 					((s.attachRef = null),
@@ -2474,7 +2479,7 @@ var Rr = class {
 			} else this.activateChildRoutes(n, null, r);
 		}
 	},
-	Lt = class {
+	Pt = class {
 		path;
 		route;
 		constructor(n) {
@@ -2488,46 +2493,46 @@ var Rr = class {
 			((this.component = n), (this.route = e));
 		}
 	};
-function Uo(t, n, e) {
+function Fo(t, n, e) {
 	let r = t._root,
 		i = n ? n._root : null;
 	return Ne(r, i, e, [r.value]);
 }
-function xo(t) {
+function Bo(t) {
 	let n = t.routeConfig ? t.routeConfig.canActivateChild : null;
 	return !n || n.length === 0 ? null : { node: t, guards: n };
 }
 function Ce(t, n) {
 	let e = Symbol(),
 		r = n.get(t, e);
-	return r === e ? (typeof t == 'function' && !Br(t) ? t : n.get(t)) : r;
+	return r === e ? (typeof t == 'function' && !Vr(t) ? t : n.get(t)) : r;
 }
 function Ne(t, n, e, r, i = { canDeactivateChecks: [], canActivateChecks: [] }) {
 	let o = fe(n);
 	return (
 		t.children.forEach((s) => {
-			(ko(s, o[s.value.outlet], e, r.concat([s.value]), i), delete o[s.value.outlet]);
+			(Vo(s, o[s.value.outlet], e, r.concat([s.value]), i), delete o[s.value.outlet]);
 		}),
 		Object.entries(o).forEach(([s, a]) => xe(a, e.getContext(s), i)),
 		i
 	);
 }
-function ko(t, n, e, r, i = { canDeactivateChecks: [], canActivateChecks: [] }) {
+function Vo(t, n, e, r, i = { canDeactivateChecks: [], canActivateChecks: [] }) {
 	let o = t.value,
 		s = n ? n.value : null,
 		a = e ? e.getContext(t.value.outlet) : null;
 	if (s && o.routeConfig === s.routeConfig) {
-		let c = jo(s, o, o.routeConfig.runGuardsAndResolvers);
-		(c ? i.canActivateChecks.push(new Lt(r)) : ((o.data = s.data), (o._resolvedData = s._resolvedData)),
+		let c = qo(s, o, o.routeConfig.runGuardsAndResolvers);
+		(c ? i.canActivateChecks.push(new Pt(r)) : ((o.data = s.data), (o._resolvedData = s._resolvedData)),
 			o.component ? Ne(t, n, a ? a.children : null, r, i) : Ne(t, n, e, r, i),
 			c && a && a.outlet && a.outlet.isActivated && i.canDeactivateChecks.push(new ge(a.outlet.component, s)));
 	} else
 		(s && xe(n, a, i),
-			i.canActivateChecks.push(new Lt(r)),
+			i.canActivateChecks.push(new Pt(r)),
 			o.component ? Ne(t, null, a ? a.children : null, r, i) : Ne(t, null, e, r, i));
 	return i;
 }
-function jo(t, n, e) {
+function qo(t, n, e) {
 	if (typeof e == 'function') return L(n._environmentInjector, () => e(t, n));
 	switch (e) {
 		case 'pathParamsChange':
@@ -2537,9 +2542,9 @@ function jo(t, n, e) {
 		case 'always':
 			return !0;
 		case 'paramsOrQueryParamsChange':
-			return !Sr(t, n) || !k(t.queryParams, n.queryParams);
+			return !Rr(t, n) || !k(t.queryParams, n.queryParams);
 		default:
-			return !Sr(t, n);
+			return !Rr(t, n);
 	}
 }
 function xe(t, n, e) {
@@ -2554,64 +2559,64 @@ function xe(t, n, e) {
 				: e.canDeactivateChecks.push(new ge(null, i))
 			: e.canDeactivateChecks.push(new ge(null, i)));
 }
-function qe(t) {
+function Ge(t) {
 	return typeof t == 'function';
 }
-function $o(t) {
+function Go(t) {
 	return typeof t == 'boolean';
 }
-function zo(t) {
-	return t && qe(t.canLoad);
+function Wo(t) {
+	return t && Ge(t.canLoad);
 }
-function Fo(t) {
-	return t && qe(t.canActivate);
+function Zo(t) {
+	return t && Ge(t.canActivate);
 }
-function Ho(t) {
-	return t && qe(t.canActivateChild);
+function Yo(t) {
+	return t && Ge(t.canActivateChild);
 }
-function Bo(t) {
-	return t && qe(t.canDeactivate);
+function Ko(t) {
+	return t && Ge(t.canDeactivate);
 }
-function Vo(t) {
-	return t && qe(t.canMatch);
+function Qo(t) {
+	return t && Ge(t.canMatch);
 }
-function ci(t) {
-	return t instanceof kr || t?.name === 'EmptyError';
+function di(t) {
+	return t instanceof $r || t?.name === 'EmptyError';
 }
-var dt = Symbol('INITIAL_VALUE');
+var ft = Symbol('INITIAL_VALUE');
 function Re() {
-	return q((t) =>
-		jr(t.map((n) => n.pipe(le(1), Fr(dt)))).pipe(
-			I((n) => {
+	return G((t) =>
+		zr(t.map((n) => n.pipe(le(1), Br(ft)))).pipe(
+			T((n) => {
 				for (let e of n)
 					if (e !== !0) {
-						if (e === dt) return dt;
-						if (e === !1 || Go(e)) return e;
+						if (e === ft) return ft;
+						if (e === !1 || Xo(e)) return e;
 					}
 				return !0;
 			}),
-			ce((n) => n !== dt),
+			ce((n) => n !== ft),
 			le(1),
 		),
 	);
 }
-function Go(t) {
+function Xo(t) {
 	return me(t) || t instanceof we;
 }
-function li(t) {
+function hi(t) {
 	return t.aborted
 		? g(void 0).pipe(le(1))
-		: new Ur((n) => {
+		: new kr((n) => {
 				let e = () => {
 					(n.next(), n.complete());
 				};
 				return (t.addEventListener('abort', e), () => t.removeEventListener('abort', e));
 			});
 }
-function ui(t) {
-	return Ke(li(t));
+function fi(t) {
+	return Ke(hi(t));
 }
-function qo(t) {
+function Jo(t) {
 	return V((n) => {
 		let {
 			targetSnapshot: e,
@@ -2619,103 +2624,103 @@ function qo(t) {
 			guards: { canActivateChecks: i, canDeactivateChecks: o },
 		} = n;
 		return o.length === 0 && i.length === 0
-			? g(D(h({}, n), { guardsResult: !0 }))
-			: Wo(o, e, r).pipe(
-					V((s) => (s && $o(s) ? Zo(e, i, t) : g(s))),
-					I((s) => D(h({}, n), { guardsResult: s })),
+			? g(M(h({}, n), { guardsResult: !0 }))
+			: es(o, e, r).pipe(
+					V((s) => (s && Go(s) ? ts(e, i, t) : g(s))),
+					T((s) => M(h({}, n), { guardsResult: s })),
 				);
 	});
 }
-function Wo(t, n, e) {
+function es(t, n, e) {
 	return x(t).pipe(
-		V((r) => Jo(r.component, r.route, e, n)),
-		G((r) => r !== !0, !0),
+		V((r) => ss(r.component, r.route, e, n)),
+		q((r) => r !== !0, !0),
 	);
 }
-function Zo(t, n, e) {
+function ts(t, n, e) {
 	return x(n).pipe(
-		Ht((r) => $r(Ko(r.route.parent, e), Yo(r.route, e), Xo(t, r.path), Qo(t, r.route))),
-		G((r) => r !== !0, !0),
+		Vt((r) => Hr(ns(r.route.parent, e), rs(r.route, e), os(t, r.path), is(t, r.route))),
+		q((r) => r !== !0, !0),
 	);
 }
-function Yo(t, n) {
+function rs(t, n) {
+	return (t !== null && n && n(new Dt(t)), g(!0));
+}
+function ns(t, n) {
 	return (t !== null && n && n(new Tt(t)), g(!0));
 }
-function Ko(t, n) {
-	return (t !== null && n && n(new Et(t)), g(!0));
-}
-function Qo(t, n) {
+function is(t, n) {
 	let e = n.routeConfig ? n.routeConfig.canActivate : null;
 	if (!e || e.length === 0) return g(!0);
 	let r = e.map((i) =>
 		Ye(() => {
 			let o = n._environmentInjector,
 				s = Ce(i, o),
-				a = Fo(s) ? s.canActivate(n, t) : L(o, () => s(n, t));
-			return ae(a).pipe(G());
+				a = Zo(s) ? s.canActivate(n, t) : L(o, () => s(n, t));
+			return ae(a).pipe(q());
 		}),
 	);
 	return g(r).pipe(Re());
 }
-function Xo(t, n) {
+function os(t, n) {
 	let e = n[n.length - 1],
 		i = n
 			.slice(0, n.length - 1)
 			.reverse()
-			.map((o) => xo(o))
+			.map((o) => Bo(o))
 			.filter((o) => o !== null)
 			.map((o) =>
 				Ye(() => {
 					let s = o.guards.map((a) => {
 						let c = o.node._environmentInjector,
 							l = Ce(a, c),
-							u = Ho(l) ? l.canActivateChild(e, t) : L(c, () => l(e, t));
-						return ae(u).pipe(G());
+							u = Yo(l) ? l.canActivateChild(e, t) : L(c, () => l(e, t));
+						return ae(u).pipe(q());
 					});
 					return g(s).pipe(Re());
 				}),
 			);
 	return g(i).pipe(Re());
 }
-function Jo(t, n, e, r) {
+function ss(t, n, e, r) {
 	let i = n && n.routeConfig ? n.routeConfig.canDeactivate : null;
 	if (!i || i.length === 0) return g(!0);
 	let o = i.map((s) => {
 		let a = n._environmentInjector,
 			c = Ce(s, a),
-			l = Bo(c) ? c.canDeactivate(t, n, e, r) : L(a, () => c(t, n, e, r));
-		return ae(l).pipe(G());
+			l = Ko(c) ? c.canDeactivate(t, n, e, r) : L(a, () => c(t, n, e, r));
+		return ae(l).pipe(q());
 	});
 	return g(o).pipe(Re());
 }
-function es(t, n, e, r, i) {
+function as(t, n, e, r, i) {
 	let o = n.canLoad;
 	if (o === void 0 || o.length === 0) return g(!0);
 	let s = o.map((a) => {
 		let c = Ce(a, t),
-			l = zo(c) ? c.canLoad(n, e) : L(t, () => c(n, e)),
+			l = Wo(c) ? c.canLoad(n, e) : L(t, () => c(n, e)),
 			u = ae(l);
-		return i ? u.pipe(ui(i)) : u;
+		return i ? u.pipe(fi(i)) : u;
 	});
-	return g(s).pipe(Re(), di(r));
+	return g(s).pipe(Re(), pi(r));
 }
-function di(t) {
-	return Pr(
+function pi(t) {
+	return xr(
 		j((n) => {
-			if (typeof n != 'boolean') throw Ot(t, n);
+			if (typeof n != 'boolean') throw Nt(t, n);
 		}),
-		I((n) => n === !0),
+		T((n) => n === !0),
 	);
 }
-function ts(t, n, e, r, i) {
+function cs(t, n, e, r, i) {
 	let o = n.canMatch;
 	if (!o || o.length === 0) return g(!0);
 	let s = o.map((a) => {
 		let c = Ce(a, t),
-			l = Vo(c) ? c.canMatch(n, e) : L(t, () => c(n, e));
-		return ae(l).pipe(ui(i));
+			l = Qo(c) ? c.canMatch(n, e) : L(t, () => c(n, e));
+		return ae(l).pipe(fi(i));
 	});
-	return g(s).pipe(Re(), di(r));
+	return g(s).pipe(Re(), pi(r));
 }
 var z = class t extends Error {
 		segmentGroup;
@@ -2723,19 +2728,19 @@ var z = class t extends Error {
 			(super(), (this.segmentGroup = n || null), Object.setPrototypeOf(this, t.prototype));
 		}
 	},
-	He = class t extends Error {
+	Fe = class t extends Error {
 		urlTree;
 		constructor(n) {
 			(super(), (this.urlTree = n), Object.setPrototypeOf(this, t.prototype));
 		}
 	};
-function rs(t) {
+function ls(t) {
 	throw new R(4e3, !1);
 }
-function ns(t) {
-	throw si(!1, E.GuardRejected);
+function us(t) {
+	throw li(!1, I.GuardRejected);
 }
-var br = class {
+var Er = class {
 	urlSerializer;
 	urlTree;
 	constructor(n, e) {
@@ -2746,15 +2751,15 @@ var br = class {
 			i = e.root;
 		for (;;) {
 			if (((r = r.concat(i.segments)), i.numberOfChildren === 0)) return r;
-			if (i.numberOfChildren > 1 || !i.children[p]) throw rs(`${n.redirectTo}`);
+			if (i.numberOfChildren > 1 || !i.children[p]) throw ls(`${n.redirectTo}`);
 			i = i.children[p];
 		}
 	}
 	async applyRedirectCommands(n, e, r, i, o) {
-		let s = await is(e, i, o);
-		if (s instanceof U) throw new He(s);
+		let s = await ds(e, i, o);
+		if (s instanceof U) throw new Fe(s);
 		let a = this.applyRedirectCreateUrlTree(s, this.urlSerializer.parse(s), n, r);
-		if (s[0] === '/') throw new He(a);
+		if (s[0] === '/') throw new Fe(a);
 		return a;
 	}
 	applyRedirectCreateUrlTree(n, e, r, i) {
@@ -2800,7 +2805,7 @@ var br = class {
 		return n;
 	}
 };
-function is(t, n, e) {
+function ds(t, n, e) {
 	if (typeof t == 'string') return Promise.resolve(t);
 	let r = t,
 		{
@@ -2815,7 +2820,7 @@ function is(t, n, e) {
 			paramMap: S,
 			queryParamMap: w,
 		} = n;
-	return gt(
+	return vt(
 		ae(
 			L(e, () =>
 				r({
@@ -2834,28 +2839,28 @@ function is(t, n, e) {
 		),
 	);
 }
-function os(t, n) {
-	return (t.providers && !t._injector && (t._injector = Qt(t.providers, n, `Route: ${t.path}`)), t._injector ?? n);
+function hs(t, n) {
+	return (t.providers && !t._injector && (t._injector = Xt(t.providers, n, `Route: ${t.path}`)), t._injector ?? n);
 }
 function P(t) {
 	return t.outlet || p;
 }
-function ss(t, n) {
+function fs(t, n) {
 	let e = t.filter((r) => P(r) === n);
 	return (e.push(...t.filter((r) => P(r) !== n)), e);
 }
-var Cr = { matched: !1, consumedSegments: [], remainingSegments: [], parameters: {}, positionalParamSegments: {} };
-function as(t, n, e, r, i, o) {
-	let s = hi(t, n, e);
-	return s.matched ? ((r = os(n, r)), ts(r, n, e, i, o).pipe(I((a) => (a === !0 ? s : h({}, Cr))))) : g(s);
+var Ir = { matched: !1, consumedSegments: [], remainingSegments: [], parameters: {}, positionalParamSegments: {} };
+function ps(t, n, e, r, i, o) {
+	let s = gi(t, n, e);
+	return s.matched ? ((r = hs(n, r)), cs(r, n, e, i, o).pipe(T((a) => (a === !0 ? s : h({}, Ir))))) : g(s);
 }
-function hi(t, n, e) {
+function gi(t, n, e) {
 	if (n.path === '')
 		return n.pathMatch === 'full' && (t.hasChildren() || e.length > 0)
-			? h({}, Cr)
+			? h({}, Ir)
 			: { matched: !0, consumedSegments: [], remainingSegments: e, parameters: {}, positionalParamSegments: {} };
-	let i = (n.matcher || jn)(e, t, n);
-	if (!i) return h({}, Cr);
+	let i = (n.matcher || Hn)(e, t, n);
+	if (!i) return h({}, Ir);
 	let o = {};
 	Object.entries(i.posParams ?? {}).forEach(([a, c]) => {
 		o[a] = c.path;
@@ -2869,23 +2874,23 @@ function hi(t, n, e) {
 		positionalParamSegments: i.posParams ?? {},
 	};
 }
-function Pn(t, n, e, r) {
-	return e.length > 0 && us(t, e, r)
-		? { segmentGroup: new v(n, ls(r, new v(e, t.children))), slicedSegments: [] }
-		: e.length === 0 && ds(t, e, r)
-			? { segmentGroup: new v(t.segments, cs(t, e, r, t.children)), slicedSegments: e }
+function kn(t, n, e, r) {
+	return e.length > 0 && vs(t, e, r)
+		? { segmentGroup: new v(n, ms(r, new v(e, t.children))), slicedSegments: [] }
+		: e.length === 0 && ys(t, e, r)
+			? { segmentGroup: new v(t.segments, gs(t, e, r, t.children)), slicedSegments: e }
 			: { segmentGroup: new v(t.segments, t.children), slicedSegments: e };
 }
-function cs(t, n, e, r) {
+function gs(t, n, e, r) {
 	let i = {};
 	for (let o of e)
-		if (Ut(t, n, o) && !r[P(o)]) {
+		if (kt(t, n, o) && !r[P(o)]) {
 			let s = new v([], {});
 			i[P(o)] = s;
 		}
 	return h(h({}, r), i);
 }
-function ls(t, n) {
+function ms(t, n) {
 	let e = {};
 	e[p] = n;
 	for (let r of t)
@@ -2895,24 +2900,24 @@ function ls(t, n) {
 		}
 	return e;
 }
-function us(t, n, e) {
-	return e.some((r) => Ut(t, n, r) && P(r) !== p);
+function vs(t, n, e) {
+	return e.some((r) => kt(t, n, r) && P(r) !== p);
 }
-function ds(t, n, e) {
-	return e.some((r) => Ut(t, n, r));
+function ys(t, n, e) {
+	return e.some((r) => kt(t, n, r));
 }
-function Ut(t, n, e) {
+function kt(t, n, e) {
 	return (t.hasChildren() || n.length > 0) && e.pathMatch === 'full' ? !1 : e.path === '';
 }
-function hs(t, n, e) {
+function Ss(t, n, e) {
 	return n.length === 0 && !t.children[e];
 }
-var Er = class {};
-async function fs(t, n, e, r, i, o, s = 'emptyOnly', a) {
-	return new Ir(t, n, e, r, i, s, o, a).recognize();
+var Tr = class {};
+async function ws(t, n, e, r, i, o, s = 'emptyOnly', a) {
+	return new Mr(t, n, e, r, i, s, o, a).recognize();
 }
-var ps = 31,
-	Ir = class {
+var Rs = 31,
+	Mr = class {
 		injector;
 		configLoader;
 		rootComponentType;
@@ -2933,17 +2938,17 @@ var ps = 31,
 				(this.paramsInheritanceStrategy = s),
 				(this.urlSerializer = a),
 				(this.abortSignal = c),
-				(this.applyRedirects = new br(this.urlSerializer, this.urlTree)));
+				(this.applyRedirects = new Er(this.urlSerializer, this.urlTree)));
 		}
 		noMatchError(n) {
 			return new R(4002, `'${n.segmentGroup}'`);
 		}
 		async recognize() {
-			let n = Pn(this.urlTree.root, [], [], this.config).segmentGroup,
+			let n = kn(this.urlTree.root, [], [], this.config).segmentGroup,
 				{ children: e, rootSnapshot: r } = await this.match(n),
-				i = new M(r, e),
+				i = new D(r, e),
 				o = new ze('', i),
-				s = Yn(r, [], this.urlTree.queryParams, this.urlTree.fragment);
+				s = Xn(r, [], this.urlTree.queryParams, this.urlTree.fragment);
 			return (
 				(s.queryParams = this.urlTree.queryParams),
 				(o.url = this.urlSerializer.serialize(s)),
@@ -2969,14 +2974,14 @@ var ps = 31,
 					rootSnapshot: e,
 				};
 			} catch (r) {
-				if (r instanceof He) return ((this.urlTree = r.urlTree), this.match(r.urlTree.root));
+				if (r instanceof Fe) return ((this.urlTree = r.urlTree), this.match(r.urlTree.root));
 				throw r instanceof z ? this.noMatchError(r) : r;
 			}
 		}
 		async processSegmentGroup(n, e, r, i, o) {
 			if (r.segments.length === 0 && r.hasChildren()) return this.processChildren(n, e, r, o);
 			let s = await this.processSegment(n, e, r, r.segments, i, !0, o);
-			return s instanceof M ? [s] : [];
+			return s instanceof D ? [s] : [];
 		}
 		async processChildren(n, e, r, i) {
 			let o = [];
@@ -2984,26 +2989,26 @@ var ps = 31,
 			let s = [];
 			for (let c of o) {
 				let l = r.children[c],
-					u = ss(e, c),
+					u = fs(e, c),
 					d = await this.processSegmentGroup(n, u, l, c, i);
 				s.push(...d);
 			}
-			let a = fi(s);
-			return (gs(a), a);
+			let a = mi(s);
+			return (bs(a), a);
 		}
 		async processSegment(n, e, r, i, o, s, a) {
 			for (let c of e)
 				try {
 					return await this.processSegmentAgainstRoute(c._injector ?? n, e, c, r, i, o, s, a);
 				} catch (l) {
-					if (l instanceof z || ci(l)) continue;
+					if (l instanceof z || di(l)) continue;
 					throw l;
 				}
-			if (hs(r, i, o)) return new Er();
+			if (Ss(r, i, o)) return new Tr();
 			throw new z(r);
 		}
 		async processSegmentAgainstRoute(n, e, r, i, o, s, a, c) {
-			if (P(r) !== s && (s === p || !Ut(i, o, r))) throw new z(i);
+			if (P(r) !== s && (s === p || !kt(i, o, r))) throw new z(i);
 			if (r.redirectTo === void 0) return this.matchSegmentAgainstRoute(n, i, r, o, s, c);
 			if (this.allowRedirects && a) return this.expandSegmentAgainstRouteUsingRedirect(n, i, e, r, o, s, c);
 			throw new z(i);
@@ -3015,24 +3020,24 @@ var ps = 31,
 				consumedSegments: u,
 				positionalParamSegments: d,
 				remainingSegments: S,
-			} = hi(e, i, o);
+			} = gi(e, i, o);
 			if (!c) throw new z(e);
 			typeof i.redirectTo == 'string' &&
 				i.redirectTo[0] === '/' &&
-				(this.absoluteRedirectCount++, this.absoluteRedirectCount > ps && (this.allowRedirects = !1));
+				(this.absoluteRedirectCount++, this.absoluteRedirectCount > Rs && (this.allowRedirects = !1));
 			let w = new ne(
 					o,
 					l,
 					Object.freeze(h({}, this.urlTree.queryParams)),
 					this.urlTree.fragment,
-					Un(i),
+					jn(i),
 					P(i),
 					i.component ?? i._loadedComponent ?? null,
 					i,
-					xn(i),
+					$n(i),
 					n,
 				),
-				Q = At(w, a, this.paramsInheritanceStrategy);
+				Q = Lt(w, a, this.paramsInheritanceStrategy);
 			if (((w.params = Object.freeze(Q.params)), (w.data = Object.freeze(Q.data)), this.abortSignal.aborted))
 				throw new Error(this.abortSignal.reason);
 			let X = await this.applyRedirects.applyRedirectCommands(u, i.redirectTo, d, w, n),
@@ -3041,7 +3046,7 @@ var ps = 31,
 		}
 		async matchSegmentAgainstRoute(n, e, r, i, o, s) {
 			if (this.abortSignal.aborted) throw new Error(this.abortSignal.reason);
-			let a = await gt(as(e, r, i, n, this.urlSerializer, this.abortSignal));
+			let a = await vt(ps(e, r, i, n, this.urlSerializer, this.abortSignal));
 			if ((r.path === '**' && (e.children = {}), !a?.matched)) throw new z(e);
 			n = r._injector ?? n;
 			let { routes: c } = await this.getChildConfig(n, r, i),
@@ -3052,24 +3057,24 @@ var ps = 31,
 					u,
 					Object.freeze(h({}, this.urlTree.queryParams)),
 					this.urlTree.fragment,
-					Un(r),
+					jn(r),
 					P(r),
 					r.component ?? r._loadedComponent ?? null,
 					r,
-					xn(r),
+					$n(r),
 					n,
 				),
-				Q = At(w, s, this.paramsInheritanceStrategy);
+				Q = Lt(w, s, this.paramsInheritanceStrategy);
 			((w.params = Object.freeze(Q.params)), (w.data = Object.freeze(Q.data)));
-			let { segmentGroup: X, slicedSegments: J } = Pn(e, d, S, c);
+			let { segmentGroup: X, slicedSegments: J } = kn(e, d, S, c);
 			if (J.length === 0 && X.hasChildren()) {
-				let _i = await this.processChildren(l, c, X, w);
-				return new M(w, _i);
+				let Ni = await this.processChildren(l, c, X, w);
+				return new D(w, Ni);
 			}
-			if (c.length === 0 && J.length === 0) return new M(w, []);
-			let $t = P(r) === o,
-				Ee = await this.processSegment(l, c, X, J, $t ? p : o, !0, w);
-			return new M(w, Ee instanceof M ? [Ee] : []);
+			if (c.length === 0 && J.length === 0) return new D(w, []);
+			let Ht = P(r) === o,
+				Ee = await this.processSegment(l, c, X, J, Ht ? p : o, !0, w);
+			return new D(w, Ee instanceof D ? [Ee] : []);
 		}
 		async getChildConfig(n, e, r) {
 			if (e.children) return { routes: e.children, injector: n };
@@ -3082,7 +3087,7 @@ var ps = 31,
 					);
 				}
 				if (this.abortSignal.aborted) throw new Error(this.abortSignal.reason);
-				if (await gt(es(n, e, r, this.urlSerializer, this.abortSignal))) {
+				if (await vt(as(n, e, r, this.urlSerializer, this.abortSignal))) {
 					let o = await this.configLoader.loadChildren(n, e);
 					return (
 						(e._loadedRoutes = o.routes),
@@ -3091,25 +3096,25 @@ var ps = 31,
 						o
 					);
 				}
-				throw ns(e);
+				throw us(e);
 			}
 			return { routes: [], injector: n };
 		}
 	};
-function gs(t) {
+function bs(t) {
 	t.sort((n, e) =>
 		n.value.outlet === p ? -1 : e.value.outlet === p ? 1 : n.value.outlet.localeCompare(e.value.outlet),
 	);
 }
-function ms(t) {
+function Cs(t) {
 	let n = t.value.routeConfig;
 	return n && n.path === '';
 }
-function fi(t) {
+function mi(t) {
 	let n = [],
 		e = new Set();
 	for (let r of t) {
-		if (!ms(r)) {
+		if (!Cs(r)) {
 			n.push(r);
 			continue;
 		}
@@ -3117,24 +3122,24 @@ function fi(t) {
 		i !== void 0 ? (i.children.push(...r.children), e.add(i)) : n.push(r);
 	}
 	for (let r of e) {
-		let i = fi(r.children);
-		n.push(new M(r.value, i));
+		let i = mi(r.children);
+		n.push(new D(r.value, i));
 	}
 	return n.filter((r) => !e.has(r));
 }
-function Un(t) {
+function jn(t) {
 	return t.data || {};
 }
-function xn(t) {
+function $n(t) {
 	return t.resolve || {};
 }
-function vs(t, n, e, r, i, o, s) {
+function Es(t, n, e, r, i, o, s) {
 	return V(async (a) => {
-		let { state: c, tree: l } = await fs(t, n, e, r, a.extractedUrl, i, o, s);
-		return D(h({}, a), { targetSnapshot: c, urlAfterRedirects: l });
+		let { state: c, tree: l } = await ws(t, n, e, r, a.extractedUrl, i, o, s);
+		return M(h({}, a), { targetSnapshot: c, urlAfterRedirects: l });
 	});
 }
-function ys(t) {
+function Is(t) {
 	return V((n) => {
 		let {
 			targetSnapshot: e,
@@ -3143,65 +3148,65 @@ function ys(t) {
 		if (!r.length) return g(n);
 		let i = new Set(r.map((a) => a.route)),
 			o = new Set();
-		for (let a of i) if (!o.has(a)) for (let c of pi(a)) o.add(c);
+		for (let a of i) if (!o.has(a)) for (let c of vi(a)) o.add(c);
 		let s = 0;
 		return x(o).pipe(
-			Ht((a) => (i.has(a) ? Ss(a, e, t) : ((a.data = At(a, a.parent, t).resolve), g(void 0)))),
+			Vt((a) => (i.has(a) ? Ts(a, e, t) : ((a.data = Lt(a, a.parent, t).resolve), g(void 0)))),
 			j(() => s++),
-			Bt(1),
+			qt(1),
 			V((a) => (s === o.size ? g(n) : O)),
 		);
 	});
 }
-function pi(t) {
-	let n = t.children.map((e) => pi(e)).flat();
+function vi(t) {
+	let n = t.children.map((e) => vi(e)).flat();
 	return [t, ...n];
 }
-function Ss(t, n, e) {
+function Ts(t, n, e) {
 	let r = t.routeConfig,
 		i = t._resolve;
 	return (
-		r?.title !== void 0 && !ni(r) && (i[Be] = r.title),
+		r?.title !== void 0 && !si(r) && (i[Be] = r.title),
 		Ye(
 			() => (
-				(t.data = At(t, t.parent, e).resolve),
-				ws(i, t, n).pipe(I((o) => ((t._resolvedData = o), (t.data = h(h({}, t.data), o)), null)))
+				(t.data = Lt(t, t.parent, e).resolve),
+				Ms(i, t, n).pipe(T((o) => ((t._resolvedData = o), (t.data = h(h({}, t.data), o)), null)))
 			),
 		)
 	);
 }
-function ws(t, n, e) {
-	let r = fr(t);
+function Ms(t, n, e) {
+	let r = gr(t);
 	if (r.length === 0) return g({});
 	let i = {};
 	return x(r).pipe(
 		V((o) =>
-			Rs(t[o], n, e).pipe(
-				G(),
+			Ds(t[o], n, e).pipe(
+				q(),
 				j((s) => {
-					if (s instanceof we) throw Ot(new Y(), s);
+					if (s instanceof we) throw Nt(new Y(), s);
 					i[o] = s;
 				}),
 			),
 		),
-		Bt(1),
-		I(() => i),
-		Ft((o) => (ci(o) ? O : xr(o))),
+		qt(1),
+		T(() => i),
+		Bt((o) => (di(o) ? O : jr(o))),
 	);
 }
-function Rs(t, n, e) {
+function Ds(t, n, e) {
 	let r = n._environmentInjector,
 		i = Ce(t, r),
 		o = i.resolve ? i.resolve(n, e) : L(r, () => i(n, e));
 	return ae(o);
 }
-function kn(t) {
-	return q((n) => {
+function zn(t) {
+	return G((n) => {
 		let e = t(n);
-		return e ? x(e).pipe(I(() => n)) : g(n);
+		return e ? x(e).pipe(T(() => n)) : g(n);
 	});
 }
-var _r = (() => {
+var Or = (() => {
 		class t {
 			buildTitle(e) {
 				let r,
@@ -3216,12 +3221,12 @@ var _r = (() => {
 			static ɵfac = function (r) {
 				return new (r || t)();
 			};
-			static ɵprov = m({ token: t, factory: () => f(gi), providedIn: 'root' });
+			static ɵprov = m({ token: t, factory: () => f(yi), providedIn: 'root' });
 		}
 		return t;
 	})(),
-	gi = (() => {
-		class t extends _r {
+	yi = (() => {
+		class t extends Or {
 			title;
 			constructor(e) {
 				(super(), (this.title = e));
@@ -3231,7 +3236,7 @@ var _r = (() => {
 				r !== void 0 && this.title.setTitle(r);
 			}
 			static ɵfac = function (r) {
-				return new (r || t)(y(Mn));
+				return new (r || t)(y(On));
 			};
 			static ɵprov = m({ token: t, factory: t.ɵfac, providedIn: 'root' });
 		}
@@ -3239,21 +3244,21 @@ var _r = (() => {
 	})(),
 	We = new b('', { factory: () => ({}) }),
 	Ze = new b(''),
-	mi = (() => {
+	Si = (() => {
 		class t {
 			componentLoaders = new WeakMap();
 			childrenLoaders = new WeakMap();
 			onLoadStartListener;
 			onLoadEndListener;
-			compiler = f(ln);
+			compiler = f(dn);
 			async loadComponent(e, r) {
 				if (this.componentLoaders.get(r)) return this.componentLoaders.get(r);
 				if (r._loadedComponent) return Promise.resolve(r._loadedComponent);
 				this.onLoadStartListener && this.onLoadStartListener(r);
 				let i = (async () => {
 					try {
-						let o = await zn(L(e, () => r.loadComponent())),
-							s = await Si(yi(o));
+						let o = await Bn(L(e, () => r.loadComponent())),
+							s = await bi(Ri(o));
 						return (this.onLoadEndListener && this.onLoadEndListener(r), (r._loadedComponent = s), s);
 					} finally {
 						this.componentLoaders.delete(r);
@@ -3267,7 +3272,7 @@ var _r = (() => {
 				this.onLoadStartListener && this.onLoadStartListener(r);
 				let i = (async () => {
 					try {
-						let o = await vi(r, this.compiler, e, this.onLoadEndListener);
+						let o = await wi(r, this.compiler, e, this.onLoadEndListener);
 						return (
 							(r._loadedRoutes = o.routes),
 							(r._loadedInjector = o.injector),
@@ -3287,11 +3292,11 @@ var _r = (() => {
 		}
 		return t;
 	})();
-async function vi(t, n, e, r) {
-	let i = await zn(L(e, () => t.loadChildren())),
-		o = await Si(yi(i)),
+async function wi(t, n, e, r) {
+	let i = await Bn(L(e, () => t.loadChildren())),
+		o = await bi(Ri(i)),
 		s;
-	(o instanceof rn || Array.isArray(o) ? (s = o) : (s = await n.compileModuleAsync(o)), r && r(t));
+	(o instanceof nn || Array.isArray(o) ? (s = o) : (s = await n.compileModuleAsync(o)), r && r(t));
 	let a,
 		c,
 		l = !1,
@@ -3300,28 +3305,28 @@ async function vi(t, n, e, r) {
 		Array.isArray(s)
 			? ((c = s), (l = !0))
 			: ((a = s.create(e).injector), (u = s), (c = a.get(Ze, [], { optional: !0, self: !0 }).flat())),
-		{ routes: c.map(Mr), injector: a, factory: u }
+		{ routes: c.map(_r), injector: a, factory: u }
 	);
 }
-function bs(t) {
+function As(t) {
 	return t && typeof t == 'object' && 'default' in t;
 }
-function yi(t) {
-	return bs(t) ? t.default : t;
+function Ri(t) {
+	return As(t) ? t.default : t;
 }
-async function Si(t) {
+async function bi(t) {
 	return t;
 }
-var xt = (() => {
+var jt = (() => {
 		class t {
 			static ɵfac = function (r) {
 				return new (r || t)();
 			};
-			static ɵprov = m({ token: t, factory: () => f(Cs), providedIn: 'root' });
+			static ɵprov = m({ token: t, factory: () => f(_s), providedIn: 'root' });
 		}
 		return t;
 	})(),
-	Cs = (() => {
+	_s = (() => {
 		class t {
 			shouldProcessUrl(e) {
 				return !0;
@@ -3339,29 +3344,29 @@ var xt = (() => {
 		}
 		return t;
 	})(),
-	wi = new b('');
-var Es = () => {},
-	Ri = new b(''),
-	bi = (() => {
+	Ci = new b('');
+var Os = () => {},
+	Ei = new b(''),
+	Ii = (() => {
 		class t {
-			currentNavigation = Xe(null, { equal: () => !1 });
+			currentNavigation = et(null, { equal: () => !1 });
 			currentTransition = null;
-			lastSuccessfulNavigation = Xe(null);
+			lastSuccessfulNavigation = et(null);
 			events = new B();
 			transitionAbortWithErrorSubject = new B();
-			configLoader = f(mi);
+			configLoader = f(Si);
 			environmentInjector = f(ee);
-			destroyRef = f(Gt);
+			destroyRef = f(Xe);
 			urlSerializer = f(Ve);
 			rootContexts = f(be);
 			location = f(he);
-			inputBindingEnabled = f(Pt, { optional: !0 }) !== null;
-			titleStrategy = f(_r);
+			inputBindingEnabled = f(xt, { optional: !0 }) !== null;
+			titleStrategy = f(Or);
 			options = f(We, { optional: !0 }) || {};
 			paramsInheritanceStrategy = this.options.paramsInheritanceStrategy || 'emptyOnly';
-			urlHandlingStrategy = f(xt);
-			createViewTransition = f(wi, { optional: !0 });
-			navigationErrorHandler = f(Ri, { optional: !0 });
+			urlHandlingStrategy = f(jt);
+			createViewTransition = f(Ci, { optional: !0 });
+			navigationErrorHandler = f(Ei, { optional: !0 });
 			navigationId = 0;
 			get hasRequestedNavigation() {
 				return this.navigationId !== 0;
@@ -3371,8 +3376,8 @@ var Es = () => {},
 			rootComponentType = null;
 			destroyed = !1;
 			constructor() {
-				let e = (i) => this.events.next(new bt(i)),
-					r = (i) => this.events.next(new Ct(i));
+				let e = (i) => this.events.next(new Et(i)),
+					r = (i) => this.events.next(new It(i));
 				((this.configLoader.onLoadEndListener = r),
 					(this.configLoader.onLoadStartListener = e),
 					this.destroyRef.onDestroy(() => {
@@ -3386,7 +3391,7 @@ var Es = () => {},
 				let r = ++this.navigationId;
 				te(() => {
 					this.transitions?.next(
-						D(h({}, e), {
+						M(h({}, e), {
 							extractedUrl: this.urlHandlingStrategy.extract(e.rawUrl),
 							targetSnapshot: null,
 							targetRouterState: null,
@@ -3399,17 +3404,17 @@ var Es = () => {},
 			}
 			setupNavigations(e) {
 				return (
-					(this.transitions = new A(null)),
+					(this.transitions = new _(null)),
 					this.transitions.pipe(
 						ce((r) => r !== null),
-						q((r) => {
+						G((r) => {
 							let i = !1,
 								o = new AbortController(),
 								s = () => !i && this.currentTransition?.id === r.id;
 							return g(r).pipe(
-								q((a) => {
+								G((a) => {
 									if (this.navigationId > r.id)
-										return (this.cancelNavigationTransition(r, '', E.SupersededByNewNavigation), O);
+										return (this.cancelNavigationTransition(r, '', I.SupersededByNewNavigation), O);
 									this.currentTransition = r;
 									let c = this.lastSuccessfulNavigation();
 									this.currentNavigation.set({
@@ -3422,7 +3427,7 @@ var Es = () => {},
 												: a.extras.browserUrl,
 										trigger: a.source,
 										extras: a.extras,
-										previousNavigation: c ? D(h({}, c), { previousNavigation: null }) : null,
+										previousNavigation: c ? M(h({}, c), { previousNavigation: null }) : null,
 										abort: () => o.abort(),
 									});
 									let l =
@@ -3433,7 +3438,7 @@ var Es = () => {},
 									if (!l && u !== 'reload')
 										return (
 											this.events.next(
-												new H(
+												new F(
 													a.id,
 													this.urlSerializer.serialize(a.rawUrl),
 													'',
@@ -3445,7 +3450,7 @@ var Es = () => {},
 										);
 									if (this.urlHandlingStrategy.shouldProcessUrl(a.rawUrl))
 										return g(a).pipe(
-											q(
+											G(
 												(d) => (
 													this.events.next(
 														new oe(
@@ -3458,7 +3463,7 @@ var Es = () => {},
 													d.id !== this.navigationId ? O : Promise.resolve(d)
 												),
 											),
-											vs(
+											Es(
 												this.environmentInjector,
 												this.configLoader,
 												this.rootComponentType,
@@ -3486,13 +3491,13 @@ var Es = () => {},
 										let { id: d, extractedUrl: S, source: w, restoredState: Q, extras: X } = a,
 											J = new oe(d, this.urlSerializer.serialize(S), w, Q);
 										this.events.next(J);
-										let $t = ti(this.rootComponentType, this.environmentInjector).snapshot;
+										let Ht = ii(this.rootComponentType, this.environmentInjector).snapshot;
 										return (
 											(this.currentTransition = r =
-												D(h({}, a), {
-													targetSnapshot: $t,
+												M(h({}, a), {
+													targetSnapshot: Ht,
 													urlAfterRedirects: S,
-													extras: D(h({}, X), { skipLocationChange: !1, replaceUrl: !1 }),
+													extras: M(h({}, X), { skipLocationChange: !1, replaceUrl: !1 }),
 												})),
 											this.currentNavigation.update((Ee) => ((Ee.finalUrl = S), Ee)),
 											g(r)
@@ -3500,7 +3505,7 @@ var Es = () => {},
 									} else
 										return (
 											this.events.next(
-												new H(
+												new F(
 													a.id,
 													this.urlSerializer.serialize(a.extractedUrl),
 													'',
@@ -3511,8 +3516,8 @@ var Es = () => {},
 											O
 										);
 								}),
-								I((a) => {
-									let c = new yt(
+								T((a) => {
+									let c = new wt(
 										a.id,
 										this.urlSerializer.serialize(a.extractedUrl),
 										this.urlSerializer.serialize(a.urlAfterRedirects),
@@ -3521,20 +3526,20 @@ var Es = () => {},
 									return (
 										this.events.next(c),
 										(this.currentTransition = r =
-											D(h({}, a), {
-												guards: Uo(a.targetSnapshot, a.currentSnapshot, this.rootContexts),
+											M(h({}, a), {
+												guards: Fo(a.targetSnapshot, a.currentSnapshot, this.rootContexts),
 											})),
 										r
 									);
 								}),
-								qo((a) => this.events.next(a)),
-								q((a) => {
+								Jo((a) => this.events.next(a)),
+								G((a) => {
 									if (
 										((r.guardsResult = a.guardsResult),
 										a.guardsResult && typeof a.guardsResult != 'boolean')
 									)
-										throw Ot(this.urlSerializer, a.guardsResult);
-									let c = new St(
+										throw Nt(this.urlSerializer, a.guardsResult);
+									let c = new Rt(
 										a.id,
 										this.urlSerializer.serialize(a.extractedUrl),
 										this.urlSerializer.serialize(a.urlAfterRedirects),
@@ -3543,9 +3548,9 @@ var Es = () => {},
 									);
 									if ((this.events.next(c), !s())) return O;
 									if (!a.guardsResult)
-										return (this.cancelNavigationTransition(a, '', E.GuardRejected), O);
+										return (this.cancelNavigationTransition(a, '', I.GuardRejected), O);
 									if (a.guards.canActivateChecks.length === 0) return g(a);
-									let l = new wt(
+									let l = new bt(
 										a.id,
 										this.urlSerializer.serialize(a.extractedUrl),
 										this.urlSerializer.serialize(a.urlAfterRedirects),
@@ -3554,11 +3559,11 @@ var Es = () => {},
 									if ((this.events.next(l), !s())) return O;
 									let u = !1;
 									return g(a).pipe(
-										ys(this.paramsInheritanceStrategy),
+										Is(this.paramsInheritanceStrategy),
 										j({
 											next: () => {
 												u = !0;
-												let d = new Rt(
+												let d = new Ct(
 													a.id,
 													this.urlSerializer.serialize(a.extractedUrl),
 													this.urlSerializer.serialize(a.urlAfterRedirects),
@@ -3567,12 +3572,12 @@ var Es = () => {},
 												this.events.next(d);
 											},
 											complete: () => {
-												u || this.cancelNavigationTransition(a, '', E.NoDataFromResolver);
+												u || this.cancelNavigationTransition(a, '', I.NoDataFromResolver);
 											},
 										}),
 									);
 								}),
-								kn((a) => {
+								zn((a) => {
 									let c = (u) => {
 											let d = [];
 											if (u.routeConfig?._loadedComponent)
@@ -3591,20 +3596,20 @@ var Es = () => {},
 										l = c(a.targetSnapshot.root);
 									return l.length === 0 ? g(a) : x(Promise.all(l).then(() => a));
 								}),
-								kn(() => this.afterPreactivation()),
-								q(() => {
+								zn(() => this.afterPreactivation()),
+								G(() => {
 									let { currentSnapshot: a, targetSnapshot: c } = r,
 										l = this.createViewTransition?.(this.environmentInjector, a.root, c.root);
-									return l ? x(l).pipe(I(() => r)) : g(r);
+									return l ? x(l).pipe(T(() => r)) : g(r);
 								}),
 								le(1),
-								I((a) => {
-									let c = Oo(e.routeReuseStrategy, a.targetSnapshot, a.currentRouterState);
-									((this.currentTransition = r = a = D(h({}, a), { targetRouterState: c })),
+								T((a) => {
+									let c = jo(e.routeReuseStrategy, a.targetSnapshot, a.currentRouterState);
+									((this.currentTransition = r = a = M(h({}, a), { targetRouterState: c })),
 										this.currentNavigation.update((l) => ((l.targetRouterState = c), l)),
 										this.events.next(new ye()),
 										s() &&
-											(new Rr(
+											(new Cr(
 												e.routeReuseStrategy,
 												r.targetRouterState,
 												r.currentRouterState,
@@ -3613,10 +3618,10 @@ var Es = () => {},
 											).activate(this.rootContexts),
 											s() &&
 												((i = !0),
-												this.currentNavigation.update((l) => ((l.abort = Es), l)),
+												this.currentNavigation.update((l) => ((l.abort = Os), l)),
 												this.lastSuccessfulNavigation.set(te(this.currentNavigation)),
 												this.events.next(
-													new F(
+													new H(
 														a.id,
 														this.urlSerializer.serialize(a.extractedUrl),
 														this.urlSerializer.serialize(a.urlAfterRedirects),
@@ -3626,10 +3631,10 @@ var Es = () => {},
 												a.resolve(!0))));
 								}),
 								Ke(
-									li(o.signal).pipe(
+									hi(o.signal).pipe(
 										ce(() => !i && !r.targetRouterState),
 										j(() => {
-											this.cancelNavigationTransition(r, o.signal.reason + '', E.Aborted);
+											this.cancelNavigationTransition(r, o.signal.reason + '', I.Aborted);
 										}),
 									),
 								),
@@ -3645,15 +3650,15 @@ var Es = () => {},
 										}),
 									),
 								),
-								zr(() => {
+								Fr(() => {
 									(o.abort(),
-										i || this.cancelNavigationTransition(r, '', E.SupersededByNewNavigation),
+										i || this.cancelNavigationTransition(r, '', I.SupersededByNewNavigation),
 										this.currentTransition?.id === r.id &&
 											(this.currentNavigation.set(null), (this.currentTransition = null)));
 								}),
-								Ft((a) => {
+								Bt((a) => {
 									if (((i = !0), this.destroyed)) return (r.resolve(!1), O);
-									if (ai(a))
+									if (ui(a))
 										(this.events.next(
 											new N(
 												r.id,
@@ -3662,7 +3667,7 @@ var Es = () => {},
 												a.cancellationCode,
 											),
 										),
-											Po(a)
+											Ho(a)
 												? this.events.next(new Se(a.url, a.navigationBehaviorOptions))
 												: r.resolve(!1));
 									else {
@@ -3675,7 +3680,7 @@ var Es = () => {},
 										try {
 											let l = L(this.environmentInjector, () => this.navigationErrorHandler?.(c));
 											if (l instanceof we) {
-												let { message: u, cancellationCode: d } = Ot(this.urlSerializer, l);
+												let { message: u, cancellationCode: d } = Nt(this.urlSerializer, l);
 												(this.events.next(
 													new N(r.id, this.urlSerializer.serialize(r.extractedUrl), u, d),
 												),
@@ -3717,20 +3722,20 @@ var Es = () => {},
 		}
 		return t;
 	})();
-function Is(t) {
+function Ls(t) {
 	return t !== Ue;
 }
-var Ci = new b('');
-var Ei = (() => {
+var Ti = new b('');
+var Mi = (() => {
 		class t {
 			static ɵfac = function (r) {
 				return new (r || t)();
 			};
-			static ɵprov = m({ token: t, factory: () => f(Ts), providedIn: 'root' });
+			static ɵprov = m({ token: t, factory: () => f(Ns), providedIn: 'root' });
 		}
 		return t;
 	})(),
-	Nt = class {
+	Ut = class {
 		shouldDetach(n) {
 			return !1;
 		}
@@ -3748,25 +3753,25 @@ var Ei = (() => {
 			return !0;
 		}
 	},
-	Ts = (() => {
-		class t extends Nt {
+	Ns = (() => {
+		class t extends Ut {
 			static ɵfac = (() => {
 				let e;
 				return function (i) {
-					return (e || (e = Zt(t)))(i || t);
+					return (e || (e = Yt(t)))(i || t);
 				};
 			})();
 			static ɵprov = m({ token: t, factory: t.ɵfac, providedIn: 'root' });
 		}
 		return t;
 	})(),
-	Ar = (() => {
+	Lr = (() => {
 		class t {
 			urlSerializer = f(Ve);
 			options = f(We, { optional: !0 }) || {};
 			canceledNavigationResolution = this.options.canceledNavigationResolution || 'replace';
 			location = f(he);
-			urlHandlingStrategy = f(xt);
+			urlHandlingStrategy = f(jt);
 			urlUpdateStrategy = this.options.urlUpdateStrategy || 'deferred';
 			currentUrlTree = new U();
 			getCurrentUrlTree() {
@@ -3788,7 +3793,7 @@ var Ei = (() => {
 						(this.routerState = e))
 					: (this.rawUrlTree = i);
 			}
-			routerState = ti(null, f(ee));
+			routerState = ii(null, f(ee));
 			getRouterState() {
 				return this.routerState;
 			}
@@ -3812,12 +3817,12 @@ var Ei = (() => {
 			static ɵfac = function (r) {
 				return new (r || t)();
 			};
-			static ɵprov = m({ token: t, factory: () => f(Ds), providedIn: 'root' });
+			static ɵprov = m({ token: t, factory: () => f(Ps), providedIn: 'root' });
 		}
 		return t;
 	})(),
-	Ds = (() => {
-		class t extends Ar {
+	Ps = (() => {
+		class t extends Lr {
 			currentPageId = 0;
 			lastSuccessfulId = -1;
 			get browserPageId() {
@@ -3836,7 +3841,7 @@ var Ei = (() => {
 			handleRouterEvent(e, r) {
 				e instanceof oe
 					? this.updateStateMemento()
-					: e instanceof H
+					: e instanceof F
 						? this.commitTransition(r)
 						: e instanceof ve
 							? this.urlUpdateStrategy === 'eager' &&
@@ -3846,11 +3851,11 @@ var Ei = (() => {
 									this.urlUpdateStrategy === 'deferred' &&
 										!r.extras.skipLocationChange &&
 										this.setBrowserUrl(this.createBrowserPath(r), r))
-								: e instanceof N && !ei(e)
+								: e instanceof N && !ni(e)
 									? this.restoreHistory(r)
 									: e instanceof se
 										? this.restoreHistory(r, !0)
-										: e instanceof F &&
+										: e instanceof H &&
 											((this.lastSuccessfulId = e.id), (this.currentPageId = this.browserPageId));
 			}
 			setBrowserUrl(e, { extras: r, id: i }) {
@@ -3897,21 +3902,21 @@ var Ei = (() => {
 			static ɵfac = (() => {
 				let e;
 				return function (i) {
-					return (e || (e = Zt(t)))(i || t);
+					return (e || (e = Yt(t)))(i || t);
 				};
 			})();
 			static ɵprov = m({ token: t, factory: t.ɵfac, providedIn: 'root' });
 		}
 		return t;
 	})();
-function Or(t, n) {
+function Nr(t, n) {
 	t.events
 		.pipe(
-			ce((e) => e instanceof F || e instanceof N || e instanceof se || e instanceof H),
-			I((e) =>
-				e instanceof F || e instanceof H
+			ce((e) => e instanceof H || e instanceof N || e instanceof se || e instanceof F),
+			T((e) =>
+				e instanceof H || e instanceof F
 					? 0
-					: (e instanceof N ? e.code === E.Redirect || e.code === E.SupersededByNewNavigation : !1)
+					: (e instanceof N ? e.code === I.Redirect || e.code === I.SupersededByNewNavigation : !1)
 						? 2
 						: 1,
 			),
@@ -3922,9 +3927,9 @@ function Or(t, n) {
 			n();
 		});
 }
-var Ii = { paths: 'exact', fragment: 'ignored', matrixParams: 'ignored', queryParams: 'exact' },
-	Ti = { paths: 'subset', fragment: 'ignored', matrixParams: 'ignored', queryParams: 'subset' },
-	kt = (() => {
+var Di = { paths: 'exact', fragment: 'ignored', matrixParams: 'ignored', queryParams: 'exact' },
+	Ai = { paths: 'subset', fragment: 'ignored', matrixParams: 'ignored', queryParams: 'subset' },
+	$t = (() => {
 		class t {
 			get currentUrlTree() {
 				return this.stateManager.getCurrentUrlTree();
@@ -3934,15 +3939,15 @@ var Ii = { paths: 'exact', fragment: 'ignored', matrixParams: 'ignored', queryPa
 			}
 			disposed = !1;
 			nonRouterCurrentEntryChangeSubscription;
-			console = f(on);
-			stateManager = f(Ar);
+			console = f(sn);
+			stateManager = f(Lr);
 			options = f(We, { optional: !0 }) || {};
-			pendingTasks = f(Wr);
+			pendingTasks = f(Zr);
 			urlUpdateStrategy = this.options.urlUpdateStrategy || 'deferred';
-			navigationTransitions = f(bi);
+			navigationTransitions = f(Ii);
 			urlSerializer = f(Ve);
 			location = f(he);
-			urlHandlingStrategy = f(xt);
+			urlHandlingStrategy = f(jt);
 			injector = f(ee);
 			_events = new B();
 			get events() {
@@ -3952,18 +3957,18 @@ var Ii = { paths: 'exact', fragment: 'ignored', matrixParams: 'ignored', queryPa
 				return this.stateManager.getRouterState();
 			}
 			navigated = !1;
-			routeReuseStrategy = f(Ei);
-			injectorCleanup = f(Ci, { optional: !0 });
+			routeReuseStrategy = f(Mi);
+			injectorCleanup = f(Ti, { optional: !0 });
 			onSameUrlNavigation = this.options.onSameUrlNavigation || 'ignore';
 			config = f(Ze, { optional: !0 })?.flat() ?? [];
-			componentInputBindingEnabled = !!f(Pt, { optional: !0 });
+			componentInputBindingEnabled = !!f(xt, { optional: !0 });
 			currentNavigation = this.navigationTransitions.currentNavigation.asReadonly();
 			constructor() {
 				(this.resetConfig(this.config),
 					this.navigationTransitions.setupNavigations(this).subscribe({ error: (e) => {} }),
 					this.subscribeToNavigationEvents());
 			}
-			eventsSubscription = new Nr();
+			eventsSubscription = new Ur();
 			subscribeToNavigationEvents() {
 				let e = this.navigationTransitions.events.subscribe((r) => {
 					try {
@@ -3972,10 +3977,10 @@ var Ii = { paths: 'exact', fragment: 'ignored', matrixParams: 'ignored', queryPa
 						if (i !== null && o !== null) {
 							if (
 								(this.stateManager.handleRouterEvent(r, o),
-								r instanceof N && r.code !== E.Redirect && r.code !== E.SupersededByNewNavigation)
+								r instanceof N && r.code !== I.Redirect && r.code !== I.SupersededByNewNavigation)
 							)
 								this.navigated = !0;
-							else if (r instanceof F)
+							else if (r instanceof H)
 								((this.navigated = !0),
 									this.injectorCleanup?.(this.routeReuseStrategy, this.routerState, this.config));
 							else if (r instanceof Se) {
@@ -3990,7 +3995,7 @@ var Ii = { paths: 'exact', fragment: 'ignored', matrixParams: 'ignored', queryPa
 											replaceUrl:
 												i.extras.replaceUrl ||
 												this.urlUpdateStrategy === 'eager' ||
-												Is(i.source),
+												Ls(i.source),
 										},
 										s,
 									);
@@ -4001,7 +4006,7 @@ var Ii = { paths: 'exact', fragment: 'ignored', matrixParams: 'ignored', queryPa
 								});
 							}
 						}
-						_o(r) && this._events.next(r);
+						xo(r) && this._events.next(r);
 					} catch (i) {
 						this.navigationTransitions.transitionAbortWithErrorSubject.next(i);
 					}
@@ -4031,7 +4036,7 @@ var Ii = { paths: 'exact', fragment: 'ignored', matrixParams: 'ignored', queryPa
 				}
 				let a = this.parseUrl(e);
 				this.scheduleNavigation(a, r, s, o).catch((c) => {
-					this.disposed || this.injector.get(Wt)(c);
+					this.disposed || this.injector.get(Zt)(c);
 				});
 			}
 			get url() {
@@ -4044,7 +4049,7 @@ var Ii = { paths: 'exact', fragment: 'ignored', matrixParams: 'ignored', queryPa
 				return this.navigationTransitions.lastSuccessfulNavigation;
 			}
 			resetConfig(e) {
-				((this.config = e.map(Mr)), (this.navigated = !1));
+				((this.config = e.map(_r)), (this.navigated = !1));
 			}
 			ngOnDestroy() {
 				this.dispose();
@@ -4075,11 +4080,11 @@ var Ii = { paths: 'exact', fragment: 'ignored', matrixParams: 'ignored', queryPa
 				let d;
 				try {
 					let S = i ? i.snapshot : this.routerState.snapshot.root;
-					d = Kn(S);
+					d = Jn(S);
 				} catch {
 					((typeof e[0] != 'string' || e[0][0] !== '/') && (e = []), (d = this.currentUrlTree.root));
 				}
-				return Qn(d, e, u, l ?? null, this.urlSerializer);
+				return ei(d, e, u, l ?? null, this.urlSerializer);
 			}
 			navigateByUrl(e, r = { skipLocationChange: !1 }) {
 				let i = me(e) ? e : this.parseUrl(e),
@@ -4087,7 +4092,7 @@ var Ii = { paths: 'exact', fragment: 'ignored', matrixParams: 'ignored', queryPa
 				return this.scheduleNavigation(o, Ue, null, r);
 			}
 			navigate(e, r = { skipLocationChange: !1 }) {
-				return (Ms(e), this.navigateByUrl(this.createUrlTree(e, r), r));
+				return (Us(e), this.navigateByUrl(this.createUrlTree(e, r), r));
 			}
 			serializeUrl(e) {
 				return this.urlSerializer.serialize(e);
@@ -4096,15 +4101,15 @@ var Ii = { paths: 'exact', fragment: 'ignored', matrixParams: 'ignored', queryPa
 				try {
 					return this.urlSerializer.parse(e);
 				} catch {
-					return (this.console.warn(Hr(4018, !1)), this.urlSerializer.parse('/'));
+					return (this.console.warn(Gt(4018, !1)), this.urlSerializer.parse('/'));
 				}
 			}
 			isActive(e, r) {
 				let i;
-				if ((r === !0 ? (i = h({}, Ii)) : r === !1 ? (i = h({}, Ti)) : (i = r), me(e)))
-					return _n(this.currentUrlTree, e, i);
+				if ((r === !0 ? (i = h({}, Di)) : r === !1 ? (i = h({}, Ai)) : (i = r), me(e)))
+					return Ln(this.currentUrlTree, e, i);
 				let o = this.parseUrl(e);
-				return _n(this.currentUrlTree, o, i);
+				return Ln(this.currentUrlTree, o, i);
 			}
 			removeEmptyProps(e) {
 				return Object.entries(e).reduce((r, [i, o]) => (o != null && (r[i] = o), r), {});
@@ -4119,7 +4124,7 @@ var Ii = { paths: 'exact', fragment: 'ignored', matrixParams: 'ignored', queryPa
 						}));
 				let u = this.pendingTasks.add();
 				return (
-					Or(this, () => {
+					Nr(this, () => {
 						queueMicrotask(() => this.pendingTasks.remove(u));
 					}),
 					this.navigationTransitions.handleNavigationRequest({
@@ -4145,55 +4150,124 @@ var Ii = { paths: 'exact', fragment: 'ignored', matrixParams: 'ignored', queryPa
 		}
 		return t;
 	})();
-function Ms(t) {
+function Us(t) {
 	for (let n = 0; n < t.length; n++) if (t[n] == null) throw new R(4008, !1);
 }
-var Os = new b('');
-function Lr(t, ...n) {
-	return Vr([
+var js = new b('');
+function Pr(t, ...n) {
+	return qr([
 		{ provide: Ze, multi: !0, useValue: t },
 		[],
-		{ provide: K, useFactory: Ls },
-		{ provide: an, multi: !0, useFactory: Ns },
+		{ provide: K, useFactory: $s },
+		{ provide: cn, multi: !0, useFactory: zs },
 		n.map((e) => e.ɵproviders),
 	]);
 }
-function Ls() {
-	return f(kt).routerState.root;
+function $s() {
+	return f($t).routerState.root;
 }
-function Ns() {
-	let t = f(Vt);
+function zs() {
+	let t = f(Qe);
 	return (n) => {
-		let e = t.get(cn);
+		let e = t.get(ln);
 		if (n !== e.components[0]) return;
-		let r = t.get(kt),
-			i = t.get(Ps);
-		(t.get(Us) === 1 && r.initialNavigation(),
-			t.get(xs, null, { optional: !0 })?.setUpPreloading(),
-			t.get(Os, null, { optional: !0 })?.init(),
+		let r = t.get($t),
+			i = t.get(Hs);
+		(t.get(Fs) === 1 && r.initialNavigation(),
+			t.get(Bs, null, { optional: !0 })?.setUpPreloading(),
+			t.get(js, null, { optional: !0 })?.init(),
 			r.resetRootComponentType(e.componentTypes[0]),
 			i.closed || (i.next(), i.complete(), i.unsubscribe()));
 	};
 }
-var Ps = new b('', { factory: () => new B() }),
-	Us = new b('', { factory: () => 1 });
-var xs = new b('');
-var Di = [{ path: '', loadComponent: () => import('./chunk-SE2PRLSF.js').then((t) => t.FelipeTiwamoto) }];
-var Mi = { providers: [Zr(), Lr(Di), Gr(pn.pick(fn))] };
-var jt = class t {
+var Hs = new b('', { factory: () => new B() }),
+	Fs = new b('', { factory: () => 1 });
+var Bs = new b('');
+function qs(t) {
+	let n = t,
+		e = Math.floor(Math.abs(t)),
+		r = t.toString().replace(/^[^.]*\.?/, '').length,
+		i = parseInt(t.toString().replace(/^[^e]*(e([-+]?\d+))?/, '$2')) || 0;
+	return e === Math.floor(e) && e >= 0 && e <= 1
+		? 1
+		: (i === 0 && e !== 0 && e % 1e6 === 0 && r === 0) || !(i >= 0 && i <= 5)
+			? 4
+			: 5;
+}
+var _i = [
+	'pt',
+	[['AM', 'PM']],
+	void 0,
+	[
+		['D', 'S', 'T', 'Q', 'Q', 'S', 'S'],
+		['dom.', 'seg.', 'ter.', 'qua.', 'qui.', 'sex.', 's\xE1b.'],
+		['domingo', 'segunda-feira', 'ter\xE7a-feira', 'quarta-feira', 'quinta-feira', 'sexta-feira', 's\xE1bado'],
+		['dom.', 'seg.', 'ter.', 'qua.', 'qui.', 'sex.', 's\xE1b.'],
+	],
+	void 0,
+	[
+		['J', 'F', 'M', 'A', 'M', 'J', 'J', 'A', 'S', 'O', 'N', 'D'],
+		['jan.', 'fev.', 'mar.', 'abr.', 'mai.', 'jun.', 'jul.', 'ago.', 'set.', 'out.', 'nov.', 'dez.'],
+		[
+			'janeiro',
+			'fevereiro',
+			'mar\xE7o',
+			'abril',
+			'maio',
+			'junho',
+			'julho',
+			'agosto',
+			'setembro',
+			'outubro',
+			'novembro',
+			'dezembro',
+		],
+	],
+	void 0,
+	[['a.C.', 'd.C.'], void 0, ['antes de Cristo', 'depois de Cristo']],
+	0,
+	[6, 0],
+	['dd/MM/y', "d 'de' MMM 'de' y", "d 'de' MMMM 'de' y", "EEEE, d 'de' MMMM 'de' y"],
+	['HH:mm', 'HH:mm:ss', 'HH:mm:ss z', 'HH:mm:ss zzzz'],
+	['{1} {0}', void 0, void 0, void 0],
+	[',', '.', ';', '%', '+', '-', 'E', '\xD7', '\u2030', '\u221E', 'NaN', ':'],
+	['#,##0.###', '#,##0%', '\xA4\xA0#,##0.00', '#E0'],
+	'BRL',
+	'R$',
+	'Real brasileiro',
+	{
+		AUD: ['AU$', '$'],
+		BYN: [void 0, '\u0440.'],
+		JPY: ['JP\xA5', '\xA5'],
+		PHP: [void 0, '\u20B1'],
+		PTE: ['Esc.'],
+		RON: [void 0, 'L'],
+		SYP: [void 0, 'S\xA3'],
+		THB: ['\u0E3F'],
+		TWD: ['NT$'],
+		USD: ['US$', '$'],
+	},
+	'ltr',
+	qs,
+];
+var Oi = [{ path: '', loadComponent: () => import('./chunk-YCPXMQAX.js').then((t) => t.FelipeTiwamoto) }];
+bn(_i);
+var Li = { providers: [Yr(), Pr(Oi), Gr(mn.pick(gn)), { provide: hn, useValue: 'pt-BR' }] };
+var zt = class t {
 	static ɵfac = function (e) {
 		return new (e || t)();
 	};
-	static ɵcmp = tt({
+	static ɵcmp = nt({
 		type: t,
 		selectors: [['app-root']],
 		decls: 1,
 		vars: 0,
 		template: function (e, r) {
-			e & 1 && rt(0, 'router-outlet');
+			e & 1 && it(0, 'router-outlet');
 		},
-		dependencies: [Ge],
+		dependencies: [qe],
 		encapsulation: 2,
 	});
 };
-ar(jt, Mi).catch((t) => console.error(t));
+lr(zt, Li).catch((t) => console.error(t));
+/**i18n:d38b4b21f8fda6d02c34a6c806d976a048c81b998d0927fcb3e158fe8fc47675*/

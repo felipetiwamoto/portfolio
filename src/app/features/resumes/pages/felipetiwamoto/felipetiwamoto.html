@@ -21,7 +21,9 @@
 								[size]="24"
 								[strokeWidth]="2"
 							/>
-							<span class="{{ block }}__section_title_text">EXPERIÊNCIAS</span>
+							<span class="{{ block }}__section_title_text" i18n="@@felipetiwamoto_experiences_title"
+								>EXPERIÊNCIAS</span
+							>
 						</div>
 						<resume-experiences01 [experiences]="experiences" />
 					</div>
@@ -35,7 +37,9 @@
 								[size]="24"
 								[strokeWidth]="2"
 							/>
-							<span class="{{ block }}__section_title_text">SOBRE MIM</span>
+							<span class="{{ block }}__section_title_text" i18n="@@felipetiwamoto_about_title"
+								>SOBRE MIM</span
+							>
 						</div>
 						<resume-about01 [about]="about" />
 					</div>
@@ -47,7 +51,9 @@
 								[size]="24"
 								[strokeWidth]="2"
 							/>
-							<span class="{{ block }}__section_title_text">LINGUAGENS</span>
+							<span class="{{ block }}__section_title_text" i18n="@@felipetiwamoto_languages_title"
+								>LINGUAGENS</span
+							>
 						</div>
 						<resume-skills01 [skills]="languages" />
 					</div>
@@ -59,7 +65,9 @@
 								[size]="24"
 								[strokeWidth]="2"
 							/>
-							<span class="{{ block }}__section_title_text">CURSOS</span>
+							<span class="{{ block }}__section_title_text" i18n="@@felipetiwamoto_courses_title"
+								>CURSOS</span
+							>
 						</div>
 						<resume-courses01 [courses]="courses" />
 					</div>
@@ -71,14 +79,20 @@
 								[size]="24"
 								[strokeWidth]="2"
 							/>
-							<span class="{{ block }}__section_title_text">HABILIDADES</span>
+							<span class="{{ block }}__section_title_text" i18n="@@felipetiwamoto_skills_title"
+								>HABILIDADES</span
+							>
 						</div>
 						<div class="{{ block }}__sub_section">
-							<span class="{{ block }}__section_sub_title">Frontend</span>
+							<span class="{{ block }}__section_sub_title" i18n="@@felipetiwamoto_frontend_title"
+								>Frontend</span
+							>
 							<resume-skills01 [skills]="frontend" />
 						</div>
 						<div class="{{ block }}__sub_section">
-							<span class="{{ block }}__section_sub_title">Backend</span>
+							<span class="{{ block }}__section_sub_title" i18n="@@felipetiwamoto_backend_title"
+								>Backend</span
+							>
 							<resume-skills01 [skills]="backend" />
 						</div>
 					</div>

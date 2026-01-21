@@ -8,7 +8,10 @@
 		"watch": "ng build --watch --configuration dev",
 		"test": "ng test",
 		"prepare": "husky",
-		"format": "prettier --write ."
+		"format": "prettier --write .",
+		"i18n": "ng run portfolio:extract-i18n",
+		"start:pt": "ng s --configuration=pt",
+		"start:en": "ng s --configuration=en"
 	},
 	"lint-staged": {
 		"src/**/*": "npm run format"
@@ -30,9 +33,11 @@
 		"@angular/build": "^21.1.0",
 		"@angular/cli": "^21.1.0",
 		"@angular/compiler-cli": "^21.1.0",
+		"@angular/localize": "^21.1.0",
 		"husky": "^9.1.7",
 		"jsdom": "^27.1.0",
 		"lint-staged": "^16.2.7",
+		"ng-extract-i18n-merge": "^3.2.1",
 		"prettier": "^3.8.0",
 		"typescript": "~5.9.2",
 		"vitest": "^4.0.8"
