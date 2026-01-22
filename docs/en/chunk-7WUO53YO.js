@@ -7,14 +7,14 @@ import {
 	Ea as M,
 	Fa as E,
 	Ga as I,
-	Ha as V,
-	J,
+	Ha as Q,
+	J as q,
 	Ja as S,
 	Ka as f,
 	La as i,
 	Ma as m,
 	Na as d,
-	Oa as U,
+	Oa as V,
 	Pa as C,
 	Qa as b,
 	Ra as x,
@@ -24,7 +24,7 @@ import {
 	Wa as K,
 	Xa as v,
 	ab as T,
-	ga as Q,
+	ga as J,
 	ha as e,
 	pa as u,
 	va as L,
@@ -42,10 +42,10 @@ function ee(s, c) {
 		(i(t('', g, '__left')),
 			e(),
 			i(t('', g, '__image')),
-			V('alt', Y((o = a.hero()) == null ? null : o.name))('src', (n = a.hero()) == null ? null : n.image, Q));
+			Q('alt', Y((o = a.hero()) == null ? null : o.name))('src', (n = a.hero()) == null ? null : n.image, J));
 	}
 }
-var W = class s {
+var U = class s {
 	hero = v();
 	static ɵfac = function (o) {
 		return new (o || s)();
@@ -117,7 +117,7 @@ function ie(s, c) {
 			d(o.description));
 	}
 }
-var N = class s {
+var W = class s {
 	contacts = v();
 	static ɵfac = function (o) {
 		return new (o || s)();
@@ -184,7 +184,7 @@ function ae(s, c) {
 			i(t('', n, '__item_company_icon')),
 			p('size', 18)('strokeWidth', 2),
 			e(),
-			U(' ', o.company, ' '),
+			V(' ', o.company, ' '),
 			e(),
 			i(t('', n, '__item_period')),
 			e(),
@@ -204,7 +204,7 @@ function ae(s, c) {
 			F(o.description ? 12 : -1));
 	}
 }
-var D = class s {
+var N = class s {
 	experiences = v();
 	static ɵfac = function (o) {
 		return new (o || s)();
@@ -232,7 +232,7 @@ var D = class s {
 		],
 	});
 };
-var G = class s {
+var D = class s {
 	about = v();
 	static ɵfac = function (o) {
 		return new (o || s)();
@@ -280,7 +280,7 @@ function oe(s, c) {
 			w(n.levels));
 	}
 }
-var j = class s {
+var G = class s {
 	skills = v();
 	levels = Array(10).fill(0);
 	isBulletItemActive(c, o) {
@@ -357,7 +357,7 @@ function se(s, c) {
 			p('size', 14)('strokeWidth', 2));
 	}
 }
-var B = class s {
+var j = class s {
 	courses = v();
 	static ɵfac = function (o) {
 		return new (o || s)();
@@ -386,8 +386,8 @@ var B = class s {
 	});
 };
 var Z = class s {
-	locale = J(K);
-	hero = { name: ' Felipe Iwamoto', role: ' Desenvolvedor Full-Stack S\xEAnior' };
+	locale = q(K);
+	hero = { name: 'Felipe Iwamoto', role: 'Senior Full-Stack Developer' };
 	contacts = [
 		{ icon: 'map-pin', description: 'Brazil - Curitiba/PR' },
 		{ icon: 'mail', description: 'felipe.t.iwamoto@gmail.com' },
@@ -396,15 +396,15 @@ var Z = class s {
 	];
 	about = {
 		summary:
-			' Sou programador com foco em ser desenvolvedor Full-Stack, atuando na \xE1rea web h\xE1 sete anos. Nas minhas experi\xEAncias, tive o privil\xE9gio de trabalhar em empresas nas quais tive autonomia de buscar conhecimento e aplicar no dia a dia. Me esforcei para ser um profissional capaz de suprir as necessidades das empresas, nas quais aprendi com o prox\xEDmo e ensinei. Meu objetivo \xE9 aperfei\xE7oar os meus conhecimentos e buscar novas aprendizagens dentro da empresas, sempre com olhar na evolu\xE7\xE3o pessoal e profissional.',
+			'I am a programmer focused on becoming a Full-Stack developer, working in the web field for seven years. Throughout my experiences, I had the privilege of working at companies where I had the autonomy to seek knowledge and apply it in my daily work. I strived to become a professional capable of meeting the companies\u2019 needs, learning from others and teaching along the way. My goal is to continuously improve my knowledge and pursue new learning opportunities within companies, always focusing on personal and professional growth.',
 	};
 	languages = [
-		{ name: ' Portugu\xEAs', level: 10 },
-		{ name: ' Ingl\xEAs', level: 6 },
-		{ name: ' Japon\xEAs', level: 4 },
+		{ name: 'Portuguese', level: 10 },
+		{ name: 'English', level: 6 },
+		{ name: 'Japanese', level: 4 },
 	];
 	courses = [
-		{ institution: ' Faculdade Opet', name: ' Jogos Digitais (T\xE9cnico)', timeSpent: '1 ano' },
+		{ institution: 'Opet College', name: 'Digital Games (Technical Degree)', timeSpent: '1 ano' },
 		{ institution: 'Udemy', name: 'Web Development', timeSpent: '54h' },
 		{ institution: 'Udemy', name: 'Reactive programming', timeSpent: '17h' },
 		{ institution: 'Udemy', name: 'PHP/Laravel/Symfony', timeSpent: '115h' },
@@ -438,142 +438,129 @@ var Z = class s {
 	experiences = [
 		{
 			company: 'Banco BS2',
-			startedAt: ' SET 2022',
-			endedAt: ' ATUAL',
+			startedAt: 'SEP 2022',
+			endedAt: 'CURRENT',
 			responsabilities: [
-				' Recrutamento de Desenvolvedores',
-				' Atua\xE7\xE3o como S\xEAnior.',
-				' Manuten\xE7\xE3o nos sistemas existentes.',
-				' Cria\xE7\xE3o de novas funcionalidades.',
+				'Developer Recruitment',
+				'Worked as a Senior.',
+				'Maintenance of existing systems.',
+				'Development of new features.',
 			],
 			softSkills: [
-				' Capacidade de persuas\xE3o;',
-				' Proatividade;',
-				' Capacidade de trabalhar sob press\xE3o;',
-				' Senso de lideran\xE7a;',
-				' Capacidade anal\xEDtica.',
+				'Persuasion skills;',
+				'Proactivity;',
+				'Ability to work under pressure;',
+				'Leadership skills;',
+				'Analytical skills.',
 			],
-			hardSkills: [' Cursos t\xE9cnicos;'],
+			hardSkills: ['Technical courses;'],
 			description:
-				' Atua\xE7\xE3o como desenvolvedor s\xEAnior, com foco em arquitetura e padroniza\xE7\xE3o. Respons\xE1vel pelo Design System corporativo (componentes, diretivas, pipes e services), aplicado gradualmente em m\xFAltiplos projetos. Mentoria de novos colaboradores, palestras internas e migra\xE7\xF5es do Angular (12 \u2192 16 \u2192 18). Implementa\xE7\xE3o de i18n com suporte a Portugu\xEAs, ingl\xEAs e chin\xEAs.',
+				'Worked as a Senior Developer, with a focus on architecture and standardization. Responsible for the corporate Design System (components, directives, pipes, and services), gradually applied across multiple projects. Mentored new collaborators, delivered internal talks, and led Angular migrations (12 \u2192 16 \u2192 18). Implemented i18n with support for Portuguese, English, and Chinese.',
 		},
 		{
 			company: 'Tagme',
-			startedAt: ' JUN 2021 ',
-			endedAt: ' AGO 2022',
+			startedAt: 'JUN 2021',
+			endedAt: 'AUG 2022',
 			responsabilities: [
-				' Atua\xE7\xE3o como S\xEAnior.',
-				' Mentoriamento de novos colaboradores.',
-				' Manuten\xE7\xE3o nos sistemas existentes.',
-				' Cria\xE7\xE3o de novas funcionalidades.',
-				' Cria\xE7\xE3o de novas funcionalidades.',
+				'Worked as a Senior.',
+				'Mentoring new collaborators.',
+				'Maintenance of existing systems.',
+				'Development of new features.',
+				'Development of new features.',
 			],
 			softSkills: [
-				' Capacidade de persuas\xE3o;',
-				' Proatividade;',
-				' Capacidade de trabalhar sob press\xE3o;',
-				' Senso de lideran\xE7a;',
-				' Capacidade anal\xEDtica.',
+				'Persuasion skills;',
+				'Proactivity;',
+				'Ability to work under pressure;',
+				'Leadership skills;',
+				'Analytical skills.',
 			],
-			hardSkills: [' Cursos t\xE9cnicos;'],
+			hardSkills: ['Technical courses;'],
 			description:
-				' Lideran\xE7a do time de front-end na cria\xE7\xE3o de um novo projeto, atuando como desenvolvedor s\xEAnior com foco t\xE9cnico e arquitetural. Mentoria de novos colaboradores e condu\xE7\xE3o de palestras internas para capacita\xE7\xE3o do time no uso de tecnologias e boas pr\xE1ticas.',
+				'Led the front-end team in the creation of a new project, working as a Senior Developer with a technical and architectural focus. Mentored new collaborators and conducted internal talks to train the team on technologies and best practices.',
 		},
 		{
 			company: 'Tuxon',
-			startedAt: ' FEV 2020',
-			endedAt: ' NOV 2020',
+			startedAt: 'FEB 2020',
+			endedAt: 'NOV 2020',
 			responsabilities: [
-				' Manuten\xE7\xE3o nos sistemas existentes.',
-				' Cria\xE7\xE3o de novas funcionalidades.',
-				' Cria\xE7\xE3o de novas funcionalidades.',
+				'Maintenance of existing systems.',
+				'Development of new features.',
+				'Development of new features.',
 			],
-			softSkills: [
-				' Capacidade de persuas\xE3o;',
-				' Proatividade;',
-				' Capacidade de trabalhar sob press\xE3o;',
-				' Capacidade anal\xEDtica.',
-			],
-			hardSkills: [' Cursos t\xE9cnicos;', ' habilidades ligadas \xE0 inform\xE1tica.'],
+			softSkills: ['Persuasion skills;', 'Proactivity;', 'Ability to work under pressure;', 'Analytical skills.'],
+			hardSkills: ['Technical courses;', 'Skills related to information technology.'],
 			description:
-				' Atua\xE7\xE3o na manuten\xE7\xE3o de sistemas existentes, desenvolvimento de novas funcionalidades e cria\xE7\xE3o de projetos do zero. Perfil proativo, com forte capacidade anal\xEDtica, habilidade para trabalhar sob press\xE3o e boa comunica\xE7\xE3o para alinhamento t\xE9cnico com o time.',
+				'Worked on the maintenance of existing systems, development of new features, and creation of projects from scratch. Proactive profile, with strong analytical skills, ability to work under pressure, and good communication for technical alignment with the team.',
 		},
 		{
 			company: '4You2 Idiomas',
-			startedAt: ' ABR 2019',
-			endedAt: ' SET 2019',
+			startedAt: 'APR 2019',
+			endedAt: 'SEP 2019',
 			responsabilities: [
-				' Mentoriamento de novos colaboradores.',
-				' Manuten\xE7\xE3o nos sistemas existentes.',
-				' Cria\xE7\xE3o de novas funcionalidades.',
-				' Cria\xE7\xE3o de novas funcionalidades.',
+				'Mentoring new collaborators.',
+				'Maintenance of existing systems.',
+				'Development of new features.',
+				'Development of new features.',
 			],
-			softSkills: [
-				' Proatividade;',
-				' Capacidade de trabalhar sob press\xE3o;',
-				' Senso de lideran\xE7a;',
-				' Capacidade anal\xEDtica.',
-			],
-			hardSkills: [' Conhecimento em uma l\xEDngua estrangeira;', ' Cursos t\xE9cnicos;'],
+			softSkills: ['Proactivity;', 'Ability to work under pressure;', 'Leadership skills;', 'Analytical skills.'],
+			hardSkills: ['Knowledge of a foreign language;', 'Technical courses;'],
 			description:
-				' Atua\xE7\xE3o na manuten\xE7\xE3o e evolu\xE7\xE3o de sistemas existentes, desenvolvimento de novas funcionalidades e cria\xE7\xE3o de projetos do zero. Forte experi\xEAncia com ingl\xEAs no dia a dia, participando de dailies e alinhamentos t\xE9cnicos com falantes nativos, entendendo demandas diretamente com o time internacional e realizando implementa\xE7\xF5es e ajustes cont\xEDnuos. Atua\xE7\xE3o ativa no mentoriamento de novos colaboradores, apoiando onboarding, direcionamento t\xE9cnico e evolu\xE7\xE3o profissional, com perfil proativo, anal\xEDtico e senso de lideran\xE7a.',
+				'Work on the maintenance and evolution of existing systems, development of new features, and creation of projects from scratch. Strong experience using English on a daily basis, participating in dailies and technical alignments with native speakers, understanding requirements directly with the international team, and performing continuous implementations and adjustments. Active role in mentoring new collaborators, supporting onboarding, technical guidance, and professional growth, with a proactive, analytical profile and a strong sense of leadership.',
 		},
 		{
 			company: 'SPRO IT Solutions',
-			startedAt: ' SET 2018',
-			endedAt: ' ABR 2019',
+			startedAt: 'SEP 2018',
+			endedAt: 'APR 2019',
 			responsabilities: [
-				' Manuten\xE7\xE3o nos sistemas existentes.',
-				' Cria\xE7\xE3o de novas funcionalidades.',
-				' Cria\xE7\xE3o de novas funcionalidades.',
+				'Maintenance of existing systems.',
+				'Development of new features.',
+				'Development of new features.',
 			],
-			softSkills: [' Proatividade;', ' Capacidade de trabalhar sob press\xE3o;', ' Capacidade anal\xEDtica.'],
-			hardSkills: [' Cursos t\xE9cnicos;'],
+			softSkills: ['Proactivity;', 'Ability to work under pressure;', 'Analytical skills.'],
+			hardSkills: ['Technical courses;'],
 			description:
-				' Atua\xE7\xE3o na manuten\xE7\xE3o de sistemas existentes, desenvolvimento de novas funcionalidades e cria\xE7\xE3o de projetos do zero, com forte foco em automa\xE7\xE3o de processos. Mapeamento e entendimento de tarefas manuais que levavam dias ou semanas para serem executadas, criando automa\xE7\xF5es que passaram a realizar esses processos em segundos, acelerando significativamente o fluxo de trabalho e apoiando diretamente outras \xE1reas da empresa.',
+				'Worked on the maintenance of existing systems, development of new features, and creation of projects from scratch, with a strong focus on process automation. Mapped and understood manual tasks that previously took days or weeks to complete, creating automations that reduced execution time to seconds, significantly accelerating workflows and directly supporting other areas of the company.',
 		},
 		{
 			company: 'DevMaker',
-			startedAt: ' OUT 2017',
-			endedAt: ' SET 2018',
+			startedAt: 'OCT 2017',
+			endedAt: 'SEP 2018',
 			responsabilities: [
-				' Manuten\xE7\xE3o nos sistemas existentes.',
-				' Cria\xE7\xE3o de novas funcionalidades.',
-				' Cria\xE7\xE3o de novas funcionalidades.',
+				'Maintenance of existing systems.',
+				'Development of new features.',
+				'Development of new features.',
 			],
-			softSkills: [' Proatividade;', ' Capacidade de trabalhar sob press\xE3o;', ' Capacidade anal\xEDtica.'],
-			hardSkills: [' Cursos t\xE9cnicos;'],
+			softSkills: ['Proactivity;', 'Ability to work under pressure;', 'Analytical skills.'],
+			hardSkills: ['Technical courses;'],
 			description:
-				' Apesar da posi\xE7\xE3o j\xFAnior, identifiquei a alta demanda de projetos e a dificuldade do time em manter o ritmo de entregas. Em alinhamento com o time de design, liderei a padroniza\xE7\xE3o dos componentes da empresa, criando varia\xE7\xF5es reutiliz\xE1veis aplicadas em todos os novos projetos. Para viabilizar essa iniciativa, estudei profundamente frameworks como Bootstrap, Material e Semantic UI, desenvolvendo uma solu\xE7\xE3o adaptada \xE0s necessidades da empresa, o que contribuiu para redu\xE7\xE3o de horas extras e trabalho aos fins de semana.',
+				'Despite holding a junior position, I identified a high project demand and the team\u2019s difficulty in maintaining the delivery pace. In alignment with the design team, I led the standardization of the company\u2019s components, creating reusable variations applied across all new projects. To enable this initiative, I conducted an in-depth study of frameworks such as Bootstrap, Material, and Semantic UI, developing a solution tailored to the company\u2019s needs, which contributed to reducing overtime and weekend work.',
 		},
 		{
 			company: '01Tec',
-			startedAt: ' ABR 2015',
-			endedAt: ' SET 2016',
-			responsabilities: [
-				' Manuten\xE7\xE3o nos sistemas existentes.',
-				' Cria\xE7\xE3o de novas funcionalidades.',
-			],
-			softSkills: [' Proatividade;', ' Capacidade anal\xEDtica.'],
-			hardSkills: [' Cursos t\xE9cnicos;'],
+			startedAt: 'APR 2015',
+			endedAt: 'SEP 2016',
+			responsabilities: ['Maintenance of existing systems.', 'Development of new features.'],
+			softSkills: ['Proactivity;', 'Analytical skills.'],
+			hardSkills: ['Technical courses;'],
 			description:
-				' Experi\xEAncia de est\xE1gio onde iniciei com conhecimentos b\xE1sicos em l\xF3gica de programa\xE7\xE3o e evolu\xED para o desenvolvimento web completo, aprendendo HTML, CSS, JavaScript, jQuery, PHP e MySQL, al\xE9m da cria\xE7\xE3o de temas para WordPress. Ap\xF3s o per\xEDodo de est\xE1gio, atuei como freelancer para a empresa por alguns meses, contribuindo em projetos adicionais.',
+				'Internship experience where I started with basic knowledge in programming logic and evolved into full web development, learning HTML, CSS, JavaScript, jQuery, PHP, and MySQL, in addition to creating themes for WordPress. After the internship period, I worked as a freelancer for the company for a few months, contributing to additional projects.',
 		},
 		{
 			company: 'Servi\xE7os comunit\xE1rios',
-			startedAt: ' ABR 2015',
-			endedAt: ' SET 2016',
+			startedAt: 'APR 2015',
+			endedAt: 'SEP 2016',
 			responsabilities: [
-				' Sou programador com foco em ser desenvolvedor Full-Stack, atuando na \xE1rea web h\xE1 sete anos. Nas minhas experi\xEAncias, tive o privil\xE9gio de trabalhar em empresas nas quais tive autonomia de buscar conhecimento e aplicar no dia a dia. Me esforcei para ser um profissional capaz de suprir as necessidades das empresas, nas quais aprendi com o prox\xEDmo e ensinei. Meu objetivo \xE9 aperfei\xE7oar os meus conhecimentos e buscar novas aprendizagens dentro da empresas, sempre com olhar na evolu\xE7\xE3o pessoal e profissional.',
-				' Sou programador com foco em ser desenvolvedor Full-Stack, atuando na \xE1rea web h\xE1 sete anos. Nas minhas experi\xEAncias, tive o privil\xE9gio de trabalhar em empresas nas quais tive autonomia de buscar conhecimento e aplicar no dia a dia. Me esforcei para ser um profissional capaz de suprir as necessidades das empresas, nas quais aprendi com o prox\xEDmo e ensinei. Meu objetivo \xE9 aperfei\xE7oar os meus conhecimentos e buscar novas aprendizagens dentro da empresas, sempre com olhar na evolu\xE7\xE3o pessoal e profissional.',
-				' Sou programador com foco em ser desenvolvedor Full-Stack, atuando na \xE1rea web h\xE1 sete anos. Nas minhas experi\xEAncias, tive o privil\xE9gio de trabalhar em empresas nas quais tive autonomia de buscar conhecimento e aplicar no dia a dia. Me esforcei para ser um profissional capaz de suprir as necessidades das empresas, nas quais aprendi com o prox\xEDmo e ensinei. Meu objetivo \xE9 aperfei\xE7oar os meus conhecimentos e buscar novas aprendizagens dentro da empresas, sempre com olhar na evolu\xE7\xE3o pessoal e profissional.',
-				' Sou programador com foco em ser desenvolvedor Full-Stack, atuando na \xE1rea web h\xE1 sete anos. Nas minhas experi\xEAncias, tive o privil\xE9gio de trabalhar em empresas nas quais tive autonomia de buscar conhecimento e aplicar no dia a dia. Me esforcei para ser um profissional capaz de suprir as necessidades das empresas, nas quais aprendi com o prox\xEDmo e ensinei. Meu objetivo \xE9 aperfei\xE7oar os meus conhecimentos e buscar novas aprendizagens dentro da empresas, sempre com olhar na evolu\xE7\xE3o pessoal e profissional.',
-				' Sou programador com foco em ser desenvolvedor Full-Stack, atuando na \xE1rea web h\xE1 sete anos. Nas minhas experi\xEAncias, tive o privil\xE9gio de trabalhar em empresas nas quais tive autonomia de buscar conhecimento e aplicar no dia a dia. Me esforcei para ser um profissional capaz de suprir as necessidades das empresas, nas quais aprendi com o prox\xEDmo e ensinei. Meu objetivo \xE9 aperfei\xE7oar os meus conhecimentos e buscar novas aprendizagens dentro da empresas, sempre com olhar na evolu\xE7\xE3o pessoal e profissional.',
-				' Sou programador com foco em ser desenvolvedor Full-Stack, atuando na \xE1rea web h\xE1 sete anos. Nas minhas experi\xEAncias, tive o privil\xE9gio de trabalhar em empresas nas quais tive autonomia de buscar conhecimento e aplicar no dia a dia. Me esforcei para ser um profissional capaz de suprir as necessidades das empresas, nas quais aprendi com o prox\xEDmo e ensinei. Meu objetivo \xE9 aperfei\xE7oar os meus conhecimentos e buscar novas aprendizagens dentro da empresas, sempre com olhar na evolu\xE7\xE3o pessoal e profissional.',
-				' Sou programador com foco em ser desenvolvedor Full-Stack, atuando na \xE1rea web h\xE1 sete anos. Nas minhas experi\xEAncias, tive o privil\xE9gio de trabalhar em empresas nas quais tive autonomia de buscar conhecimento e aplicar no dia a dia. Me esforcei para ser um profissional capaz de suprir as necessidades das empresas, nas quais aprendi com o prox\xEDmo e ensinei. Meu objetivo \xE9 aperfei\xE7oar os meus conhecimentos e buscar novas aprendizagens dentro da empresas, sempre com olhar na evolu\xE7\xE3o pessoal e profissional.',
+				'I am a programmer focused on becoming a Full-Stack developer, working in the web field for seven years. Throughout my experiences, I had the privilege of working at companies where I had the autonomy to seek knowledge and apply it in my daily work. I strived to become a professional capable of meeting the companies\u2019 needs, learning from others and teaching along the way. My goal is to continuously improve my knowledge and pursue new learning opportunities within companies, always focusing on personal and professional growth.',
+				'I am a programmer focused on becoming a Full-Stack developer, working in the web field for seven years. Throughout my experiences, I had the privilege of working at companies where I had the autonomy to seek knowledge and apply it in my daily work. I strived to become a professional capable of meeting the companies\u2019 needs, learning from others and teaching along the way. My goal is to continuously improve my knowledge and pursue new learning opportunities within companies, always focusing on personal and professional growth.',
+				'I am a programmer focused on becoming a Full-Stack developer, working in the web field for seven years. Throughout my experiences, I had the privilege of working at companies where I had the autonomy to seek knowledge and apply it in my daily work. I strived to become a professional capable of meeting the companies\u2019 needs, learning from others and teaching along the way. My goal is to continuously improve my knowledge and pursue new learning opportunities within companies, always focusing on personal and professional growth.',
+				'I am a programmer focused on becoming a Full-Stack developer, working in the web field for seven years. Throughout my experiences, I had the privilege of working at companies where I had the autonomy to seek knowledge and apply it in my daily work. I strived to become a professional capable of meeting the companies\u2019 needs, learning from others and teaching along the way. My goal is to continuously improve my knowledge and pursue new learning opportunities within companies, always focusing on personal and professional growth.',
+				'I am a programmer focused on becoming a Full-Stack developer, working in the web field for seven years. Throughout my experiences, I had the privilege of working at companies where I had the autonomy to seek knowledge and apply it in my daily work. I strived to become a professional capable of meeting the companies\u2019 needs, learning from others and teaching along the way. My goal is to continuously improve my knowledge and pursue new learning opportunities within companies, always focusing on personal and professional growth.',
+				'I am a programmer focused on becoming a Full-Stack developer, working in the web field for seven years. Throughout my experiences, I had the privilege of working at companies where I had the autonomy to seek knowledge and apply it in my daily work. I strived to become a professional capable of meeting the companies\u2019 needs, learning from others and teaching along the way. My goal is to continuously improve my knowledge and pursue new learning opportunities within companies, always focusing on personal and professional growth.',
+				'I am a programmer focused on becoming a Full-Stack developer, working in the web field for seven years. Throughout my experiences, I had the privilege of working at companies where I had the autonomy to seek knowledge and apply it in my daily work. I strived to become a professional capable of meeting the companies\u2019 needs, learning from others and teaching along the way. My goal is to continuously improve my knowledge and pursue new learning opportunities within companies, always focusing on personal and professional growth.',
 			],
 			description:
-				' Sou programador com foco em ser desenvolvedor Full-Stack, atuando na \xE1rea web h\xE1 sete anos. Nas minhas experi\xEAncias, tive o privil\xE9gio de trabalhar em empresas nas quais tive autonomia de buscar conhecimento e aplicar no dia a dia. Me esforcei para ser um profissional capaz de suprir as necessidades das empresas, nas quais aprendi com o prox\xEDmo e ensinei. Meu objetivo \xE9 aperfei\xE7oar os meus conhecimentos e buscar novas aprendizagens dentro da empresas, sempre com olhar na evolu\xE7\xE3o pessoal e profissional.',
+				'I am a programmer focused on becoming a Full-Stack developer, working in the web field for seven years. Throughout my experiences, I had the privilege of working at companies where I had the autonomy to seek knowledge and apply it in my daily work. I strived to become a professional capable of meeting the companies\u2019 needs, learning from others and teaching along the way. My goal is to continuously improve my knowledge and pursue new learning opportunities within companies, always focusing on personal and professional growth.',
 		},
 	];
 	static ɵfac = function (o) {
@@ -582,28 +569,28 @@ var Z = class s {
 	static ɵcmp = u({
 		type: s,
 		selectors: [['app-felipetiwamoto']],
-		decls: 57,
-		vars: 134,
+		decls: 55,
+		vars: 133,
 		consts: () => {
 			let c;
-			c = 'Portugu\xEAs';
+			c = 'Portuguese';
 			let o;
-			o = 'Ingl\xEAs';
+			o = 'English';
 			let n;
-			n = 'EXPERI\xCANCIAS';
+			n = 'EXPERIENCES';
 			let a;
-			a = 'SOBRE MIM';
+			a = 'ABOUT ME';
 			let g;
-			g = 'LINGUAGENS';
+			g = 'LANGUAGES';
 			let R;
-			R = 'CURSOS';
+			R = 'COURSES';
 			let y;
-			y = 'HABILIDADES';
+			y = 'SKILLS';
+			let X;
+			X = 'Frontend';
 			let H;
-			H = 'Frontend';
-			let q;
 			return (
-				(q = 'Backend'),
+				(H = 'Backend'),
 				[
 					c,
 					o,
@@ -612,8 +599,8 @@ var Z = class s {
 					g,
 					R,
 					y,
+					X,
 					H,
-					q,
 					['href', '/portfolio/pt'],
 					['href', '/portfolio/en'],
 					[3, 'hero'],
@@ -633,63 +620,60 @@ var Z = class s {
 		template: function (o, n) {
 			if (
 				(o & 1 &&
-					(r(0, 'div')(1, 'div')(2, 'h1'),
-					m(3),
-					l(),
-					r(4, 'ul')(5, 'li')(6, 'a', 9),
-					S(7, 0),
+					(r(0, 'div')(1, 'div')(2, 'ul')(3, 'li')(4, 'a', 9),
+					S(5, 0),
 					l()(),
-					r(8, 'li')(9, 'a', 10),
-					S(10, 1),
+					r(6, 'li')(7, 'a', 10),
+					S(8, 1),
 					l()()(),
-					r(11, 'div')(12, 'div')(13, 'div'),
-					_(14, 'resume-hero01', 11),
+					r(9, 'div')(10, 'div')(11, 'div'),
+					_(12, 'resume-hero01', 11),
 					l(),
-					r(15, 'div'),
-					_(16, 'resume-contacts01', 12),
+					r(13, 'div'),
+					_(14, 'resume-contacts01', 12),
 					l()(),
-					r(17, 'div')(18, 'div')(19, 'div')(20, 'div'),
-					_(21, 'i-lucide', 13),
-					r(22, 'span'),
-					S(23, 2),
+					r(15, 'div')(16, 'div')(17, 'div')(18, 'div'),
+					_(19, 'i-lucide', 13),
+					r(20, 'span'),
+					S(21, 2),
 					l()(),
-					_(24, 'resume-experiences01', 14),
+					_(22, 'resume-experiences01', 14),
 					l()(),
-					r(25, 'div')(26, 'div')(27, 'div'),
-					_(28, 'i-lucide', 15),
-					r(29, 'span'),
-					S(30, 3),
+					r(23, 'div')(24, 'div')(25, 'div'),
+					_(26, 'i-lucide', 15),
+					r(27, 'span'),
+					S(28, 3),
 					l()(),
-					_(31, 'resume-about01', 16),
+					_(29, 'resume-about01', 16),
 					l(),
-					r(32, 'div')(33, 'div'),
-					_(34, 'i-lucide', 17),
-					r(35, 'span'),
-					S(36, 4),
+					r(30, 'div')(31, 'div'),
+					_(32, 'i-lucide', 17),
+					r(33, 'span'),
+					S(34, 4),
 					l()(),
-					_(37, 'resume-skills01', 18),
+					_(35, 'resume-skills01', 18),
 					l(),
-					r(38, 'div')(39, 'div'),
-					_(40, 'i-lucide', 19),
-					r(41, 'span'),
-					S(42, 5),
+					r(36, 'div')(37, 'div'),
+					_(38, 'i-lucide', 19),
+					r(39, 'span'),
+					S(40, 5),
 					l()(),
-					_(43, 'resume-courses01', 20),
+					_(41, 'resume-courses01', 20),
 					l(),
-					r(44, 'div')(45, 'div'),
-					_(46, 'i-lucide', 21),
-					r(47, 'span'),
-					S(48, 6),
+					r(42, 'div')(43, 'div'),
+					_(44, 'i-lucide', 21),
+					r(45, 'span'),
+					S(46, 6),
 					l()(),
-					r(49, 'div')(50, 'span'),
-					S(51, 7),
+					r(47, 'div')(48, 'span'),
+					S(49, 7),
 					l(),
-					_(52, 'resume-skills01', 18),
+					_(50, 'resume-skills01', 18),
 					l(),
-					r(53, 'div')(54, 'span'),
-					S(55, 8),
+					r(51, 'div')(52, 'span'),
+					S(53, 8),
 					l(),
-					_(56, 'resume-skills01', 18),
+					_(54, 'resume-skills01', 18),
 					l()()()()()()()),
 				o & 2)
 			) {
@@ -697,8 +681,6 @@ var Z = class s {
 				(i(a),
 					e(),
 					i(t('', a, '__page')),
-					e(2),
-					U('locale: ', n.locale),
 					e(),
 					i(t('', a, '__lang')),
 					e(),
@@ -708,7 +690,7 @@ var Z = class s {
 					e(2),
 					i(t('', a, '__lang_item')),
 					e(),
-					i(k('', a, '__lang_link ', n.locale === 'en' ? a + '__lang_link--active' : '')),
+					i(k('', a, '__lang_link ', n.locale !== 'pt-BR' ? a + '__lang_link--active' : '')),
 					e(2),
 					i(t('', a, '__container')),
 					e(),
@@ -794,7 +776,7 @@ var Z = class s {
 					p('skills', n.backend));
 			}
 		},
-		dependencies: [W, N, D, G, j, B, T, z],
+		dependencies: [U, W, N, D, G, j, T, z],
 		styles: [
 			'.resume[_ngcontent-%COMP%]{--resume_right_side: 100%;padding:10px;background-color:var(--greye);display:flex;align-items:center;justify-content:center;flex-direction:initial}@media all and (min-width:768px){.resume[_ngcontent-%COMP%]{padding:100px 10px 50px;--resume_right_side: 200px}}.resume__page[_ngcontent-%COMP%]{position:relative;width:min(100%,25cm);min-height:33.7cm;padding:30px;box-sizing:border-box;background-color:var(--greyf)}@media all and (min-width:768px){.resume__page[_ngcontent-%COMP%]{padding:90px}}.resume__lang[_ngcontent-%COMP%]{position:absolute;top:-40px;right:0;display:flex;align-items:center;justify-content:center;flex-direction:initial;margin-bottom:20px;column-gap:10px}.resume__lang_link[_ngcontent-%COMP%]{padding:5px 10px;font-size:14px;font-weight:300;letter-spacing:initial;line-height:initial;cursor:pointer;color:var(--grey7);border-radius:50px;background-color:var(--greyf)}.resume__lang_link--active[_ngcontent-%COMP%]{color:var(--resume01_primary);font-weight:600}.resume__container[_ngcontent-%COMP%]{width:min(100% - 20px,768px);margin-inline:auto;position:relative}.resume__top[_ngcontent-%COMP%]{display:grid;grid-template-columns:1fr;row-gap:30px}@media all and (min-width:768px){.resume__top[_ngcontent-%COMP%]{display:grid;grid-template-columns:1fr 200px;column-gap:30px;row-gap:0px}}.resume__top_right[_ngcontent-%COMP%]{width:var(--resume_right_side)}.resume__bottom[_ngcontent-%COMP%]{display:grid;grid-template-columns:1fr;row-gap:30px}@media all and (min-width:768px){.resume__bottom[_ngcontent-%COMP%]{grid-template-columns:1fr 200px;column-gap:30px;row-gap:0px}}.resume__bottom_right[_ngcontent-%COMP%]{width:var(--resume_right_side)}.resume__section[_ngcontent-%COMP%], .resume__sub_section[_ngcontent-%COMP%]{margin-top:30px}.resume__section_title[_ngcontent-%COMP%]{color:var(--resume01_primary);display:flex;align-items:center;justify-content:initial;flex-direction:initial;margin-bottom:30px}.resume__section_title[_ngcontent-%COMP%]   i-lucide[_ngcontent-%COMP%]{margin-right:10px}.resume__section_title_text[_ngcontent-%COMP%]{font-size:18px;font-weight:400;letter-spacing:initial;line-height:initial;display:block}.resume__section_sub_title[_ngcontent-%COMP%]{font-size:14px;font-weight:300;letter-spacing:initial;line-height:initial;margin-bottom:15px;display:block;color:var(--grey7)}',
 		],
