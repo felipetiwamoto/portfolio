@@ -387,6 +387,10 @@ var j = class s {
 };
 var Z = class s {
 	locale = q(K);
+	localize = $localize;
+	ngOnInit() {
+		(console.log('Current locale:', this.locale), console.log('Current localize:', this.localize));
+	}
 	hero = { name: 'Felipe Iwamoto', role: 'Senior Full-Stack Developer' };
 	contacts = [
 		{ icon: 'map-pin', description: 'Brazil - Curitiba/PR' },

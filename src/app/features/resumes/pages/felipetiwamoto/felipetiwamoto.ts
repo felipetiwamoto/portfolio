@@ -1,4 +1,4 @@
-import { Component, inject } from '@angular/core';
+import { Component, inject, OnInit } from '@angular/core';
 import { Resume } from '../../interfaces/resume.interface';
 import { ResumeHero01 } from '../../components/resume-hero/resume-hero01/resume-hero01';
 import { ResumeContacts01 } from '../../components/resume-contacts/resume-contacts01/resume-contacts01';
@@ -23,8 +23,14 @@ import { LOCALE_ID } from '@angular/core';
 	templateUrl: './felipetiwamoto.html',
 	styleUrl: './felipetiwamoto.scss',
 })
-export class FelipeTiwamoto {
+export class FelipeTiwamoto implements OnInit {
 	public locale = inject(LOCALE_ID);
+	public localize = $localize;
+
+	ngOnInit(): void {
+		console.log('Current locale:', this.locale);
+		console.log('Current localize:', this.localize);
+	}
 
 	public hero: Resume['hero'] = {
 		name: $localize`:@@felipetiwamoto_hero_name: Felipe Iwamoto`,
