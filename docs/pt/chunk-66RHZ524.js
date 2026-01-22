@@ -701,7 +701,7 @@ var Y = class s {
 					e(2),
 					i(t('', a, '__lang_item')),
 					e(),
-					i(k('', a, '__lang_link ', n.localize.locale !== 'en' ? a + '__lang_link--active' : '')),
+					i(k('', a, '__lang_link ', n.localize.locale === 'en' ? a + '__lang_link--active' : '')),
 					e(2),
 					i(t('', a, '__container')),
 					e(),
