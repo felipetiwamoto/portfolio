@@ -1,4 +1,4 @@
-@import './../../../../../../mixins.scss';
+@use './../../../../../../mixins.scss' as mixins;
 
 .resume_experiences01 {
 	&__item {
@@ -8,19 +8,19 @@
 	&__item_job {
 		display: none;
 		margin-bottom: 15px;
-		@include text(14px, 700);
+		@include mixins.text(14px, 700);
 		color: var(--grey7);
 	}
 
 	&__item_top {
 		margin-bottom: 15px;
-		@include flex(center, space-between);
+		@include mixins.flex(center, space-between);
 	}
 
 	&__item_company {
-		@include text(14px, 700);
+		@include mixins.text(14px, 700);
 		color: var(--grey7);
-		@include flex(center);
+		@include mixins.flex(center);
 
 		i-lucide {
 			color: var(--resume01_primary);
@@ -29,9 +29,9 @@
 	}
 
 	&__item_period {
-		@include flex(baseline);
-		@include text(12px, 300);
-		@include flex(center);
+		@include mixins.flex(baseline);
+		@include mixins.text(12px, 300);
+		@include mixins.flex(center);
 		color: var(--grey7);
 
 		i-lucide {
@@ -62,12 +62,12 @@
 	}
 
 	&__item_description {
-		@include text(14px, 300);
+		@include mixins.text(14px, 300);
 		color: var(--grey7);
 	}
 
 	&__item_list {
-		@include row(-15px);
+		@include mixins.row(-15px);
 
 		& + & {
 			margin-top: 10px;
@@ -76,9 +76,9 @@
 
 	&__item_list_title {
 		margin-block: 15px;
-		@include text(12px, 700);
+		@include mixins.text(12px, 700);
 		color: var(--grey7);
-		@include flex(center);
+		@include mixins.flex(center);
 
 		i-lucide {
 			color: var(--resume01_primary);
@@ -86,9 +86,9 @@
 	}
 
 	&__item_list_item {
-		@include flex(center);
-		@include column(50%, 15px);
-		@include text(12px, 300);
+		@include mixins.flex(center);
+		@include mixins.column(50%, 15px);
+		@include mixins.text(12px, 300);
 		color: var(--grey7);
 		margin-bottom: 5px;
 	}

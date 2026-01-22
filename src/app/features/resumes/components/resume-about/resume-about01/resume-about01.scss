@@ -1,8 +1,8 @@
-@import './../../../../../../mixins.scss';
+@use './../../../../../../mixins.scss' as mixins;
 
 .resume_about01 {
 	&__summary {
-		@include text(12px, 300);
+		@include mixins.text(12px, 300);
 		color: var(--grey7);
 		display: block;
 	}
