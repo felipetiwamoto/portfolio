@@ -1,15 +1,15 @@
-@import './../../../../../../mixins.scss';
+@use './../../../../../../mixins.scss' as mixins;
 
 .resume_contacts01 {
 	&__list {
 	}
 
 	&__list_item {
-		@include flex(center, center);
+		@include mixins.flex(center, center);
 		margin-bottom: 15px;
 
-		@include md {
-			@include flex(flex-start);
+		@include mixins.md {
+			@include mixins.flex(flex-start);
 		}
 	}
 
@@ -17,10 +17,10 @@
 	}
 
 	&__list_name {
-		@include text(12px, 300);
+		@include mixins.text(12px, 300);
 		color: var(--grey7);
 		display: block;
-		margin-top: 2px;
+		margin-top: 0px;
 	}
 
 	::ng-deep {

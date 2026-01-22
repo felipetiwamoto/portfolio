@@ -256,5 +256,15 @@
         <source>HABILIDADES</source>
       </segment>
     </unit>
+    <unit id="feliptiwamoto_lang_english">
+      <segment>
+        <source>Inglês</source>
+      </segment>
+    </unit>
+    <unit id="feliptiwamoto_lang_portuguese">
+      <segment>
+        <source>Português</source>
+      </segment>
+    </unit>
   </file>
 </xliff>

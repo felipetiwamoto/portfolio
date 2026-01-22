@@ -1,4 +1,4 @@
-@import './../../../../../../mixins.scss';
+@use './../../../../../../mixins.scss' as mixins;
 
 .resume_skills01 {
 	&__list {
@@ -11,7 +11,7 @@
 	}
 
 	&__list_name {
-		@include text(12px, 300);
+		@include mixins.text(12px, 300);
 		color: var(--grey7);
 		display: block;
 	}
