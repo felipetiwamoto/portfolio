@@ -7,7 +7,6 @@ import { ResumeAbout01 } from '../../components/resume-about/resume-about01/resu
 import { ResumeSkills01 } from '../../components/resume-skills/resume-skills01/resume-skills01';
 import { ResumeCourses01 } from '../../components/resume-courses/resume-courses01/resume-courses01';
 import { LucideAngularModule } from 'lucide-angular';
-import { LOCALE_ID } from '@angular/core';
 
 @Component({
 	selector: 'app-felipetiwamoto',
@@ -23,14 +22,8 @@ import { LOCALE_ID } from '@angular/core';
 	templateUrl: './felipetiwamoto.html',
 	styleUrl: './felipetiwamoto.scss',
 })
-export class FelipeTiwamoto implements OnInit {
-	public locale = inject(LOCALE_ID);
+export class FelipeTiwamoto {
 	public localize = $localize;
-
-	ngOnInit(): void {
-		console.log('Current locale:', this.locale);
-		console.log('Current localize:', this.localize);
-	}
 
 	public hero: Resume['hero'] = {
 		name: $localize`:@@felipetiwamoto_hero_name: Felipe Iwamoto`,

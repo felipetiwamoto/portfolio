@@ -5,7 +5,7 @@
 		<ul class="{{ block }}__lang">
 			<li class="{{ block }}__lang_item">
 				<a
-					class="{{ block }}__lang_link {{ locale === 'pt-BR' ? block + '__lang_link--active' : '' }}"
+					class="{{ block }}__lang_link {{ localize.locale === 'pt' ? block + '__lang_link--active' : '' }}"
 					i18n="@@feliptiwamoto_lang_portuguese"
 					href="/portfolio/pt"
 				>
@@ -14,7 +14,7 @@
 			</li>
 			<li class="{{ block }}__lang_item">
 				<a
-					class="{{ block }}__lang_link {{ locale !== 'pt-BR' ? block + '__lang_link--active' : '' }}"
+					class="{{ block }}__lang_link {{ localize.locale !== 'en' ? block + '__lang_link--active' : '' }}"
 					i18n="@@feliptiwamoto_lang_english"
 					href="/portfolio/en"
 				>
