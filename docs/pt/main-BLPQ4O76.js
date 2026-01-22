@@ -4250,7 +4250,7 @@ var _i = [
 	'ltr',
 	qs,
 ];
-var Oi = [{ path: '', loadComponent: () => import('./chunk-UIU6HAO5.js').then((t) => t.FelipeTiwamoto) }];
+var Oi = [{ path: '', loadComponent: () => import('./chunk-AUMPM6ZI.js').then((t) => t.FelipeTiwamoto) }];
 bn(_i);
 var Li = { providers: [Yr(), Pr(Oi), Gr(mn.pick(gn)), { provide: hn, useValue: 'pt-BR' }] };
 var zt = class t {

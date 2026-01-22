@@ -2,6 +2,7 @@
 
 <div class="{{ block }}">
 	<div class="{{ block }}__page">
+		<h1>locale: {{ locale }}</h1>
 		<ul class="{{ block }}__lang">
 			<li class="{{ block }}__lang_item">
 				<a
@@ -14,7 +15,7 @@
 			</li>
 			<li class="{{ block }}__lang_item">
 				<a
-					class="{{ block }}__lang_link {{ locale === 'en-US' ? block + '__lang_link--active' : '' }}"
+					class="{{ block }}__lang_link {{ locale === 'en' ? block + '__lang_link--active' : '' }}"
 					i18n="@@feliptiwamoto_lang_english"
 					href="/portfolio/en"
 				>
