@@ -49,7 +49,10 @@
 				"build": {
 					"builder": "@angular/build:application",
 					"options": {
-						"localize": ["pt", "en"],
+						"localize": [
+							"pt",
+							"en"
+						],
 						"outputPath": {
 							"base": "docs",
 							"browser": ""
@@ -64,8 +67,12 @@
 								"input": "public"
 							}
 						],
-						"styles": ["src/styles.scss"],
-						"polyfills": ["@angular/localize/init"]
+						"styles": [
+							"src/styles.scss"
+						],
+						"polyfills": [
+							"@angular/localize/init"
+						]
 					},
 					"configurations": {
 						"prd": {
@@ -95,10 +102,14 @@
 							]
 						},
 						"pt": {
-							"localize": ["pt"]
+							"localize": [
+								"pt"
+							]
 						},
 						"en": {
-							"localize": ["en"]
+							"localize": [
+								"en"
+							]
 						}
 					},
 					"defaultConfiguration": "prd"
@@ -127,7 +138,10 @@
 						"buildTarget": "portfolio:build",
 						"format": "xlf2",
 						"outputPath": "src/locales",
-						"targetFiles": ["messages.en.xlf", "messages.pt.xlf"]
+						"targetFiles": [
+							"messages.en.xlf",
+							"messages.pt.xlf"
+						]
 					}
 				}
 			}
