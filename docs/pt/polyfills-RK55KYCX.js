@@ -74,4 +74,4 @@
 		],
 	];
 })(globalThis);
-(globalThis.$localize ??= {}).locale = 'pt'; /**i18n:15748b0f317f10e7aba25a6791099be1a54cb7a9a6b63254093f35deca13e369*/
+(globalThis.$localize ??= {}).locale = 'pt'; /**i18n:8f4dc3acc5db079b18a61fcaf76ce5d3ab1ecd45730af0285c692a211a6b7b61*/

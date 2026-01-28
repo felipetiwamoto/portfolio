@@ -1,15 +1,15 @@
 import {
 	$a as A,
-	Aa as p,
+	Aa as _,
 	Ba as r,
 	Ca as l,
-	Da as _,
+	Da as p,
 	Ea as M,
 	Fa as E,
 	Ga as k,
-	Ha as J,
+	Ha as H,
 	Ja as S,
-	Ka as f,
+	Ka as g,
 	La as i,
 	Ma as m,
 	Na as d,
@@ -21,32 +21,32 @@ import {
 	Ta as t,
 	Ua as I,
 	Xa as v,
-	ab as $,
-	ga as q,
+	ab as T,
+	ga as J,
 	ha as e,
 	pa as u,
 	va as L,
 	wa as F,
-	xa as w,
-	ya as h,
-	za as y,
-} from './chunk-FUX2CEOE.js';
-function K(s, c) {
+	xa as h,
+	ya as y,
+	za as w,
+} from './chunk-JZMLNKCD.js';
+function Z(s, c) {
 	if ((s & 1 && (M(0, 'div'), k(1, 'img', 1), E()), s & 2)) {
-		let n,
-			o,
-			a = f(),
-			g = x(0);
-		(i(t('', g, '__left')),
+		let o,
+			n,
+			a = g(),
+			f = x(0);
+		(i(t('', f, '__left')),
 			e(),
-			i(t('', g, '__image')),
-			J('alt', V((n = a.hero()) == null ? null : n.name))('src', (o = a.hero()) == null ? null : o.image, q));
+			i(t('', f, '__image')),
+			H('alt', V((o = a.hero()) == null ? null : o.name))('src', (n = a.hero()) == null ? null : n.image, J));
 	}
 }
 var U = class s {
 	hero = v();
-	static ɵfac = function (n) {
-		return new (n || s)();
+	static ɵfac = function (o) {
+		return new (o || s)();
 	};
 	static ɵcmp = u({
 		type: s,
@@ -58,12 +58,12 @@ var U = class s {
 			[3, 'class'],
 			[3, 'src', 'alt'],
 		],
-		template: function (n, o) {
+		template: function (o, n) {
 			if (
-				(n & 1 &&
+				(o & 1 &&
 					(b(0),
 					M(1, 'div'),
-					L(2, K, 2, 9, 'div', 0),
+					L(2, Z, 2, 9, 'div', 0),
 					k(3, 'div'),
 					M(4, 'div')(5, 'span'),
 					m(6),
@@ -71,28 +71,28 @@ var U = class s {
 					M(7, 'span'),
 					m(8),
 					E()()()),
-				n & 2)
+				o & 2)
 			) {
 				let a,
-					g,
+					f,
 					R,
-					z = C('resume_hero01');
+					P = C('resume_hero01');
 				(e(),
-					i(z),
+					i(P),
 					e(),
-					F((a = o.hero()) != null && a.image ? 2 : -1),
+					F((a = n.hero()) != null && a.image ? 2 : -1),
 					e(),
-					i(t('', z, '__left')),
+					i(t('', P, '__left')),
 					e(),
-					i(t('', z, '__right')),
+					i(t('', P, '__right')),
 					e(),
-					i(t('', z, '__name')),
+					i(t('', P, '__name')),
 					e(),
-					d((g = o.hero()) == null ? null : g.name),
+					d((f = n.hero()) == null ? null : f.name),
 					e(),
-					i(t('', z, '__role')),
+					i(t('', P, '__role')),
 					e(),
-					d((R = o.hero()) == null ? null : R.role));
+					d((R = n.hero()) == null ? null : R.role));
 			}
 		},
 		styles: [
@@ -100,26 +100,26 @@ var U = class s {
 		],
 	});
 };
-function Z(s, c) {
-	if ((s & 1 && (r(0, 'li'), _(1, 'i-lucide', 1), r(2, 'span'), m(3), l()()), s & 2)) {
-		let n = c.$implicit;
-		f();
-		let o = x(0);
-		(i(t('', o, '__list_item')),
+function K(s, c) {
+	if ((s & 1 && (r(0, 'li'), p(1, 'i-lucide', 1), r(2, 'span'), m(3), l()()), s & 2)) {
+		let o = c.$implicit;
+		g();
+		let n = x(0);
+		(i(t('', n, '__list_item')),
 			e(),
-			i(t('', o, '__list_icon')),
-			p('name', n.icon)('size', 16)('strokeWidth', 2),
+			i(t('', n, '__list_icon')),
+			_('name', o.icon)('size', 16)('strokeWidth', 2),
 			e(),
-			i(t('', o, '__list_name')),
+			i(t('', n, '__list_name')),
 			e(),
-			d(n.description));
+			d(o.description));
 	}
 }
 var W = class s {
 	localize = $localize;
 	contacts = v();
-	static ɵfac = function (n) {
-		return new (n || s)();
+	static ɵfac = function (o) {
+		return new (o || s)();
 	};
 	static ɵcmp = u({
 		type: s,
@@ -131,13 +131,13 @@ var W = class s {
 			[3, 'class'],
 			[3, 'name', 'size', 'strokeWidth'],
 		],
-		template: function (n, o) {
-			if ((n & 1 && (b(0), r(1, 'div')(2, 'ul'), h(3, Z, 4, 13, 'li', 0, w), l()()), n & 2)) {
+		template: function (o, n) {
+			if ((o & 1 && (b(0), r(1, 'div')(2, 'ul'), y(3, K, 4, 13, 'li', 0, h), l()()), o & 2)) {
 				let a = C('resume_contacts01');
-				(e(), i(a), e(), i(t('', a, '__list')), e(), y(o.contacts()));
+				(e(), i(a), e(), i(t('', a, '__list')), e(), w(n.contacts()));
 			}
 		},
-		dependencies: [$, A],
+		dependencies: [T, A],
 		styles: [
 			'.resume_contacts01__list_item[_ngcontent-%COMP%]{display:flex;align-items:center;justify-content:center;flex-direction:initial;margin-bottom:15px}@media all and (min-width:768px){.resume_contacts01__list_item[_ngcontent-%COMP%]{display:flex;align-items:flex-start;justify-content:initial;flex-direction:initial}}.resume_contacts01__list_name[_ngcontent-%COMP%]{font-size:12px;font-weight:300;letter-spacing:initial;line-height:initial;color:var(--grey7);display:block;margin-top:1px;word-break:break-all}.resume_contacts01[_ngcontent-%COMP%]     .resume_contacts01__list_icon{stroke:var(--resume01_primary);margin-right:5px}',
 		],
@@ -145,17 +145,17 @@ var W = class s {
 };
 function ee(s, c) {
 	if ((s & 1 && (r(0, 'span'), m(1), l()), s & 2)) {
-		let n = f().$implicit;
-		f();
-		let o = x(0);
-		(i(t('', o, '__item_description')), e(), d(n.description));
+		let o = g().$implicit;
+		g();
+		let n = x(0);
+		(i(t('', n, '__item_description')), e(), d(o.description));
 	}
 }
 function ie(s, c) {
 	if (
 		(s & 1 &&
 			(r(0, 'div')(1, 'div')(2, 'div'),
-			_(3, 'i-lucide', 1),
+			p(3, 'i-lucide', 1),
 			m(4),
 			l(),
 			r(5, 'div')(6, 'span'),
@@ -164,49 +164,49 @@ function ie(s, c) {
 			r(8, 'span'),
 			m(9),
 			l(),
-			_(10, 'i-lucide', 2),
+			p(10, 'i-lucide', 2),
 			l()(),
 			r(11, 'div'),
 			L(12, ee, 2, 4, 'span', 0),
 			l()()),
 		s & 2)
 	) {
-		let n = c.$implicit;
-		f();
-		let o = x(0);
-		(i(t('', o, '__item')),
+		let o = c.$implicit;
+		g();
+		let n = x(0);
+		(i(t('', n, '__item')),
 			e(),
-			i(t('', o, '__item_top')),
+			i(t('', n, '__item_top')),
 			e(),
-			i(t('', o, '__item_company')),
+			i(t('', n, '__item_company')),
 			e(),
-			i(t('', o, '__item_company_icon')),
-			p('size', 18)('strokeWidth', 2),
+			i(t('', n, '__item_company_icon')),
+			_('size', 18)('strokeWidth', 2),
 			e(),
-			Q(' ', n.company, ' '),
+			Q(' ', o.company, ' '),
 			e(),
-			i(t('', o, '__item_period')),
+			i(t('', n, '__item_period')),
 			e(),
-			i(t('', o, '__item_from')),
+			i(t('', n, '__item_from')),
 			e(),
-			d(n.startedAt),
+			d(o.startedAt),
 			e(),
-			i(t('', o, '__item_to')),
+			i(t('', n, '__item_to')),
 			e(),
-			d(n.endedAt ?? 'ATUAL'),
+			d(o.endedAt ?? 'ATUAL'),
 			e(),
-			i(t('', o, '__item_period_icon')),
-			p('size', 14)('strokeWidth', 2),
+			i(t('', n, '__item_period_icon')),
+			_('size', 14)('strokeWidth', 2),
 			e(),
-			i(t('', o, '__item_bottom')),
+			i(t('', n, '__item_bottom')),
 			e(),
-			F(n.description ? 12 : -1));
+			F(o.description ? 12 : -1));
 	}
 }
-var N = class s {
+var D = class s {
 	experiences = v();
-	static ɵfac = function (n) {
-		return new (n || s)();
+	static ɵfac = function (o) {
+		return new (o || s)();
 	};
 	static ɵcmp = u({
 		type: s,
@@ -219,22 +219,22 @@ var N = class s {
 			['name', 'chevron-right', 3, 'size', 'strokeWidth'],
 			['name', 'calendar', 3, 'size', 'strokeWidth'],
 		],
-		template: function (n, o) {
-			if ((n & 1 && (b(0), r(1, 'div'), h(2, ie, 13, 35, 'div', 0, w), l()), n & 2)) {
+		template: function (o, n) {
+			if ((o & 1 && (b(0), r(1, 'div'), y(2, ie, 13, 35, 'div', 0, h), l()), o & 2)) {
 				let a = C('resume_experiences01');
-				(e(), i(t('', a, '__item')), e(), y(o.experiences()));
+				(e(), i(t('', a, '__item')), e(), w(n.experiences()));
 			}
 		},
-		dependencies: [$, A],
+		dependencies: [T, A],
 		styles: [
 			'.resume_experiences01__item[_ngcontent-%COMP%]{margin-bottom:30px}.resume_experiences01__item_job[_ngcontent-%COMP%]{display:none;margin-bottom:15px;font-size:14px;font-weight:700;letter-spacing:initial;line-height:initial;color:var(--grey7)}.resume_experiences01__item_top[_ngcontent-%COMP%]{margin-bottom:15px;display:flex;align-items:center;justify-content:space-between;flex-direction:initial}.resume_experiences01__item_company[_ngcontent-%COMP%]{font-size:13px;font-weight:700;letter-spacing:initial;line-height:initial;color:var(--grey7);display:flex;align-items:center;justify-content:initial;flex-direction:initial}.resume_experiences01__item_company[_ngcontent-%COMP%]   i-lucide[_ngcontent-%COMP%]{color:var(--resume01_primary);margin-right:5px}@media all and (min-width:768px){.resume_experiences01__item_company[_ngcontent-%COMP%]{font-size:14px;font-weight:700;letter-spacing:initial;line-height:initial}}.resume_experiences01__item_period[_ngcontent-%COMP%]{align-items:baseline;font-size:10px;font-weight:300;letter-spacing:initial;line-height:initial;display:flex;align-items:center;justify-content:initial;flex-direction:initial;color:var(--grey7)}.resume_experiences01__item_period[_ngcontent-%COMP%]   i-lucide[_ngcontent-%COMP%]{color:var(--resume01_primary);margin-left:5px}@media all and (min-width:768px){.resume_experiences01__item_period[_ngcontent-%COMP%]{font-size:12px;font-weight:300;letter-spacing:initial;line-height:initial}}.resume_experiences01__item_from[_ngcontent-%COMP%]{text-transform:capitalize}.resume_experiences01__item_from[_ngcontent-%COMP%]:after{content:"-";display:inline-flex;margin-inline:5px}.resume_experiences01__item_to[_ngcontent-%COMP%], .resume_experiences01__item_is_current[_ngcontent-%COMP%]{text-transform:capitalize}.resume_experiences01__item_description[_ngcontent-%COMP%]{font-size:14px;font-weight:300;letter-spacing:initial;line-height:initial;color:var(--grey7)}.resume_experiences01__item_list[_ngcontent-%COMP%]{display:flex;flex-wrap:wrap;margin-inline:-15px}.resume_experiences01__item_list[_ngcontent-%COMP%] + .resume_experiences01__item_list[_ngcontent-%COMP%]{margin-top:10px}.resume_experiences01__item_list_title[_ngcontent-%COMP%]{margin-block:15px;font-size:12px;font-weight:700;letter-spacing:initial;line-height:initial;color:var(--grey7);display:flex;align-items:center;justify-content:initial;flex-direction:initial}.resume_experiences01__item_list_title[_ngcontent-%COMP%]   i-lucide[_ngcontent-%COMP%]{color:var(--resume01_primary)}.resume_experiences01__item_list_item[_ngcontent-%COMP%]{display:flex;align-items:center;justify-content:initial;flex-direction:initial;box-sizing:border-box;max-width:50%;flex-basis:50%;padding-inline:15px;font-size:12px;font-weight:300;letter-spacing:initial;line-height:initial;color:var(--grey7);margin-bottom:5px}',
 		],
 	});
 };
-var D = class s {
+var N = class s {
 	about = v();
-	static ɵfac = function (n) {
-		return new (n || s)();
+	static ɵfac = function (o) {
+		return new (o || s)();
 	};
 	static ɵcmp = u({
 		type: s,
@@ -242,11 +242,11 @@ var D = class s {
 		inputs: { about: [1, 'about'] },
 		decls: 3,
 		vars: 6,
-		template: function (n, o) {
-			if ((n & 1 && (M(0, 'div')(1, 'span'), m(2), E()()), n & 2)) {
+		template: function (o, n) {
+			if ((o & 1 && (M(0, 'div')(1, 'span'), m(2), E()()), o & 2)) {
 				let a,
-					g = 'resume_about01';
-				(i(g), e(), i(t('', g, '__summary')), e(), d((a = o.about()) == null ? null : a.summary));
+					f = 'resume_about01';
+				(i(f), e(), i(t('', f, '__summary')), e(), d((a = n.about()) == null ? null : a.summary));
 			}
 		},
 		styles: [
@@ -256,37 +256,37 @@ var D = class s {
 };
 function te(s, c) {
 	if ((s & 1 && k(0, 'li'), s & 2)) {
-		let n = c.$index,
-			o = f().$implicit,
-			a = f(),
-			g = x(0);
-		i(I('', g, '__bullet_item ', a.isBulletItemActive(o, n + 1)));
+		let o = c.$index,
+			n = g().$implicit,
+			a = g(),
+			f = x(0);
+		i(I('', f, '__bullet_item ', a.isBulletItemActive(n, o + 1)));
 	}
 }
 function ae(s, c) {
-	if ((s & 1 && (M(0, 'li')(1, 'span'), m(2), E(), M(3, 'ul'), h(4, te, 1, 4, 'li', 0, w), E()()), s & 2)) {
-		let n = c.$implicit,
-			o = f(),
+	if ((s & 1 && (M(0, 'li')(1, 'span'), m(2), E(), M(3, 'ul'), y(4, te, 1, 4, 'li', 0, h), E()()), s & 2)) {
+		let o = c.$implicit,
+			n = g(),
 			a = x(0);
 		(i(t('', a, '__list_item')),
 			e(),
 			i(t('', a, '__list_name')),
 			e(),
-			d(n.name),
+			d(o.name),
 			e(),
 			i(t('', a, '__bullet')),
 			e(),
-			y(o.levels));
+			w(n.levels));
 	}
 }
 var G = class s {
 	skills = v();
 	levels = Array(10).fill(0);
-	isBulletItemActive(c, n) {
-		return c?.level && c.level >= n ? 'active' : '';
+	isBulletItemActive(c, o) {
+		return c?.level && c.level >= o ? 'active' : '';
 	}
-	static ɵfac = function (n) {
-		return new (n || s)();
+	static ɵfac = function (o) {
+		return new (o || s)();
 	};
 	static ɵcmp = u({
 		type: s,
@@ -295,10 +295,10 @@ var G = class s {
 		decls: 5,
 		vars: 6,
 		consts: [[3, 'class']],
-		template: function (n, o) {
-			if ((n & 1 && (b(0), M(1, 'div')(2, 'ul'), h(3, ae, 6, 10, 'li', 0, w), E()()), n & 2)) {
+		template: function (o, n) {
+			if ((o & 1 && (b(0), M(1, 'div')(2, 'ul'), y(3, ae, 6, 10, 'li', 0, h), E()()), o & 2)) {
 				let a = C('resume_skills01');
-				(e(), i(a), e(), i(t('', a, '__list')), e(), y(o.skills()));
+				(e(), i(a), e(), i(t('', a, '__list')), e(), w(n.skills()));
 			}
 		},
 		styles: [
@@ -306,60 +306,60 @@ var G = class s {
 		],
 	});
 };
-function oe(s, c) {
+function ne(s, c) {
 	if (
 		(s & 1 &&
 			(r(0, 'li')(1, 'div')(2, 'span'),
 			m(3),
 			l()(),
 			r(4, 'div')(5, 'div'),
-			_(6, 'i-lucide', 1),
+			p(6, 'i-lucide', 1),
 			r(7, 'span'),
 			m(8),
 			l()(),
 			r(9, 'div')(10, 'span'),
 			m(11),
 			l(),
-			_(12, 'i-lucide', 2),
+			p(12, 'i-lucide', 2),
 			l()()()),
 		s & 2)
 	) {
-		let n = c.$implicit;
-		f();
-		let o = x(0);
-		(i(t('', o, '__list_item')),
+		let o = c.$implicit;
+		g();
+		let n = x(0);
+		(i(t('', n, '__list_item')),
 			e(),
-			i(t('', o, '__list_top')),
+			i(t('', n, '__list_top')),
 			e(),
-			i(t('', o, '__list_institution')),
+			i(t('', n, '__list_institution')),
 			e(),
-			d(n.institution),
+			d(o.institution),
 			e(),
-			i(t('', o, '__list_bottom')),
+			i(t('', n, '__list_bottom')),
 			e(),
-			i(t('', o, '__list_bottom_left')),
+			i(t('', n, '__list_bottom_left')),
 			e(),
-			i(t('', o, '__list_icon')),
-			p('size', 14)('strokeWidth', 2),
+			i(t('', n, '__list_icon')),
+			_('size', 14)('strokeWidth', 2),
 			e(),
-			i(t('', o, '__list_name')),
+			i(t('', n, '__list_name')),
 			e(),
-			d(n.name),
+			d(o.name),
 			e(),
-			i(t('', o, '__list_bottom_right')),
+			i(t('', n, '__list_bottom_right')),
 			e(),
-			i(t('', o, '__list_time_spent')),
+			i(t('', n, '__list_time_spent')),
 			e(),
-			d(n.timeSpent),
+			d(o.timeSpent),
 			e(),
-			i(t('', o, '__list_icon')),
-			p('size', 14)('strokeWidth', 2));
+			i(t('', n, '__list_icon')),
+			_('size', 14)('strokeWidth', 2));
 	}
 }
 var j = class s {
 	courses = v();
-	static ɵfac = function (n) {
-		return new (n || s)();
+	static ɵfac = function (o) {
+		return new (o || s)();
 	};
 	static ɵcmp = u({
 		type: s,
@@ -372,13 +372,13 @@ var j = class s {
 			['name', 'chevron-right', 3, 'size', 'strokeWidth'],
 			['name', 'clock', 3, 'size', 'strokeWidth'],
 		],
-		template: function (n, o) {
-			if ((n & 1 && (b(0), r(1, 'div')(2, 'ul'), h(3, oe, 13, 37, 'li', 0, w), l()()), n & 2)) {
+		template: function (o, n) {
+			if ((o & 1 && (b(0), r(1, 'div')(2, 'ul'), y(3, ne, 13, 37, 'li', 0, h), l()()), o & 2)) {
 				let a = C('resume_courses01');
-				(e(), i(a), e(), i(t('', a, '__list')), e(), y(o.courses()));
+				(e(), i(a), e(), i(t('', a, '__list')), e(), w(n.courses()));
 			}
 		},
-		dependencies: [$, A],
+		dependencies: [T, A],
 		styles: [
 			'.resume_courses01[_ngcontent-%COMP%]{color:var(--grey7)}.resume_courses01__list_bottom[_ngcontent-%COMP%]{display:flex;align-items:center;justify-content:space-between;flex-direction:initial;margin-bottom:15px;display:grid;grid-template-columns:1fr 55px}.resume_courses01__list_bottom_left[_ngcontent-%COMP%]{display:flex;align-items:center;justify-content:initial;flex-direction:initial}.resume_courses01__list_bottom_right[_ngcontent-%COMP%]{margin-left:auto;display:flex;align-items:center;justify-content:initial;flex-direction:initial}.resume_courses01__list_bottom_right[_ngcontent-%COMP%]     .resume_courses01__list_icon{color:var(--resume01_primary)}.resume_courses01__list_institution[_ngcontent-%COMP%]{font-size:12px;font-weight:400;letter-spacing:initial;line-height:initial;margin-bottom:5px;display:block}.resume_courses01__list_name[_ngcontent-%COMP%], .resume_courses01__list_time_spent[_ngcontent-%COMP%]{font-size:12px;font-weight:300;letter-spacing:initial;line-height:initial;display:block}.resume_courses01__list_time_spent[_ngcontent-%COMP%] + i-lucide[_ngcontent-%COMP%]{margin-left:5px}',
 		],
@@ -386,7 +386,7 @@ var j = class s {
 };
 var Y = class s {
 	localize = $localize;
-	hero = { name: 'Felipe Iwamoto', role: 'Senior Full-Stack Developer' };
+	hero = { name: ' Felipe Iwamoto', role: ' Desenvolvedor Full-Stack S\xEAnior' };
 	contacts = [
 		{ icon: 'map-pin', description: 'Brazil - Curitiba/PR' },
 		{ icon: 'mail', description: 'felipe.t.iwamoto@gmail.com' },
@@ -395,15 +395,15 @@ var Y = class s {
 	];
 	about = {
 		summary:
-			'I am a programmer focused on becoming a Full-Stack developer, working in the web field for seven years. Throughout my experiences, I had the privilege of working at companies where I had the autonomy to seek knowledge and apply it in my daily work. I strived to become a professional capable of meeting the companies\u2019 needs, learning from others and teaching along the way. My goal is to continuously improve my knowledge and pursue new learning opportunities within companies, always focusing on personal and professional growth.',
+			' Desenvolvedor Full-Stack S\xEAnior com 9+ anos de experi\xEAncia, especializado em Frontend com Angular 2+ e ReactJS. Expertise na cria\xE7\xE3o de Design Systems escal\xE1veis, migra\xE7\xE3o de legados, otimiza\xE7\xE3o de performance e implementa\xE7\xE3o de testes automatizados. S\xF3lidos conhecimentos em TypeScript, RxJS, Redux, Node.js e pr\xE1ticas de Clean Code/SOLID. Hist\xF3rico comprovado de lideran\xE7a t\xE9cnica, mentoria de equipes e entrega de solu\xE7\xF5es complexas em ambientes \xE1geis.',
 	};
 	languages = [
-		{ name: 'Portuguese', level: 10 },
-		{ name: 'English', level: 6 },
-		{ name: 'Japanese', level: 4 },
+		{ name: ' Portugu\xEAs', level: 10 },
+		{ name: ' Ingl\xEAs', level: 6 },
+		{ name: ' Japon\xEAs', level: 4 },
 	];
 	courses = [
-		{ institution: 'Opet College', name: 'Digital Games (Technical Degree)', timeSpent: ' 1y' },
+		{ institution: ' Faculdade Opet', name: ' Jogos Digitais (T\xE9cnico)', timeSpent: ' 1 ano' },
 		{ institution: 'Udemy', name: 'Web Development', timeSpent: '54h' },
 		{ institution: 'Udemy', name: 'Reactive programming', timeSpent: '17h' },
 		{ institution: 'Udemy', name: 'PHP/Laravel/Symfony', timeSpent: '115h' },
@@ -415,15 +415,16 @@ var Y = class s {
 		{ institution: 'Udemy', name: 'UI/UX Design', timeSpent: '77h' },
 	];
 	frontend = [
-		{ name: 'HTML', level: 8 },
-		{ name: 'CSS', level: 9 },
+		{ name: 'Angular 2+ (v18)', level: 9 },
+		{ name: 'ReactJS', level: 8 },
 		{ name: 'JavaScript', level: 7 },
-		{ name: 'Jquery', level: 5 },
-		{ name: 'React/Redux', level: 5 },
-		{ name: 'Angular 2+', level: 7 },
-		{ name: 'UI Frameworks', level: 6 },
-		{ name: 'Docker', level: 5 },
-		{ name: 'CI/CD', level: 5 },
+		{ name: 'TypeScript', level: 7 },
+		{ name: 'RxJS', level: 7 },
+		{ name: 'Redux', level: 6 },
+		{ name: 'HTML5', level: 9 },
+		{ name: 'CSS3 / SCSS', level: 9 },
+		{ name: 'Jest', level: 5 },
+		{ name: 'Docker / CI/CD', level: 5 },
 	];
 	backend = [
 		{ name: 'PHP', level: 5 },
@@ -437,159 +438,161 @@ var Y = class s {
 	experiences = [
 		{
 			company: 'Banco BS2',
-			startedAt: 'SEP 2022',
-			endedAt: 'CURRENT',
+			startedAt: ' SET 2022',
+			endedAt: ' ATUAL',
 			responsabilities: [
-				'Developer Recruitment',
-				'Worked as a Senior.',
-				'Maintenance of existing systems.',
-				'Development of new features.',
+				' Arquitetura e desenvolvimento de Design System corporativo com Angular 18.',
+				' Lideran\xE7a na migra\xE7\xE3o de aplica\xE7\xF5es legadas (Angular 12 \u2192 18).',
+				' Implementa\xE7\xE3o de internacionaliza\xE7\xE3o (i18n) e otimiza\xE7\xE3o de performance.',
+				' Mentoria t\xE9cnica e Code Reviews focados em Clean Code e SOLID.',
 			],
-			softSkills: [
-				'Persuasion skills;',
-				'Proactivity;',
-				'Ability to work under pressure;',
-				'Leadership skills;',
-				'Analytical skills.',
-			],
-			hardSkills: ['Technical courses;'],
+			softSkills: [' Lideran\xE7a T\xE9cnica;', ' Resolu\xE7\xE3o de Problemas;', ' Comunica\xE7\xE3o Eficaz;'],
+			hardSkills: [' Cursos t\xE9cnicos;'],
 			description:
-				'Worked as a Senior Developer, with a focus on architecture and standardization. Responsible for the corporate Design System (components, directives, pipes, and services), gradually applied across multiple projects. Mentored new collaborators, delivered internal talks, and led Angular migrations (12 \u2192 16 \u2192 18). Implemented i18n with support for Portuguese, English, and Chinese.',
+				' Como Desenvolvedor S\xEAnior, liderei a arquitetura do Frontend, criando um Design System robusto (componentes, diretivas, pipes) que padronizou m\xFAltiplos produtos do banco. Executei migra\xE7\xF5es complexas de vers\xE3o do Angular, garantindo zero downtime. Implementei estrat\xE9gias de i18n para suporte global (PT/EN/ZH) e promovi a cultura de qualidade de c\xF3digo atrav\xE9s de mentorias e workshops internos.',
 		},
 		{
 			company: 'Tagme',
-			startedAt: 'JUN 2021',
-			endedAt: 'AUG 2022',
+			startedAt: ' JUN 2021 ',
+			endedAt: ' AGO 2022',
 			responsabilities: [
-				'Worked as a Senior.',
-				'Mentoring new collaborators.',
-				'Maintenance of existing systems.',
-				'Development of new features.',
-				'Development of new features.',
+				' Lideran\xE7a t\xE9cnica de Frontend em novos projetos (Greenfield).',
+				' Defini\xE7\xE3o de arquitetura escal\xE1vel e escolhas tecnol\xF3gicas.',
+				' Onboarding e capacita\xE7\xE3o t\xE9cnica do time de desenvolvimento.',
 			],
-			softSkills: [
-				'Persuasion skills;',
-				'Proactivity;',
-				'Ability to work under pressure;',
-				'Leadership skills;',
-				'Analytical skills.',
-			],
-			hardSkills: ['Technical courses;'],
+			softSkills: [' Lideran\xE7a T\xE9cnica;', ' Proatividade;'],
+			hardSkills: [' Cursos t\xE9cnicos;'],
 			description:
-				'Led the front-end team in the creation of a new project, working as a Senior Developer with a technical and architectural focus. Mentored new collaborators and conducted internal talks to train the team on technologies and best practices.',
+				' Atuei como Tech Lead de Frontend, respons\xE1vel pela concep\xE7\xE3o e desenvolvimento de novos produtos do zero. Defini a stack tecnol\xF3gica e padr\xF5es de arquitetura, garantindo escalabilidade e manutenibilidade. Conduzi o time atrav\xE9s de desafios t\xE9cnicos, implementando boas pr\xE1ticas de desenvolvimento e realizando workshops para nivelamento t\xE9cnico da equipe.',
 		},
 		{
 			company: 'Bitknot',
 			startedAt: ' JAN 2021',
-			endedAt: ' APR 2021',
+			endedAt: ' ABR 2021',
 			responsabilities: [
-				'Maintenance of existing systems.',
-				'Development of new features.',
-				'Development of new features.',
+				' Desenvolvimento Full-Stack em ambiente internacional (Jap\xE3o).',
+				' Moderniza\xE7\xE3o de sistemas legados e cria\xE7\xE3o de Landing Pages.',
 			],
-			softSkills: ['Persuasion skills;', 'Proactivity;', 'Ability to work under pressure;', 'Analytical skills.'],
+			softSkills: [' Adaptabilidade Cultural;', ' Trabalho Remoto Global;'],
 			description:
-				' Worked as a freelance developer for 4 months in a 100% Japanese team, developing everything from simple landing pages to maintaining and improving more complex systems. Experience with both legacy systems and modern applications, collaborating in a multicultural environment while following high technical and quality standards.',
+				' Atua\xE7\xE3o em time multicultural japon\xEAs, desenvolvendo solu\xE7\xF5es web com foco em alta fidelidade de design e performance. Respons\xE1vel pela manuten\xE7\xE3o de sistemas cr\xEDticos e entrega de novas features, seguindo rigorosos padr\xF5es de qualidade e prazos.',
 		},
 		{
 			company: 'Tuxon',
-			startedAt: 'FEB 2020',
-			endedAt: 'NOV 2020',
+			startedAt: ' FEV 2020',
+			endedAt: ' NOV 2020',
 			responsabilities: [
-				'Maintenance of existing systems.',
-				'Development of new features.',
-				'Development of new features.',
+				' Manuten\xE7\xE3o nos sistemas existentes.',
+				' Cria\xE7\xE3o de novas funcionalidades.',
+				' Cria\xE7\xE3o de projetos do zero.',
 			],
-			softSkills: ['Persuasion skills;', 'Proactivity;', 'Ability to work under pressure;', 'Analytical skills.'],
-			hardSkills: ['Technical courses;', 'Skills related to information technology.'],
+			softSkills: [
+				' Capacidade de persuas\xE3o;',
+				' Proatividade;',
+				' Capacidade de trabalhar sob press\xE3o;',
+				' Resolu\xE7\xE3o de Problemas;',
+			],
+			hardSkills: [' Cursos t\xE9cnicos;', ' habilidades ligadas \xE0 inform\xE1tica.'],
 			description:
-				'Worked on the maintenance of existing systems, development of new features, and creation of projects from scratch. Proactive profile, with strong analytical skills, ability to work under pressure, and good communication for technical alignment with the team.',
+				' Atua\xE7\xE3o na manuten\xE7\xE3o de sistemas existentes, desenvolvimento de novas funcionalidades e cria\xE7\xE3o de projetos do zero. Perfil proativo, com forte capacidade anal\xEDtica, habilidade para trabalhar sob press\xE3o e boa comunica\xE7\xE3o para alinhamento t\xE9cnico com o time.',
 		},
 		{
 			company: 'Interlink',
-			startedAt: ' OCT 2019',
-			endedAt: ' FEB 2020',
+			startedAt: ' OUT 2019',
+			endedAt: ' FEV 2020',
 			responsabilities: [
-				'Maintenance of existing systems.',
-				'Development of new features.',
-				'Development of new features.',
+				' Implementa\xE7\xE3o de arquitetura de estado com Redux do zero.',
+				' Desenvolvimento Full-Stack (ReactJS + Node.js) para mercado americano.',
 			],
-			softSkills: ['Persuasion skills;', 'Proactivity;', 'Ability to work under pressure;', 'Analytical skills.'],
+			softSkills: [' Ingl\xEAs Fluente;', ' Autonomia;'],
 			description:
-				' Worked as a freelance developer for 5 months in a 100% American team, maintaining existing systems and developing new features. Led the implementation of Redux from scratch, designing the state management architecture and rolling it out across the entire system to improve scalability and code organization.',
+				' Desenvolvedor Full-Stack em projeto internacional (EUA). Projetei e implementei toda a camada de gerenciamento de estado com Redux, resolvendo problemas complexos de fluxo de dados. Atuei tanto no Frontend (React) quanto no Backend, garantindo a integridade e escalabilidade da aplica\xE7\xE3o.',
 		},
 		{
 			company: '4You2 Idiomas',
-			startedAt: 'APR 2019',
-			endedAt: 'SEP 2019',
+			startedAt: ' ABR 2019',
+			endedAt: ' SET 2019',
 			responsabilities: [
-				'Mentoring new collaborators.',
-				'Maintenance of existing systems.',
-				'Development of new features.',
-				'Development of new features.',
+				' Mentoriamento de novos colaboradores.',
+				' Manuten\xE7\xE3o nos sistemas existentes.',
+				' Cria\xE7\xE3o de novas funcionalidades.',
+				' Cria\xE7\xE3o de projetos do zero.',
 			],
-			softSkills: ['Proactivity;', 'Ability to work under pressure;', 'Leadership skills;', 'Analytical skills.'],
-			hardSkills: ['Knowledge of a foreign language;', 'Technical courses;'],
+			softSkills: [
+				' Proatividade;',
+				' Capacidade de trabalhar sob press\xE3o;',
+				' Lideran\xE7a T\xE9cnica;',
+				' Resolu\xE7\xE3o de Problemas;',
+			],
+			hardSkills: [' Conhecimento em uma l\xEDngua estrangeira;', ' Cursos t\xE9cnicos;'],
 			description:
-				'Work on the maintenance and evolution of existing systems, development of new features, and creation of projects from scratch. Strong experience using English on a daily basis, participating in dailies and technical alignments with native speakers, understanding requirements directly with the international team, and performing continuous implementations and adjustments. Active role in mentoring new collaborators, supporting onboarding, technical guidance, and professional growth, with a proactive, analytical profile and a strong sense of leadership.',
+				' Atua\xE7\xE3o na manuten\xE7\xE3o e evolu\xE7\xE3o de sistemas existentes, desenvolvimento de novas funcionalidades e cria\xE7\xE3o de projetos do zero. Forte experi\xEAncia com ingl\xEAs no dia a dia, participando de dailies e alinhamentos t\xE9cnicos com falantes nativos, entendendo demandas diretamente com o time internacional e realizando implementa\xE7\xF5es e ajustes cont\xEDnuos. Atua\xE7\xE3o ativa no mentoriamento de novos colaboradores, apoiando onboarding, direcionamento t\xE9cnico e evolu\xE7\xE3o profissional, com perfil proativo, anal\xEDtico e senso de lideran\xE7a.',
 		},
 		{
 			company: 'SPRO IT Solutions',
-			startedAt: 'SEP 2018',
-			endedAt: 'APR 2019',
+			startedAt: ' SET 2018',
+			endedAt: ' ABR 2019',
 			responsabilities: [
-				'Maintenance of existing systems.',
-				'Development of new features.',
-				'Development of new features.',
+				' Manuten\xE7\xE3o nos sistemas existentes.',
+				' Cria\xE7\xE3o de novas funcionalidades.',
+				' Cria\xE7\xE3o de projetos do zero.',
 			],
-			softSkills: ['Proactivity;', 'Ability to work under pressure;', 'Analytical skills.'],
-			hardSkills: ['Technical courses;'],
+			softSkills: [
+				' Proatividade;',
+				' Capacidade de trabalhar sob press\xE3o;',
+				' Resolu\xE7\xE3o de Problemas;',
+			],
+			hardSkills: [' Cursos t\xE9cnicos;'],
 			description:
-				'Worked on the maintenance of existing systems, development of new features, and creation of projects from scratch, with a strong focus on process automation. Mapped and understood manual tasks that previously took days or weeks to complete, creating automations that reduced execution time to seconds, significantly accelerating workflows and directly supporting other areas of the company.',
+				' Atua\xE7\xE3o na manuten\xE7\xE3o de sistemas existentes, desenvolvimento de novas funcionalidades e cria\xE7\xE3o de projetos do zero, com forte foco em automa\xE7\xE3o de processos. Mapeamento e entendimento de tarefas manuais que levavam dias ou semanas para serem executadas, criando automa\xE7\xF5es que passaram a realizar esses processos em segundos, acelerando significativamente o fluxo de trabalho e apoiando diretamente outras \xE1reas da empresa.',
 		},
 		{
 			company: 'DevMaker',
-			startedAt: 'OCT 2017',
-			endedAt: 'SEP 2018',
+			startedAt: ' OUT 2017',
+			endedAt: ' SET 2018',
 			responsabilities: [
-				'Maintenance of existing systems.',
-				'Development of new features.',
-				'Development of new features.',
+				' Manuten\xE7\xE3o nos sistemas existentes.',
+				' Cria\xE7\xE3o de novas funcionalidades.',
+				' Cria\xE7\xE3o de projetos do zero.',
 			],
-			softSkills: ['Proactivity;', 'Ability to work under pressure;', 'Analytical skills.'],
-			hardSkills: ['Technical courses;'],
+			softSkills: [
+				' Proatividade;',
+				' Capacidade de trabalhar sob press\xE3o;',
+				' Resolu\xE7\xE3o de Problemas;',
+			],
+			hardSkills: [' Cursos t\xE9cnicos;'],
 			description:
-				'Despite holding a junior position, I identified a high project demand and the team\u2019s difficulty in maintaining the delivery pace. In alignment with the design team, I led the standardization of the company\u2019s components, creating reusable variations applied across all new projects. To enable this initiative, I conducted an in-depth study of frameworks such as Bootstrap, Material, and Semantic UI, developing a solution tailored to the company\u2019s needs, which contributed to reducing overtime and weekend work.',
+				' Apesar da posi\xE7\xE3o j\xFAnior, identifiquei a alta demanda de projetos e a dificuldade do time em manter o ritmo de entregas. Em alinhamento com o time de design, liderei a padroniza\xE7\xE3o dos componentes da empresa, criando varia\xE7\xF5es reutiliz\xE1veis aplicadas em todos os novos projetos. Para viabilizar essa iniciativa, estudei profundamente frameworks como Bootstrap, Material e Semantic UI, desenvolvendo uma solu\xE7\xE3o adaptada \xE0s necessidades da empresa, o que contribuiu para redu\xE7\xE3o de horas extras e trabalho aos fins de semana.',
 		},
 		{
 			company: '01Tec',
-			startedAt: 'APR 2015',
-			endedAt: 'SEP 2016',
-			responsabilities: ['Maintenance of existing systems.', 'Development of new features.'],
-			softSkills: ['Proactivity;', 'Analytical skills.'],
-			hardSkills: ['Technical courses;'],
+			startedAt: ' ABR 2015',
+			endedAt: ' SET 2016',
+			responsabilities: [' Manuten\xE7\xE3o nos sistemas existentes.', ' Cria\xE7\xE3o de projetos do zero.'],
+			softSkills: [' Proatividade;', ' Resolu\xE7\xE3o de Problemas;'],
+			hardSkills: [' Cursos t\xE9cnicos;'],
 			description:
-				'Internship experience where I started with basic knowledge in programming logic and evolved into full web development, learning HTML, CSS, JavaScript, jQuery, PHP, and MySQL, in addition to creating themes for WordPress. After the internship period, I worked as a freelancer for the company for a few months, contributing to additional projects.',
+				' Experi\xEAncia de est\xE1gio onde iniciei com conhecimentos b\xE1sicos em l\xF3gica de programa\xE7\xE3o e evolu\xED para o desenvolvimento web completo, aprendendo HTML, CSS, JavaScript, jQuery, PHP e MySQL, al\xE9m da cria\xE7\xE3o de temas para WordPress. Ap\xF3s o per\xEDodo de est\xE1gio, atuei como freelancer para a empresa por alguns meses, contribuindo em projetos adicionais.',
 		},
 		{
-			company: ' Community Services',
-			startedAt: 'APR 2015',
-			endedAt: 'SEP 2016',
+			company: ' Servi\xE7os comunit\xE1rios',
+			startedAt: ' ABR 2015',
+			endedAt: ' SET 2016',
 			responsabilities: [
-				' Teaching programming (Lovelace Project)',
-				' Giving talks.',
-				' Distributing blankets.',
-				' Distributing food.',
-				' Teaching music classes.',
-				' Helping people with moving.',
-				' Open-air music and theater performances.',
+				' Ensinar programa\xE7\xE3o (Projeto Lovelace)',
+				' Fazer palestras.',
+				' Distribuir cobertores.',
+				' Distribuir alimentos.',
+				' Dar aula de m\xFAsica.',
+				' Auxiliar na mudan\xE7a das pessoas.',
+				' M\xFAsica e Teatro ao ar livre.',
 			],
 			description:
-				' Volunteered in community initiatives, including teaching programming, delivering educational talks, distributing blankets and food to people in vulnerable situations, teaching music classes, assisting with relocation efforts, and participating in open-air music and theater performances, contributing to education, culture, and social support.',
+				' Atua\xE7\xE3o em iniciativas comunit\xE1rias, incluindo ensino de programa\xE7\xE3o, realiza\xE7\xE3o de palestras educativas, distribui\xE7\xE3o de cobertores e alimentos para pessoas em situa\xE7\xE3o de vulnerabilidade, aulas de m\xFAsica, apoio em mudan\xE7as residenciais e participa\xE7\xE3o em apresenta\xE7\xF5es de m\xFAsica e teatro ao ar livre, contribuindo para educa\xE7\xE3o, cultura e apoio social.',
 		},
 	];
-	static ɵfac = function (n) {
-		return new (n || s)();
+	static ɵfac = function (o) {
+		return new (o || s)();
 	};
 	static ɵcmp = u({
 		type: s,
@@ -598,34 +601,34 @@ var Y = class s {
 		vars: 133,
 		consts: () => {
 			let c;
-			c = ' Portuguese ';
-			let n;
-			n = ' English ';
+			c = ' Portugu\xEAs ';
 			let o;
-			o = 'EXPERIENCES';
+			o = ' Ingl\xEAs ';
+			let n;
+			n = 'EXPERI\xCANCIAS';
 			let a;
-			a = 'ABOUT ME';
-			let g;
-			g = 'LANGUAGES';
+			a = 'SOBRE MIM';
+			let f;
+			f = 'LINGUAGENS';
 			let R;
-			R = 'COURSES';
-			let z;
-			z = 'SKILLS';
+			R = 'CURSOS';
+			let P;
+			P = 'HABILIDADES';
 			let X;
 			X = 'Frontend';
-			let H;
+			let q;
 			return (
-				(H = 'Backend'),
+				(q = 'Backend'),
 				[
 					c,
-					n,
 					o,
+					n,
 					a,
-					g,
+					f,
 					R,
-					z,
+					P,
 					X,
-					H,
+					q,
 					['href', '/cv/pt'],
 					['href', '/cv/en'],
 					[3, 'hero'],
@@ -642,9 +645,9 @@ var Y = class s {
 				]
 			);
 		},
-		template: function (n, o) {
+		template: function (o, n) {
 			if (
-				(n & 1 &&
+				(o & 1 &&
 					(r(0, 'div')(1, 'div')(2, 'ul')(3, 'li')(4, 'a', 9),
 					S(5, 0),
 					l()(),
@@ -652,55 +655,55 @@ var Y = class s {
 					S(8, 1),
 					l()()(),
 					r(9, 'div')(10, 'div')(11, 'div'),
-					_(12, 'resume-hero01', 11),
+					p(12, 'resume-hero01', 11),
 					l(),
 					r(13, 'div'),
-					_(14, 'resume-contacts01', 12),
+					p(14, 'resume-contacts01', 12),
 					l()(),
 					r(15, 'div')(16, 'div')(17, 'div')(18, 'div'),
-					_(19, 'i-lucide', 13),
+					p(19, 'i-lucide', 13),
 					r(20, 'span'),
 					S(21, 2),
 					l()(),
-					_(22, 'resume-experiences01', 14),
+					p(22, 'resume-experiences01', 14),
 					l()(),
 					r(23, 'div')(24, 'div')(25, 'div'),
-					_(26, 'i-lucide', 15),
+					p(26, 'i-lucide', 15),
 					r(27, 'span'),
 					S(28, 3),
 					l()(),
-					_(29, 'resume-about01', 16),
+					p(29, 'resume-about01', 16),
 					l(),
 					r(30, 'div')(31, 'div'),
-					_(32, 'i-lucide', 17),
+					p(32, 'i-lucide', 17),
 					r(33, 'span'),
 					S(34, 4),
 					l()(),
-					_(35, 'resume-skills01', 18),
+					p(35, 'resume-skills01', 18),
 					l(),
 					r(36, 'div')(37, 'div'),
-					_(38, 'i-lucide', 19),
+					p(38, 'i-lucide', 19),
 					r(39, 'span'),
 					S(40, 5),
 					l()(),
-					_(41, 'resume-courses01', 20),
+					p(41, 'resume-courses01', 20),
 					l(),
 					r(42, 'div')(43, 'div'),
-					_(44, 'i-lucide', 21),
+					p(44, 'i-lucide', 21),
 					r(45, 'span'),
 					S(46, 6),
 					l()(),
 					r(47, 'div')(48, 'span'),
 					S(49, 7),
 					l(),
-					_(50, 'resume-skills01', 18),
+					p(50, 'resume-skills01', 18),
 					l(),
 					r(51, 'div')(52, 'span'),
 					S(53, 8),
 					l(),
-					_(54, 'resume-skills01', 18),
+					p(54, 'resume-skills01', 18),
 					l()()()()()()()),
-				n & 2)
+				o & 2)
 			) {
 				let a = 'resume';
 				(i(a),
@@ -711,11 +714,11 @@ var Y = class s {
 					e(),
 					i(t('', a, '__lang_item')),
 					e(),
-					i(I('', a, '__lang_link ', o.localize.locale === 'pt' ? a + '__lang_link--active' : '')),
+					i(I('', a, '__lang_link ', n.localize.locale === 'pt' ? a + '__lang_link--active' : '')),
 					e(2),
 					i(t('', a, '__lang_item')),
 					e(),
-					i(I('', a, '__lang_link ', o.localize.locale === 'en' ? a + '__lang_link--active' : '')),
+					i(I('', a, '__lang_link ', n.localize.locale === 'en' ? a + '__lang_link--active' : '')),
 					e(2),
 					i(t('', a, '__container')),
 					e(),
@@ -723,11 +726,11 @@ var Y = class s {
 					e(),
 					i(t('', a, '__top_left')),
 					e(),
-					p('hero', o.hero),
+					_('hero', n.hero),
 					e(),
 					i(t('', a, '__top_right')),
 					e(),
-					p('contacts', o.contacts),
+					_('contacts', n.contacts),
 					e(),
 					i(t('', a, '__bottom')),
 					e(),
@@ -738,11 +741,11 @@ var Y = class s {
 					i(t('', a, '__section_title')),
 					e(),
 					i(t('', a, '__section_title_icon')),
-					p('size', 24)('strokeWidth', 2),
+					_('size', 24)('strokeWidth', 2),
 					e(),
 					i(t('', a, '__section_title_text')),
 					e(2),
-					p('experiences', o.experiences),
+					_('experiences', n.experiences),
 					e(),
 					i(t('', a, '__bottom_right')),
 					e(),
@@ -751,40 +754,40 @@ var Y = class s {
 					i(t('', a, '__section_title')),
 					e(),
 					i(t('', a, '__section_title_icon')),
-					p('size', 24)('strokeWidth', 2),
+					_('size', 24)('strokeWidth', 2),
 					e(),
 					i(t('', a, '__section_title_text')),
 					e(2),
-					p('about', o.about),
+					_('about', n.about),
 					e(),
 					i(t('', a, '__section')),
 					e(),
 					i(t('', a, '__section_title')),
 					e(),
 					i(t('', a, '__section_title_icon')),
-					p('size', 24)('strokeWidth', 2),
+					_('size', 24)('strokeWidth', 2),
 					e(),
 					i(t('', a, '__section_title_text')),
 					e(2),
-					p('skills', o.languages),
+					_('skills', n.languages),
 					e(),
 					i(t('', a, '__section')),
 					e(),
 					i(t('', a, '__section_title')),
 					e(),
 					i(t('', a, '__section_title_icon')),
-					p('size', 24)('strokeWidth', 2),
+					_('size', 24)('strokeWidth', 2),
 					e(),
 					i(t('', a, '__section_title_text')),
 					e(2),
-					p('courses', o.courses),
+					_('courses', n.courses),
 					e(),
 					i(t('', a, '__section')),
 					e(),
 					i(t('', a, '__section_title')),
 					e(),
 					i(t('', a, '__section_title_icon')),
-					p('size', 24)('strokeWidth', 2),
+					_('size', 24)('strokeWidth', 2),
 					e(),
 					i(t('', a, '__section_title_text')),
 					e(2),
@@ -792,19 +795,19 @@ var Y = class s {
 					e(),
 					i(t('', a, '__section_sub_title')),
 					e(2),
-					p('skills', o.frontend),
+					_('skills', n.frontend),
 					e(),
 					i(t('', a, '__sub_section')),
 					e(),
 					i(t('', a, '__section_sub_title')),
 					e(2),
-					p('skills', o.backend));
+					_('skills', n.backend));
 			}
 		},
-		dependencies: [U, W, N, D, G, j, $, A],
+		dependencies: [U, W, D, N, G, j, T, A],
 		styles: [
 			'.resume[_ngcontent-%COMP%]{--resume_right_side: 100%;padding:60px 10px;background-color:var(--greye);display:flex;align-items:center;justify-content:center;flex-direction:initial}@media all and (min-width:768px){.resume[_ngcontent-%COMP%]{padding:100px 10px 50px;--resume_right_side: 200px}}.resume__page[_ngcontent-%COMP%]{position:relative;width:min(100%,25cm);min-height:33.7cm;padding:30px 10px;box-sizing:border-box;background-color:var(--greyf)}@media all and (min-width:768px){.resume__page[_ngcontent-%COMP%]{padding:90px}}.resume__lang[_ngcontent-%COMP%]{position:absolute;top:-40px;right:0;display:flex;align-items:center;justify-content:center;flex-direction:initial;margin-bottom:20px;column-gap:10px}.resume__lang_link[_ngcontent-%COMP%]{padding:5px 10px;font-size:14px;font-weight:300;letter-spacing:initial;line-height:initial;cursor:pointer;color:var(--grey7);border-radius:50px;background-color:var(--greyf)}.resume__lang_link--active[_ngcontent-%COMP%]{color:var(--resume01_primary);font-weight:600}.resume__container[_ngcontent-%COMP%]{width:min(100% - 20px,768px);margin-inline:auto;position:relative}.resume__top[_ngcontent-%COMP%]{display:grid;grid-template-columns:1fr;row-gap:30px}@media all and (min-width:768px){.resume__top[_ngcontent-%COMP%]{display:grid;grid-template-columns:1fr 200px;column-gap:30px;row-gap:0px}}.resume__top_right[_ngcontent-%COMP%]{width:var(--resume_right_side)}.resume__bottom[_ngcontent-%COMP%]{display:grid;grid-template-columns:1fr;row-gap:30px}@media all and (min-width:768px){.resume__bottom[_ngcontent-%COMP%]{grid-template-columns:1fr 200px;column-gap:30px;row-gap:0px}}.resume__bottom_right[_ngcontent-%COMP%]{width:var(--resume_right_side)}.resume__section[_ngcontent-%COMP%], .resume__sub_section[_ngcontent-%COMP%]{margin-top:30px}.resume__section_title[_ngcontent-%COMP%]{color:var(--resume01_primary);display:flex;align-items:center;justify-content:center;flex-direction:initial;margin-bottom:30px;text-align:center}.resume__section_title[_ngcontent-%COMP%]   i-lucide[_ngcontent-%COMP%]{margin-right:10px}@media all and (min-width:768px){.resume__section_title[_ngcontent-%COMP%]{display:flex;align-items:center;justify-content:initial;flex-direction:initial;text-align:left}}.resume__section_title_icon[_ngcontent-%COMP%]{display:flex;align-items:center;justify-content:initial;flex-direction:initial}.resume__section_title_text[_ngcontent-%COMP%]{font-size:18px;font-weight:400;letter-spacing:initial;line-height:initial;display:block}.resume__section_sub_title[_ngcontent-%COMP%]{font-size:14px;font-weight:300;letter-spacing:initial;line-height:initial;margin-bottom:15px;display:block;color:var(--grey7)}',
 		],
 	});
 };
-export { Y as FelipeTiwamoto }; /**i18n:15748b0f317f10e7aba25a6791099be1a54cb7a9a6b63254093f35deca13e369*/
+export { Y as FelipeTiwamoto }; /**i18n:8f4dc3acc5db079b18a61fcaf76ce5d3ab1ecd45730af0285c692a211a6b7b61*/

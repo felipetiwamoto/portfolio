@@ -81,7 +81,7 @@ import {
 	x as q,
 	y as qt,
 	z as Br,
-} from './chunk-FUX2CEOE.js';
+} from './chunk-JZMLNKCD.js';
 var vn = null;
 function $() {
 	return vn;
@@ -4250,7 +4250,7 @@ var _i = [
 	'ltr',
 	qs,
 ];
-var Oi = [{ path: '', loadComponent: () => import('./chunk-SYQKWC7G.js').then((t) => t.FelipeTiwamoto) }];
+var Oi = [{ path: '', loadComponent: () => import('./chunk-IC2PUXYA.js').then((t) => t.FelipeTiwamoto) }];
 bn(_i);
 var Li = { providers: [Yr(), Pr(Oi), Gr(mn.pick(gn)), { provide: hn, useValue: 'pt-BR' }] };
 var zt = class t {
@@ -4270,4 +4270,4 @@ var zt = class t {
 	});
 };
 lr(zt, Li).catch((t) => console.error(t));
-/**i18n:15748b0f317f10e7aba25a6791099be1a54cb7a9a6b63254093f35deca13e369*/
+/**i18n:8f4dc3acc5db079b18a61fcaf76ce5d3ab1ecd45730af0285c692a211a6b7b61*/
