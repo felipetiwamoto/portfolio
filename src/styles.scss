@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+:root {
+	--resume01_primary: #ed1c24;
+	--black: #000;
+	--grey0: #000;
+	--grey1: #111;
+	--grey2: #222;
+	--grey3: #333;
+	--grey4: #444;
+	--grey5: #555;
+	--grey6: #666;
+	--grey7: #777;
+	--grey8: #888;
+	--grey9: #999;
+	--greya: #aaa;
+	--greyb: #bbb;
+	--greyc: #ccc;
+	--greyd: #ddd;
+	--greye: #eee;
+	--greyf: #fff;
+	--white: #fff;
+	--primary: #ed1c24;
+	--error: #ff4d4f;
+
+	--scheduler_item_default: #333333;
+	--scheduler_item_red: #d32f2f;
+	--scheduler_item_green: #2e7d32;
+	--scheduler_item_blue: #1565c0;
+	--scheduler_item_orange: #ef6c00;
+	--scheduler_item_purple: #7b1fa2;
+}
+
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	list-style: none;
+	text-decoration: none;
+}
+
+body {
+	font-family: 'Inter', sans-serif;
+}
+
+input,
+select,
+textarea {
+	font-family: 'Inter', sans-serif;
+}
+
+i-lucide {
+	line-height: 0px;
+}

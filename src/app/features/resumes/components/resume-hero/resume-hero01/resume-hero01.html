@@ -1,0 +1,14 @@
+@let block = 'resume_hero01';
+
+<div class="{{ block }}">
+	@if(hero()?.image){
+	<div class="{{ block }}__left">
+		<img class="{{ block }}__image" [src]="hero()?.image" alt="{{ hero()?.name }}" />
+	</div>
+	}
+	<div class="{{ block }}__left"></div>
+	<div class="{{ block }}__right">
+		<span class="{{ block }}__name">{{ hero()?.name }}</span>
+		<span class="{{ block }}__role">{{ hero()?.role }}</span>
+	</div>
+</div>

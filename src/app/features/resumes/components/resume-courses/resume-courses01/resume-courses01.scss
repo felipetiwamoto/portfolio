@@ -1,0 +1,54 @@
+@use './../../../../../../mixins.scss' as mixins;
+
+.resume_courses01 {
+	color: var(--grey7);
+
+	&__list {
+	}
+
+	&__list_item {
+	}
+
+	&__list_top {
+	}
+
+	&__list_bottom {
+		@include mixins.flex(center, space-between);
+		margin-bottom: 15px;
+		display: grid;
+		grid-template-columns: 1fr 55px;
+	}
+
+	&__list_bottom_left {
+		@include mixins.flex(center);
+	}
+
+	&__list_bottom_right {
+		margin-left: auto;
+		@include mixins.flex(center);
+
+		::ng-deep .resume_courses01__list_icon {
+			color: var(--resume01_primary);
+		}
+	}
+
+	&__list_institution {
+		@include mixins.text(12px, 400);
+		margin-bottom: 5px;
+		display: block;
+	}
+
+	&__list_name {
+		@include mixins.text(12px, 300);
+		display: block;
+	}
+
+	&__list_time_spent {
+		@include mixins.text(12px, 300);
+		display: block;
+
+		& + i-lucide {
+			margin-left: 5px;
+		}
+	}
+}

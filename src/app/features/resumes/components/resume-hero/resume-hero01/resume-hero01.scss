@@ -1,0 +1,21 @@
+@use './../../../../../../mixins.scss' as mixins;
+
+.resume_hero01 {
+	text-align: center;
+
+	@include mixins.md {
+		text-align: left;
+	}
+	&__name {
+		@include mixins.text(clamp(20px, 5vw, 48px), 700);
+		color: var(--resume01_primary);
+		display: block;
+		margin-bottom: 0.5rem;
+	}
+
+	&__role {
+		@include mixins.text(clamp(14px, 3vw, 18px), 300);
+		color: var(--grey7);
+		display: block;
+	}
+}

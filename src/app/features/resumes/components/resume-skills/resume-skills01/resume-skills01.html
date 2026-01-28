@@ -1,0 +1,16 @@
+@let block = 'resume_skills01';
+
+<div class="{{ block }}">
+	<ul class="{{ block }}__list">
+		@for(item of skills(); track $index){
+		<li class="{{ block }}__list_item">
+			<span class="{{ block }}__list_name">{{ item.name }}</span>
+			<ul class="{{ block }}__bullet">
+				@for(level of levels; track $index){
+				<li class="{{ block }}__bullet_item {{ isBulletItemActive(item, $index + 1) }}"></li>
+				}
+			</ul>
+		</li>
+		}
+	</ul>
+</div>
