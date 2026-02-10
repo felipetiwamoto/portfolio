@@ -84,7 +84,7 @@ export class FelipeTiwamoto {
 		{
 			company: 'Banco BS2',
 			startedAt: $localize`:@@felipetiwamoto_experiences_bs2_started_at: SET 2022`,
-			endedAt: $localize`:@@felipetiwamoto_experiences_current: ATUAL`,
+			endedAt: $localize`:@@felipetiwamoto_experiences_bs2_ended_at: JAN 2026`,
 			responsabilities: [
 				$localize`:@@felipetiwamoto_experiences_bs2_arch: Arquitetura e desenvolvimento de Design System corporativo com Angular 18.`,
 				$localize`:@@felipetiwamoto_experiences_bs2_migration: Liderança na migração de aplicações legadas (Angular 12 → 18).`,

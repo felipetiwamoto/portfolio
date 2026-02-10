@@ -98,8 +98,8 @@
     </unit>
     <unit id="felipetiwamoto_experiences_analytical">
       <segment state="initial">
-        <source> Resolução de Problemas;</source>
-        <target> Resolução de Problemas;</target>
+        <source> Capacidade analítica.</source>
+        <target> Capacidade analítica.</target>
       </segment>
     </unit>
     <unit id="felipetiwamoto_experiences_autonomy">
@@ -142,6 +142,12 @@
       <segment state="initial">
         <source> Arquitetura e desenvolvimento de Design System corporativo com Angular 18.</source>
         <target> Arquitetura e desenvolvimento de Design System corporativo com Angular 18.</target>
+      </segment>
+    </unit>
+    <unit id="felipetiwamoto_experiences_bs2_ended_at">
+      <segment state="initial">
+        <source> JAN 2026</source>
+        <target> JAN 2026</target>
       </segment>
     </unit>
     <unit id="felipetiwamoto_experiences_bs2_i18n">
@@ -204,10 +210,10 @@
         <target> Criação de novas funcionalidades.</target>
       </segment>
     </unit>
-    <unit id="felipetiwamoto_experiences_current">
+    <unit id="felipetiwamoto_experiences_creation_scratch">
       <segment state="initial">
-        <source> ATUAL</source>
-        <target> ATUAL</target>
+        <source> Criação de projetos do zero.</source>
+        <target> Criação de projetos do zero.</target>
       </segment>
     </unit>
     <unit id="felipetiwamoto_experiences_description_01tec">
@@ -346,6 +352,12 @@
       <segment state="initial">
         <source> Proatividade;</source>
         <target> Proatividade;</target>
+      </segment>
+    </unit>
+    <unit id="felipetiwamoto_experiences_problem_solving">
+      <segment state="initial">
+        <source> Resolução de Problemas;</source>
+        <target> Resolução de Problemas;</target>
       </segment>
     </unit>
     <unit id="felipetiwamoto_experiences_remote">

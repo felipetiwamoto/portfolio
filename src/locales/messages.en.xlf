@@ -50,7 +50,7 @@
     </unit>
     <unit id="felipetiwamoto_experiences_analytical">
       <segment state="initial">
-        <source> Capacidade analítica;</source>
+        <source> Capacidade analítica.</source>
         <target>Analytical skills;</target>
       </segment>
     </unit>
@@ -100,6 +100,12 @@
       <segment state="initial">
         <source> Arquitetura e desenvolvimento de Design System corporativo com Angular 18.</source>
         <target>Architecture and development of corporate Design System with Angular 18.</target>
+      </segment>
+    </unit>
+    <unit id="felipetiwamoto_experiences_bs2_ended_at">
+      <segment state="initial">
+        <source> JAN 2026</source>
+        <target> JAN 2026</target>
       </segment>
     </unit>
     <unit id="felipetiwamoto_experiences_bs2_i18n">
@@ -166,12 +172,6 @@
       <segment state="initial">
         <source> Criação de projetos do zero.</source>
         <target>Creation of projects from scratch.</target>
-      </segment>
-    </unit>
-    <unit id="felipetiwamoto_experiences_current">
-      <segment state="initial">
-        <source> ATUAL</source>
-        <target>CURRENT</target>
       </segment>
     </unit>
     <unit id="felipetiwamoto_experiences_description_01tec">
